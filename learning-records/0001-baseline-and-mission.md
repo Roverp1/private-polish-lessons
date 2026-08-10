@@ -1,0 +1,7 @@
+# Baseline level and mission locked
+
+Learner is solid A2: can handle transactions (shops, banks, food), read short news articles, describe own day with vocab gaps. Cannot follow two natives chatting at normal speed; doctor visits need prep-vocab-Googling. Receptive reading is the strongest skill; real-time listening is the weakest; productive speaking has scatterpoint vocab gaps. The 3-year immersion + daily Gemini Live sessions show effort isn't the blocker; the blocker was bad self-teach grammar resources and no activation loop.
+
+Mission is fixed at B2 conversational, not native-like. Target: hold a 30-min unscripted conversation with a stranger, follow Polish meetings, attend dance/sewing classes in Polish. Grammar spine taught by the agent, theory from zero, fast-skipping what the learner tacitly knows. ~10 Anki phrase entries per lesson, monolingual Polish backs. Speaking tool is the user's call.
+
+Implications: skip beginner alphabet and pronunciation review unless signal shows gaps. Start with the case system as the first structural foundation (it's the unifier that makes every Polish sentence parseable). Do not assume conversational fluency at A2 reflects underlying grammar; learner admits relying on fixed phrases whose case forms they can't actually explain.
