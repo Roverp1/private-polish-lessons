@@ -1,346 +1,310 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#ebe6dc">
-  <title>Lesson 1: Why Polish has cases</title>
+  <title>Lekcja 1: Po co język polski ma przypadki?</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../assets/vendor/pico.conditional.min.css">
   <link rel="stylesheet" href="../assets/style.css">
   <script defer src="../assets/lesson.js"></script>
 </head>
 <body class="pico lesson-page">
-  <a class="skip-link" href="#lesson-content">Skip to lesson content</a>
+  <a class="skip-link" href="#lesson-content">Przejdź do lekcji</a>
 
   <div class="lesson-shell">
-    <aside class="lesson-rail" aria-label="Lesson navigation">
+    <aside class="lesson-rail" aria-label="Nawigacja po lekcji">
       <div class="rail-brand">
         <div class="rail-brand-mark" aria-hidden="true">PL</div>
-        <strong>Polish grammar</strong>
-        <span>A systematic course</span>
+        <strong>Gramatyka polska</strong>
+        <span>Kurs systematyczny</span>
       </div>
 
-      <nav class="lesson-nav" aria-label="In this lesson">
-        <p class="lesson-nav-label">In this lesson</p>
+      <nav class="lesson-nav" aria-label="Spis treści">
+        <p class="lesson-nav-label">W tej lekcji</p>
         <ul>
-          <li><a href="#why"><span class="lesson-nav-index">01</span><span>Why cases exist</span></a></li>
-          <li><a href="#cases"><span class="lesson-nav-index">02</span><span>The seven-case map</span></a></li>
-          <li><a href="#procedure"><span class="lesson-nav-index">03</span><span>Choose a case</span></a></li>
-          <li><a href="#examples"><span class="lesson-nav-index">04</span><span>Worked examples</span></a></li>
-          <li><a href="#practice"><span class="lesson-nav-index">05</span><span>Notes allowed</span></a></li>
-          <li><a href="#retrieval"><span class="lesson-nav-index">06</span><span>Notes closed</span></a></li>
-          <li><a href="#anki"><span class="lesson-nav-index">07</span><span>Anki phrases</span></a></li>
-          <li><a href="#speech"><span class="lesson-nav-index">08</span><span>Speaking practice</span></a></li>
+          <li><a href="#start"><span class="lesson-nav-index">00</span><span>Jak pracować</span></a></li>
+          <li><a href="#problem"><span class="lesson-nav-index">01</span><span>Jaki problem rozwiązują przypadki</span></a></li>
+          <li><a href="#mapa"><span class="lesson-nav-index">02</span><span>Mapa siedmiu przypadków</span></a></li>
+          <li><a href="#algorytm"><span class="lesson-nav-index">03</span><span>Jak wybrać przypadek</span></a></li>
+          <li><a href="#przyklady"><span class="lesson-nav-index">04</span><span>Przykłady krok po kroku</span></a></li>
+          <li><a href="#cwiczenia"><span class="lesson-nav-index">05</span><span>Ćwiczenia z notatkami</span></a></li>
+          <li><a href="#pamiec"><span class="lesson-nav-index">06</span><span>Ćwiczenia z pamięci</span></a></li>
+          <li><a href="#anki"><span class="lesson-nav-index">07</span><span>Zwroty do Anki</span></a></li>
+          <li><a href="#mowienie"><span class="lesson-nav-index">08</span><span>Ćwiczenie mówienia</span></a></li>
         </ul>
       </nav>
 
       <div class="rail-progress">
-        <p class="lesson-nav-label">Guided practice</p>
-        <progress data-lesson-progress value="0" max="5" aria-label="Quiz progress"></progress>
-        <small data-progress-text>0 of 5 questions answered</small>
+        <p class="lesson-nav-label">Ćwiczenia</p>
+        <progress data-lesson-progress value="0" max="5" aria-label="Postęp ćwiczeń"></progress>
+        <small data-progress-text>Odpowiedzi: 0 z 5</small>
       </div>
     </aside>
 
     <main id="lesson-content" class="lesson-article">
       <header class="lesson-masthead">
-        <p class="lesson-kicker">
-          <span>Lekcja 0001</span>
-          <span>Grammar spine</span>
-          <span>20 min</span>
-        </p>
-        <h1>Why Polish has cases</h1>
-        <p class="lesson-deck">Cases solve a concrete problem: they show who does what to whom, even when word order changes.</p>
+        <p class="lesson-kicker"><span>Lekcja 0001</span><span>Podstawa gramatyki</span><span>30–45 min</span></p>
+        <h1>Po co język polski ma przypadki?</h1>
+        <p class="lesson-deck">Przypadki pokazują, kto wykonuje czynność, czego ta czynność dotyczy i jak wyrazy łączą się ze sobą.</p>
       </header>
 
       <details class="mobile-toc">
-        <summary>Contents</summary>
+        <summary>Spis treści</summary>
         <ol>
-          <li><a href="#why">Why cases exist</a></li>
-          <li><a href="#cases">The seven-case map</a></li>
-          <li><a href="#procedure">Choose a case</a></li>
-          <li><a href="#examples">Worked examples</a></li>
-          <li><a href="#practice">Notes allowed</a></li>
-          <li><a href="#retrieval">Notes closed</a></li>
-          <li><a href="#anki">Anki phrases</a></li>
-          <li><a href="#speech">Speaking practice</a></li>
+          <li><a href="#start">Jak pracować</a></li>
+          <li><a href="#problem">Jaki problem rozwiązują przypadki</a></li>
+          <li><a href="#mapa">Mapa siedmiu przypadków</a></li>
+          <li><a href="#algorytm">Jak wybrać przypadek</a></li>
+          <li><a href="#przyklady">Przykłady krok po kroku</a></li>
+          <li><a href="#cwiczenia">Ćwiczenia z notatkami</a></li>
+          <li><a href="#pamiec">Ćwiczenia z pamięci</a></li>
+          <li><a href="#anki">Zwroty do Anki</a></li>
+          <li><a href="#mowienie">Ćwiczenie mówienia</a></li>
         </ol>
       </details>
 
-      <section id="why" class="lesson-section lesson-section--first">
-        <div class="section-heading">
-          <span class="section-number">01</span>
-          <h2>Why cases exist</h2>
-        </div>
+      <section id="start" class="lesson-section lesson-section--first">
+        <div class="section-heading"><span class="section-number">00</span><h2>Jak pracować z tą lekcją</h2></div>
 
         <div class="lesson-intro">
-          <p>A sentence needs to identify the participants in an event. In "the woman sees the girl," one person performs the action and another receives it. English communicates much of this through position: the noun before the verb is normally the subject, and the noun after it is normally the object.</p>
-
-          <p>Polish marks these roles on the words themselves. Compare:</p>
+          <p>Najpierw załącz ten plik do rozmowy głosowej. Powiedz modelowi:</p>
         </div>
 
-        <div class="case-contrast" aria-label="How case endings preserve meaning">
-          <div class="case-contrast-row"><span class="pl">Kobieta widzi dziewczynę.</span><span>The woman sees the girl.</span></div>
-          <div class="case-contrast-row"><span class="pl">Dziewczynę widzi kobieta.</span><span>Still: the woman sees the girl. Word order changes emphasis, not roles.</span></div>
-          <div class="case-contrast-row"><span class="pl">Dziewczyna widzi kobietę.</span><span>Now: the girl sees the woman. The endings changed, so the roles changed.</span></div>
+        <div class="practice-card">
+          <span class="practice-label">Zdanie na start</span>
+          <code class="prompt-copy">Przeczytaj instrukcję dla nauczyciela w tym pliku. Prowadź mnie przez lekcję krok po kroku. Ja będę czytać każdą część na głos. Nie odpowiadaj, dopóki nie powiem „Skończyłem”. Zacznij od sprawdzenia, czy mam zeszyt i ściągę.</code>
         </div>
 
-        <p><span class="pl">Kobieta</span> and <span class="pl">dziewczyna</span> have subject forms. <span class="pl">Kobietę</span> and <span class="pl">dziewczynę</span> have direct-object forms. A Polish listener reads the endings and knows who is doing the seeing.</p>
+        <ol class="decision-flow">
+          <li><div><strong>Model wskazuje jedną część.</strong><span>Nie przechodź samodzielnie do następnej części.</span></div></li>
+          <li><div><strong>Czytasz część na głos.</strong><span>Na końcu mówisz: „Skończyłem”.</span></div></li>
+          <li><div><strong>Model sprawdza rozumienie.</strong><span>Odpowiadasz własnymi słowami, rozwiązujesz zadanie albo tworzysz przykład.</span></div></li>
+          <li><div><strong>Robisz krótką notatkę.</strong><span>Model mówi, co warto zapisać, a potem sprawdza twoją notatkę.</span></div></li>
+          <li><div><strong>Dopiero wtedy idziecie dalej.</strong><span>Jeżeli czegoś nie rozumiesz, najpierw poproś o prostsze wyjaśnienie po polsku.</span></div></li>
+        </ol>
 
-        <div class="purpose-grid breakout">
-          <article class="purpose-card"><strong>Identify roles</strong><p>Cases distinguish subjects, objects, recipients, companions, locations, and addressees.</p></article>
-          <article class="purpose-card"><strong>Free word order</strong><p>Polish can move information around for emphasis without destroying the sentence's basic meaning.</p></article>
-          <article class="purpose-card"><strong>Compress relations</strong><p>Endings and prepositions express direction, location, possession, absence, means, and other relations.</p></article>
-        </div>
-
-        <aside class="note" aria-label="Definition of a grammatical case">
-          <span class="note-marker" aria-hidden="true">D</span>
-          <div>
-            <span class="note-label">Definition</span>
-            <p>A <strong>case</strong> is the grammatical role assigned to a noun phrase. Polish often changes the ending of the noun, adjective, pronoun, and numeral inside that phrase to mark the role.</p>
-          </div>
+        <aside class="note" aria-label="Pomoc po angielsku">
+          <span class="note-marker" aria-hidden="true">EN</span>
+          <div><span class="note-label">Gdy polskie wyjaśnienie nie wystarcza</span><p>Powiedz: „Nie rozumiem. Wyjaśnij mi to krótko po angielsku”. Po krótkim wyjaśnieniu model ma wrócić do języka polskiego.</p></div>
         </aside>
 
-        <div class="outcomes">
-          <h3>By the end of this lesson, you can</h3>
-          <ol>
-            <li>Explain what problem cases solve.</li>
-            <li>Name the seven Polish cases and recognise their core jobs.</li>
-            <li>Use a repeatable procedure to decide which case a phrase needs.</li>
-            <li>Identify whether sentence role, preposition, or verb construction triggered a case.</li>
-          </ol>
-        </div>
-
-        <aside class="note" data-kind="model" aria-label="Scope of this lesson">
-          <span class="note-marker" aria-hidden="true">!</span>
-          <div>
-            <span class="note-label">Not today</span>
-            <p>You are not learning every case ending in this lesson. First build the map: understand <em>why</em> a case is selected. Later lessons teach how gender, number, and final sound determine the exact ending.</p>
+        <details class="teacher-guide" open>
+          <summary>Instrukcja dla nauczyciela głosowego</summary>
+          <div class="callout">
+            <p><strong>Najważniejsza zasada:</strong> uczeń czyta każdą wskazaną część na głos. Nie czytaj tekstu za ucznia i nie streszczaj całego pliku. Czekaj, aż uczeń powie „Skończyłem”.</p>
+            <ol>
+              <li>Przed rozpoczęciem sprawdź, czy uczeń ma zeszyt, długopis i otwartą ściągę.</li>
+              <li>Pracuj tylko nad jedną częścią naraz.</li>
+              <li>Po lekturze poproś ucznia o wyjaśnienie głównej myśli własnymi słowami. Nie pytaj jedynie „Czy rozumiesz?”.</li>
+              <li>Zadaj jedno pytanie sprawdzające i jedno krótkie zadanie wymagające użycia reguły w nowym przykładzie.</li>
+              <li>Jeżeli odpowiedź jest błędna, najpierw naprowadź pytaniem. Potem wyjaśnij prościej po polsku i daj łatwiejszy przykład.</li>
+              <li>Użyj angielskiego tylko na wyraźną prośbę ucznia. Wyjaśnienie po angielsku ma być krótkie; potem wróć do polskiego.</li>
+              <li>Nie przerywaj czytania z powodu drobnych błędów wymowy. Popraw błąd, jeżeli utrudnia zrozumienie lub zmienia słowo. Po części możesz wskazać najwyżej jeden powtarzający się błąd wymowy, który warto poprawić.</li>
+              <li>Nie każ uczniowi przepisywać długich akapitów. Notatka ma być krótka i użyteczna w ćwiczeniach.</li>
+              <li>Przed przejściem dalej poproś ucznia, aby przeczytał notatkę. Sprawdź jej poprawność.</li>
+              <li>Nie dodawaj skomplikowanych reguł spoza tej lekcji. Jeżeli pojawi się wyjątek, zaznacz, że będzie omawiany później.</li>
+            </ol>
           </div>
-        </aside>
+        </details>
 
         <div class="reference-cta breakout">
           <span class="reference-cta-mark" aria-hidden="true">A4</span>
-          <div><strong>Open the one-page case reference</strong><span>Copy it into your paper notes before the exercises, or print it. Keep it visible during the notes-allowed section.</span></div>
-          <a href="../reference/0001-case-system-cheat-sheet.html">Open cheat sheet</a>
+          <div><strong>Otwórz jednostronicową ściągę</strong><span>Możesz ją wydrukować albo przepisać do zeszytu. Używaj jej podczas ćwiczeń z notatkami.</span></div>
+          <a href="../reference/0001-case-system-cheat-sheet.html">Otwórz ściągę</a>
         </div>
       </section>
 
-      <section id="cases" class="lesson-section breakout">
-        <div class="section-heading">
-          <span class="section-number">02</span>
-          <h2>The seven-case map</h2>
+      <section id="problem" class="lesson-section">
+        <div class="section-heading"><span class="section-number">01</span><h2>Jaki problem rozwiązują przypadki?</h2></div>
+
+        <div class="lesson-intro">
+          <p>W zdaniu występują osoby, rzeczy, miejsca i pojęcia. Każdy z tych elementów ma jakąś funkcję. Ktoś wykonuje czynność. Ktoś lub coś jest jej celem. Ktoś dostaje jakąś rzecz. Język musi pokazać te funkcje, aby zdanie było zrozumiałe.</p>
+
+          <p>W języku angielskim funkcję wyrazu często pokazuje jego miejsce w zdaniu. W języku polskim dużą część tej informacji pokazują końcówki. Dlatego szyk wyrazów może się zmieniać.</p>
         </div>
 
-        <p>Each case has a Polish name and a traditional question. The question is a mnemonic, not a full definition. Focus first on the core job.</p>
+        <div class="case-contrast" aria-label="Porównanie zdań">
+          <div class="case-contrast-row"><span class="pl">Kobieta widzi dziewczynę.</span><span>Kobieta patrzy na dziewczynę.</span></div>
+          <div class="case-contrast-row"><span class="pl">Dziewczynę widzi kobieta.</span><span>Znaczenie podstawowe pozostaje takie samo. Zmienia się nacisk.</span></div>
+          <div class="case-contrast-row"><span class="pl">Dziewczyna widzi kobietę.</span><span>Teraz to dziewczyna patrzy na kobietę. Zmieniły się końcówki i funkcje.</span></div>
+        </div>
 
-        <div class="table-scroll" role="region" aria-label="Seven Polish grammatical cases" tabindex="0">
+        <aside class="note" aria-label="Definicja przypadku">
+          <span class="note-marker" aria-hidden="true">D</span>
+          <div><span class="note-label">Definicja</span><p><strong>Przypadek</strong> to gramatyczna funkcja grupy wyrazów w zdaniu. Forma rzeczownika, przymiotnika, zaimka lub liczebnika może się zmienić, aby pokazać tę funkcję.</p></div>
+        </aside>
+
+        <div class="outcomes">
+          <h3>Po tej części powinieneś umieć</h3>
+          <ul><li>powiedzieć własnymi słowami, po co istnieją przypadki;</li><li>wyjaśnić, dlaczego polski szyk wyrazów jest dość elastyczny;</li><li>pokazać w przykładzie, kto wykonuje czynność, a kogo ta czynność dotyczy.</li></ul>
+        </div>
+
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 01</summary>
+          <div class="callout">
+            <p><strong>Sprawdzenie:</strong> poproś: „Wyjaśnij własnymi słowami, jaki problem rozwiązują przypadki”. Dobra odpowiedź powinna mówić o funkcjach wyrazów, relacjach lub o tym, kto robi co komu.</p>
+            <p><strong>Zadanie:</strong> zapytaj, kto widzi kogo w zdaniu <span class="pl">Dziewczynę widzi kobieta</span> i skąd uczeń to wie.</p>
+            <p><strong>Do zeszytu:</strong> uczeń zapisuje własne jednozdaniowe wyjaśnienie. Jeżeli potrzebuje wzoru: <span class="pl">Przypadki pokazują funkcję wyrazu i relacje między wyrazami w zdaniu.</span></p>
+          </div>
+        </details>
+      </section>
+
+      <section id="mapa" class="lesson-section breakout">
+        <div class="section-heading"><span class="section-number">02</span><h2>Mapa siedmiu przypadków</h2></div>
+
+        <p>Każdy przypadek ma polską nazwę, tradycyjne pytania i podstawową funkcję. Pytania pomagają rozpoznać przypadek, ale nie są pełną definicją.</p>
+
+        <div class="table-scroll" role="region" aria-label="Siedem polskich przypadków" tabindex="0">
           <table class="case-table">
-            <thead><tr><th scope="col">#</th><th scope="col">Polski</th><th scope="col">English</th><th scope="col">Question</th><th scope="col">Core role</th></tr></thead>
+            <thead><tr><th scope="col">Nr</th><th scope="col">Przypadek</th><th scope="col">Pytania</th><th scope="col">Podstawowa funkcja</th><th scope="col">Przykład</th></tr></thead>
             <tbody>
-              <tr><td class="case-number">01</td><td class="case-name">Mianownik</td><td>Nominative</td><td>kto? co?</td><td>Subject and dictionary form.</td></tr>
-              <tr><td class="case-number">02</td><td class="case-name">Dopełniacz</td><td>Genitive</td><td>kogo? czego?</td><td>Possession, absence, quantity, negation, and after prepositions such as <span class="pl">do</span>.</td></tr>
-              <tr><td class="case-number">03</td><td class="case-name">Celownik</td><td>Dative</td><td>komu? czemu?</td><td>Recipient or beneficiary.</td></tr>
-              <tr><td class="case-number">04</td><td class="case-name">Biernik</td><td>Accusative</td><td>kogo? co?</td><td>Direct object or target of some prepositions.</td></tr>
-              <tr><td class="case-number">05</td><td class="case-name">Narzędnik</td><td>Instrumental</td><td>z kim? z czym?</td><td>Companion, instrument, identity, or role.</td></tr>
-              <tr><td class="case-number">06</td><td class="case-name">Miejscownik</td><td>Locative</td><td>o kim? o czym?</td><td>Location or topic; used only after certain prepositions.</td></tr>
-              <tr><td class="case-number">07</td><td class="case-name">Wołacz</td><td>Vocative</td><td>O!</td><td>Directly addressing someone or something.</td></tr>
+              <tr><td class="case-number">01</td><td class="case-name">Mianownik</td><td>kto? co?</td><td>wykonawca czynności; forma słownikowa</td><td><span class="pl">Pies</span> śpi.</td></tr>
+              <tr><td class="case-number">02</td><td class="case-name">Dopełniacz</td><td>kogo? czego?</td><td>posiadanie, brak, ilość; także po niektórych przyimkach</td><td>Idę <span class="pl">do sklepu</span>.</td></tr>
+              <tr><td class="case-number">03</td><td class="case-name">Celownik</td><td>komu? czemu?</td><td>odbiorca albo osoba odnosząca korzyść</td><td>Pomagam <span class="pl">koledze</span>.</td></tr>
+              <tr><td class="case-number">04</td><td class="case-name">Biernik</td><td>kogo? co?</td><td>bezpośredni cel czynności</td><td>Kupuję <span class="pl">chleb</span>.</td></tr>
+              <tr><td class="case-number">05</td><td class="case-name">Narzędnik</td><td>z kim? z czym?</td><td>towarzystwo, narzędzie, rola lub tożsamość</td><td>Rozmawiam <span class="pl">z kolegą</span>.</td></tr>
+              <tr><td class="case-number">06</td><td class="case-name">Miejscownik</td><td>o kim? o czym?</td><td>miejsce albo temat; tylko po przyimkach</td><td>Jestem <span class="pl">w sklepie</span>.</td></tr>
+              <tr><td class="case-number">07</td><td class="case-name">Wołacz</td><td>—</td><td>bezpośredni zwrot do osoby lub rzeczy</td><td><span class="pl">Mamo</span>, chodź tutaj.</td></tr>
             </tbody>
           </table>
         </div>
 
-        <p>Do not study this as seven independent lists. It is one map of possible noun-phrase roles. The next section tells you how to navigate that map.</p>
+        <aside class="note" data-kind="model" aria-label="Zakres lekcji">
+          <span class="note-marker" aria-hidden="true">!</span>
+          <div><span class="note-label">Na razie nie uczysz się wszystkich końcówek</span><p>Najpierw zbuduj mapę: rozpoznaj funkcję i wybierz przypadek. Późniejsze lekcje pokażą, jak rodzaj, liczba i zakończenie wyrazu wpływają na formę.</p></div>
+        </aside>
+
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 02</summary>
+          <div class="callout">
+            <p><strong>Sprawdzenie:</strong> wybierz losowo trzy funkcje, na przykład wykonawca, odbiorca i miejsce. Poproś ucznia o nazwę przypadku. Potem podaj trzy nazwy przypadków i poproś o podstawową funkcję.</p>
+            <p><strong>Zadanie:</strong> uczeń bez patrzenia wymienia przypadki w kolejności. Jeśli nie pamięta, może spojrzeć raz i spróbować ponownie.</p>
+            <p><strong>Do zeszytu:</strong> tabela z trzema kolumnami: nazwa, pytania, jedno hasło określające funkcję. Nie przepisywać długich opisów.</p>
+          </div>
+        </details>
       </section>
 
-      <section id="procedure" class="lesson-section">
-        <div class="section-heading">
-          <span class="section-number">03</span>
-          <h2>Choose a case in six steps</h2>
-        </div>
+      <section id="algorytm" class="lesson-section">
+        <div class="section-heading"><span class="section-number">03</span><h2>Jak wybrać przypadek?</h2></div>
+
+        <p>Nie zgaduj końcówki od razu. Najpierw ustal znaczenie i regułę, która wybiera przypadek.</p>
 
         <ol class="decision-flow">
-          <li><div><strong>Find the noun phrase.</strong><span>Which person, thing, place, or idea are you trying to understand or change?</span></div></li>
-          <li><div><strong>Check for a preposition.</strong><span>A preposition such as <span class="pl">do</span>, <span class="pl">w</span>, <span class="pl">z</span>, or <span class="pl">o</span> often determines the case.</span></div></li>
-          <li><div><strong>Check the verb construction.</strong><span>Some verbs require a particular case or a fixed preposition-plus-case construction.</span></div></li>
-          <li><div><strong>Otherwise identify the sentence role.</strong><span>Is it the subject, direct object, recipient, companion, location, instrument, or addressee?</span></div></li>
-          <li><div><strong>Select the case.</strong><span>Use the seven-case map. Meaning comes before endings.</span></div></li>
-          <li><div><strong>Select the ending.</strong><span>Only now use gender, number, and the word's final sound. Later lessons teach these patterns.</span></div></li>
+          <li><div><strong>Znajdź grupę wyrazów.</strong><span>O jakiej osobie, rzeczy, idei albo jakim miejscu myślisz?</span></div></li>
+          <li><div><strong>Sprawdź przyimek.</strong><span>Przyimek, na przykład <span class="pl">do</span>, <span class="pl">w</span>, <span class="pl">z</span> lub <span class="pl">o</span>, często wybiera przypadek.</span></div></li>
+          <li><div><strong>Sprawdź wymagania czasownika.</strong><span>Niektóre czasowniki wymagają konkretnego przypadku albo stałego połączenia.</span></div></li>
+          <li><div><strong>Jeżeli nie ma takiej reguły, określ funkcję.</strong><span>Czy to wykonawca, cel czynności, odbiorca, towarzysz, miejsce, narzędzie czy osoba, do której mówisz?</span></div></li>
+          <li><div><strong>Wybierz przypadek.</strong><span>Użyj mapy siedmiu przypadków.</span></div></li>
+          <li><div><strong>Dopiero teraz wybierz końcówkę.</strong><span>Potrzebujesz informacji o rodzaju, liczbie i zakończeniu wyrazu.</span></div></li>
         </ol>
 
-        <div class="trigger-list">
-          <article class="trigger-card">
-            <h3><span class="trigger-index">A</span>Sentence role</h3>
-            <p>Subject = Mianownik. Direct object = usually Biernik. Recipient = Celownik.</p>
-            <p><span class="pl">Dam ci chleb.</span> <span class="pl">Ci</span> is the Celownik recipient; <span class="pl">chleb</span> is the Biernik object.</p>
-          </article>
-
-          <article class="trigger-card">
-            <h3><span class="trigger-index">B</span>Preposition</h3>
-            <ul>
-              <li><span class="pl">do</span> + Dopełniacz: <span class="pl">do sklepu</span></li>
-              <li><span class="pl">w</span> + Miejscownik, static location: <span class="pl">w sklepie</span></li>
-              <li><span class="pl">w</span> + Biernik, movement into: <span class="pl">wkładam książkę w torbę</span></li>
-              <li><span class="pl">z</span> + Narzędnik, "with": <span class="pl">z kolegą</span></li>
-              <li><span class="pl">z</span> + Dopełniacz, "from": <span class="pl">z Polski</span></li>
-              <li><span class="pl">o</span> + Miejscownik, topic: <span class="pl">o pracy</span></li>
-            </ul>
-          </article>
-
-          <article class="trigger-card">
-            <h3><span class="trigger-index">C</span>Verb construction</h3>
-            <ul>
-              <li><span class="pl">czekać na</span> + Biernik: <span class="pl">czekam na autobus</span></li>
-              <li><span class="pl">uczyć się</span> + Dopełniacz: <span class="pl">uczę się polskiego</span></li>
-              <li><span class="pl">pomagać</span> + Celownik: <span class="pl">pomagam koledze</span></li>
-            </ul>
-          </article>
-        </div>
-
-        <aside class="note" data-kind="model" aria-label="Case selection mental model">
+        <aside class="note" data-kind="model" aria-label="Najważniejszy schemat">
           <span class="note-marker" aria-hidden="true">M</span>
-          <div>
-            <span class="note-label">Mental model</span>
-            <p><strong>Meaning → trigger → case → ending.</strong> If you jump directly from an English word to a Polish ending, you are guessing. Follow the chain.</p>
-          </div>
+          <div><span class="note-label">Najważniejszy schemat</span><p><strong>znaczenie → reguła → przypadek → końcówka</strong></p></div>
         </aside>
+
+        <div class="trigger-list">
+          <article class="trigger-card"><h3><span class="trigger-index">A</span>Funkcja w zdaniu</h3><p>Wykonawca czynności zwykle ma Mianownik. Bezpośredni cel czynności zwykle ma Biernik. Odbiorca zwykle ma Celownik.</p></article>
+          <article class="trigger-card"><h3><span class="trigger-index">B</span>Przyimek</h3><ul><li><span class="pl">do</span> + Dopełniacz: <span class="pl">do sklepu</span></li><li><span class="pl">w</span> + Miejscownik, miejsce: <span class="pl">w sklepie</span></li><li><span class="pl">w</span> + Biernik, ruch do środka: <span class="pl">wkładam książkę w torbę</span></li><li><span class="pl">z</span> + Narzędnik, „razem z”: <span class="pl">z kolegą</span></li><li><span class="pl">z</span> + Dopełniacz, pochodzenie: <span class="pl">z Polski</span></li><li><span class="pl">o</span> + Miejscownik, temat: <span class="pl">o pracy</span></li></ul></article>
+          <article class="trigger-card"><h3><span class="trigger-index">C</span>Wymagania czasownika</h3><ul><li><span class="pl">czekać na</span> + Biernik: <span class="pl">czekam na autobus</span></li><li><span class="pl">uczyć się</span> + Dopełniacz: <span class="pl">uczę się polskiego</span></li><li><span class="pl">pomagać</span> + Celownik: <span class="pl">pomagam koledze</span></li></ul></article>
+        </div>
+
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 03</summary>
+          <div class="callout">
+            <p><strong>Sprawdzenie:</strong> uczeń odtwarza schemat <span class="pl">znaczenie → reguła → przypadek → końcówka</span> i wyjaśnia każdy krok.</p>
+            <p><strong>Zadanie:</strong> podaj zdanie <span class="pl">Myślę o pracy</span>. Uczeń ma wskazać grupę wyrazów, przyimek, regułę i przypadek. Odpowiedź: <span class="pl">pracy</span>; przyimek <span class="pl">o</span>; <span class="pl">o</span> w znaczeniu tematu wymaga Miejscownika.</p>
+            <p><strong>Do zeszytu:</strong> uczeń zapisuje schemat ze strzałkami oraz trzy typy reguł: funkcja, przyimek, wymaganie czasownika.</p>
+          </div>
+        </details>
       </section>
 
-      <section id="examples" class="lesson-section">
-        <div class="section-heading">
-          <span class="section-number">04</span>
-          <h2>Worked examples</h2>
-        </div>
+      <section id="przyklady" class="lesson-section">
+        <div class="section-heading"><span class="section-number">04</span><h2>Przykłady krok po kroku</h2></div>
 
-        <p>Run the same procedure every time. Speed comes from repetition, not from inventing shortcuts.</p>
+        <article class="worked-example"><p class="worked-example-sentence"><span class="pl">Idę do sklepu.</span></p><dl><dt>Grupa</dt><dd><span class="pl">sklepu</span></dd><dt>Przyimek</dt><dd><span class="pl">do</span></dd><dt>Reguła</dt><dd><span class="pl">do</span> wymaga Dopełniacza</dd><dt>Przypadek</dt><dd>Dopełniacz</dd><dt>Znaczenie</dt><dd>kierunek i cel ruchu</dd></dl></article>
+        <article class="worked-example"><p class="worked-example-sentence"><span class="pl">Pomagam koledze.</span></p><dl><dt>Grupa</dt><dd><span class="pl">koledze</span></dd><dt>Przyimek</dt><dd>brak</dd><dt>Reguła</dt><dd>czasownik <span class="pl">pomagać</span> wymaga Celownika</dd><dt>Przypadek</dt><dd>Celownik</dd><dt>Znaczenie</dt><dd>kolega otrzymuje pomoc</dd></dl></article>
+        <article class="worked-example"><p class="worked-example-sentence"><span class="pl">Kupuję chleb.</span></p><dl><dt>Grupa</dt><dd><span class="pl">chleb</span></dd><dt>Przyimek</dt><dd>brak</dd><dt>Specjalna reguła czasownika</dt><dd>brak</dd><dt>Funkcja</dt><dd>bezpośredni cel czynności</dd><dt>Przypadek</dt><dd>Biernik; forma wygląda tutaj tak samo jak Mianownik</dd></dl></article>
 
-        <article class="worked-example">
-          <p class="worked-example-sentence"><span class="pl">Idę do sklepu.</span></p>
-          <dl><dt>Phrase</dt><dd><span class="pl">sklepu</span></dd><dt>Preposition</dt><dd><span class="pl">do</span></dd><dt>Trigger</dt><dd><span class="pl">do</span> requires Dopełniacz</dd><dt>Case</dt><dd>Dopełniacz</dd><dt>Meaning</dt><dd>Destination: movement to the shop</dd></dl>
-        </article>
-
-        <article class="worked-example">
-          <p class="worked-example-sentence"><span class="pl">Pomagam koledze.</span></p>
-          <dl><dt>Phrase</dt><dd><span class="pl">koledze</span></dd><dt>Preposition</dt><dd>None</dd><dt>Trigger</dt><dd>The verb <span class="pl">pomagać</span> requires Celownik</dd><dt>Case</dt><dd>Celownik</dd><dt>Meaning</dt><dd>The colleague receives the help</dd></dl>
-        </article>
-
-        <article class="worked-example">
-          <p class="worked-example-sentence"><span class="pl">Kupuję chleb.</span></p>
-          <dl><dt>Phrase</dt><dd><span class="pl">chleb</span></dd><dt>Preposition</dt><dd>None</dd><dt>Verb rule</dt><dd>No special case construction</dd><dt>Role</dt><dd>Direct object</dd><dt>Case</dt><dd>Biernik; its form happens to match Mianownik here</dd></dl>
-        </article>
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 04</summary>
+          <div class="callout"><p><strong>Sprawdzenie:</strong> wybierz jeden przykład. Ukryj analizę i poproś ucznia o samodzielne przejście przez wszystkie kroki.</p><p><strong>Nowe zadanie:</strong> <span class="pl">Rozmawiam z kolegą</span>. Oczekiwana analiza: grupa <span class="pl">kolegą</span>; przyimek <span class="pl">z</span> oznacza towarzystwo; wymaga Narzędnika.</p><p><strong>Do zeszytu:</strong> uczeń wybiera jeden przykład i zapisuje analizę w pięciu krótkich wierszach.</p></div>
+        </details>
       </section>
 
-      <section id="practice" class="lesson-section breakout">
-        <div class="section-heading">
-          <span class="section-number">05</span>
-          <h2>Guided practice</h2>
-        </div>
+      <section id="cwiczenia" class="lesson-section breakout">
+        <div class="section-heading"><span class="section-number">05</span><h2>Ćwiczenia z notatkami</h2></div>
+        <span class="exercise-mode">Notatki dozwolone</span>
+        <p>Miej otwartą ściągę. Przed odpowiedzią wskaż regułę, z której korzystasz. Ważniejsza jest poprawność niż szybkość.</p>
 
-        <span class="exercise-mode">Notes allowed</span>
-        <p>Keep your handwritten notes or <a href="../reference/0001-case-system-cheat-sheet.html">the cheat sheet</a> visible. For every question, point to the trigger in your notes before choosing an answer. Accuracy matters more than speed.</p>
-
-        <div class="quiz-toolbar">
-          <p class="quiz-progress-text" data-progress-text>0 of 5 questions answered</p>
-          <progress data-lesson-progress value="0" max="5" aria-label="Quiz progress"></progress>
-        </div>
-
+        <div class="quiz-toolbar"><p class="quiz-progress-text" data-progress-text>Odpowiedzi: 0 z 5</p><progress data-lesson-progress value="0" max="5" aria-label="Postęp ćwiczeń"></progress></div>
         <div class="quiz-list">
-          <article class="quiz" data-quiz data-correct="verb">
-            <div class="quiz-q"><span class="quiz-number">01</span><span><span class="pl">idę do sklepu</span>: which case is <span class="pl">sklepu</span> in?</span></div>
-            <ul class="quiz-options"><li><button type="button" data-answer="genitive" aria-pressed="false">Dopełniacz</button></li><li><button type="button" data-answer="accusative" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="locative" aria-pressed="false">Miejscownik</button></li></ul>
-            <p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">Do</span> requires Dopełniacz and expresses destination here.</p>
-          </article>
-
-          <article class="quiz" data-quiz data-correct="locative">
-            <div class="quiz-q"><span class="quiz-number">02</span><span><span class="pl">jestem w sklepie</span>: which case is <span class="pl">sklepie</span> in?</span></div>
-            <ul class="quiz-options"><li><button type="button" data-answer="genitive" aria-pressed="false">Dopełniacz</button></li><li><button type="button" data-answer="accusative" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="locative" aria-pressed="false">Miejscownik</button></li></ul>
-            <p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">W</span> + static location requires Miejscownik.</p>
-          </article>
-
-          <article class="quiz" data-quiz data-correct="instrumental">
-            <div class="quiz-q"><span class="quiz-number">03</span><span><span class="pl">rozmawiam z kolegą</span>: which case is <span class="pl">kolegą</span> in?</span></div>
-            <ul class="quiz-options"><li><button type="button" data-answer="dative" aria-pressed="false">Celownik</button></li><li><button type="button" data-answer="instrumental" aria-pressed="false">Narzędnik</button></li><li><button type="button" data-answer="accusative" aria-pressed="false">Biernik</button></li></ul>
-            <p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">Z</span> meaning "with" requires Narzędnik.</p>
-          </article>
-
-          <article class="quiz" data-quiz data-correct="genitive">
-            <div class="quiz-q"><span class="quiz-number">04</span><span><span class="pl">uczę się polskiego</span>: what selected the case of <span class="pl">polskiego</span>?</span></div>
-            <ul class="quiz-options"><li><button type="button" data-answer="verb" aria-pressed="false">Verb rule</button></li><li><button type="button" data-answer="preposition" aria-pressed="false">Preposition</button></li><li><button type="button" data-answer="subject" aria-pressed="false">Subject role</button></li></ul>
-            <p class="quiz-feedback" data-feedback hidden><strong data-result></strong> The verb construction <span class="pl">uczyć się</span> requires Dopełniacz.</p>
-          </article>
-
-          <article class="quiz" data-quiz data-correct="dative">
-            <div class="quiz-q"><span class="quiz-number">05</span><span><span class="pl">pomagam koledze</span>: which case is <span class="pl">koledze</span> in?</span></div>
-            <ul class="quiz-options"><li><button type="button" data-answer="accusative" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="nominative" aria-pressed="false">Mianownik</button></li><li><button type="button" data-answer="dative" aria-pressed="false">Celownik</button></li></ul>
-            <p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">Pomagać</span> requires Celownik for the person receiving help.</p>
-          </article>
+          <article class="quiz" data-quiz data-correct="dopelniacz"><div class="quiz-q"><span class="quiz-number">01</span><span><span class="pl">Idę do sklepu</span>. Jaki to przypadek?</span></div><ul class="quiz-options"><li><button type="button" data-answer="dopelniacz" aria-pressed="false">Dopełniacz</button></li><li><button type="button" data-answer="biernik" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="miejscownik" aria-pressed="false">Miejscownik</button></li></ul><p class="quiz-feedback" data-feedback hidden><strong data-result></strong> Przyimek <span class="pl">do</span> wymaga Dopełniacza.</p></article>
+          <article class="quiz" data-quiz data-correct="miejscownik"><div class="quiz-q"><span class="quiz-number">02</span><span><span class="pl">Jestem w sklepie</span>. Jaki to przypadek?</span></div><ul class="quiz-options"><li><button type="button" data-answer="dopelniacz" aria-pressed="false">Dopełniacz</button></li><li><button type="button" data-answer="biernik" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="miejscownik" aria-pressed="false">Miejscownik</button></li></ul><p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">W</span> opisuje tutaj miejsce i wymaga Miejscownika.</p></article>
+          <article class="quiz" data-quiz data-correct="narzednik"><div class="quiz-q"><span class="quiz-number">03</span><span><span class="pl">Rozmawiam z kolegą</span>. Jaki to przypadek?</span></div><ul class="quiz-options"><li><button type="button" data-answer="celownik" aria-pressed="false">Celownik</button></li><li><button type="button" data-answer="narzednik" aria-pressed="false">Narzędnik</button></li><li><button type="button" data-answer="biernik" aria-pressed="false">Biernik</button></li></ul><p class="quiz-feedback" data-feedback hidden><strong data-result></strong> <span class="pl">Z</span> oznacza tutaj towarzystwo i wymaga Narzędnika.</p></article>
+          <article class="quiz" data-quiz data-correct="czasownik"><div class="quiz-q"><span class="quiz-number">04</span><span><span class="pl">Uczę się polskiego</span>. Co wybiera przypadek wyrazu <span class="pl">polskiego</span>?</span></div><ul class="quiz-options"><li><button type="button" data-answer="czasownik" aria-pressed="false">Czasownik</button></li><li><button type="button" data-answer="przyimek" aria-pressed="false">Przyimek</button></li><li><button type="button" data-answer="wykonawca" aria-pressed="false">Wykonawca</button></li></ul><p class="quiz-feedback" data-feedback hidden><strong data-result></strong> Czasownik <span class="pl">uczyć się</span> wymaga Dopełniacza.</p></article>
+          <article class="quiz" data-quiz data-correct="celownik"><div class="quiz-q"><span class="quiz-number">05</span><span><span class="pl">Pomagam koledze</span>. Jaki to przypadek?</span></div><ul class="quiz-options"><li><button type="button" data-answer="biernik" aria-pressed="false">Biernik</button></li><li><button type="button" data-answer="mianownik" aria-pressed="false">Mianownik</button></li><li><button type="button" data-answer="celownik" aria-pressed="false">Celownik</button></li></ul><p class="quiz-feedback" data-feedback hidden><strong data-result></strong> Czasownik <span class="pl">pomagać</span> wymaga Celownika.</p></article>
         </div>
+        <div class="quiz-actions"><button class="quiz-reset" type="button" data-reset-quizzes>Powtórz ćwiczenia</button></div>
 
-        <div class="quiz-actions"><button class="quiz-reset" type="button" data-reset-quizzes>Reset guided practice</button></div>
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 05</summary>
+          <div class="callout"><p>Nie pozwól uczniowi tylko klikać. Przed każdym wyborem poproś go, aby na głos podał: grupę wyrazów, regułę i przypadek. Po pięciu pytaniach wróć do każdego błędu i daj podobny przykład.</p><p><strong>Do zeszytu:</strong> zapisać tylko błędne odpowiedzi w formacie: zdanie → reguła → poprawny przypadek.</p></div>
+        </details>
       </section>
 
-      <section id="retrieval" class="lesson-section">
-        <div class="section-heading">
-          <span class="section-number">06</span>
-          <h2>Retrieval practice</h2>
-        </div>
-
-        <span class="exercise-mode" data-mode="closed">Notes closed</span>
-        <p>Close the cheat sheet. Write each answer on paper before opening the answer. Struggling to retrieve is the useful part; rereading is easier but weaker.</p>
-
+      <section id="pamiec" class="lesson-section">
+        <div class="section-heading"><span class="section-number">06</span><h2>Ćwiczenia z pamięci</h2></div>
+        <span class="exercise-mode" data-mode="closed">Notatki zamknięte</span>
+        <p>Zamknij ściągę. Najpierw zapisz odpowiedź w zeszycie. Dopiero potem otwórz odpowiedź na stronie.</p>
         <div class="retrieval-list">
-          <article class="retrieval-item"><p class="retrieval-prompt">1. In one sentence, what problem do cases solve?</p><details><summary>Check answer</summary><p class="retrieval-answer">Cases mark the role of a noun phrase, so Polish can show who does what to whom and express relationships without depending on fixed word order.</p></details></article>
-          <article class="retrieval-item"><p class="retrieval-prompt">2. Write the seven Polish case names in order.</p><details><summary>Check answer</summary><p class="retrieval-answer">Mianownik, Dopełniacz, Celownik, Biernik, Narzędnik, Miejscownik, Wołacz.</p></details></article>
-          <article class="retrieval-item"><p class="retrieval-prompt">3. Write the three kinds of trigger that can select a case.</p><details><summary>Check answer</summary><p class="retrieval-answer">Sentence role, preposition, and verb construction.</p></details></article>
-          <article class="retrieval-item"><p class="retrieval-prompt">4. Explain the difference between <span class="pl">do sklepu</span>, <span class="pl">w sklepie</span>, and <span class="pl">ze sklepu</span>.</p><details><summary>Check answer</summary><p class="retrieval-answer"><span class="pl">Do sklepu</span>: destination, <span class="pl">do</span> + Dopełniacz. <span class="pl">W sklepie</span>: static location, <span class="pl">w</span> + Miejscownik. <span class="pl">Ze sklepu</span>: origin, <span class="pl">z/ze</span> + Dopełniacz.</p></details></article>
-          <article class="retrieval-item"><p class="retrieval-prompt">5. Recreate the chain used to choose an ending.</p><details><summary>Check answer</summary><p class="retrieval-answer">Meaning → trigger → case → ending.</p></details></article>
+          <article class="retrieval-item"><p class="retrieval-prompt">1. Jaki problem rozwiązują przypadki?</p><details><summary>Sprawdź odpowiedź</summary><p class="retrieval-answer">Przypadki pokazują funkcję wyrazów i relacje między nimi. Dzięki temu wiadomo, kto robi co komu, nawet gdy zmienia się szyk zdania.</p></details></article>
+          <article class="retrieval-item"><p class="retrieval-prompt">2. Wymień siedem przypadków w kolejności.</p><details><summary>Sprawdź odpowiedź</summary><p class="retrieval-answer">Mianownik, Dopełniacz, Celownik, Biernik, Narzędnik, Miejscownik, Wołacz.</p></details></article>
+          <article class="retrieval-item"><p class="retrieval-prompt">3. Jakie trzy rodzaje reguł mogą wybrać przypadek?</p><details><summary>Sprawdź odpowiedź</summary><p class="retrieval-answer">Funkcja w zdaniu, przyimek i wymaganie czasownika.</p></details></article>
+          <article class="retrieval-item"><p class="retrieval-prompt">4. Wyjaśnij różnicę: <span class="pl">do sklepu</span>, <span class="pl">w sklepie</span>, <span class="pl">ze sklepu</span>.</p><details><summary>Sprawdź odpowiedź</summary><p class="retrieval-answer"><span class="pl">Do sklepu</span>: cel ruchu, Dopełniacz. <span class="pl">W sklepie</span>: miejsce, Miejscownik. <span class="pl">Ze sklepu</span>: miejsce pochodzenia, Dopełniacz.</p></details></article>
+          <article class="retrieval-item"><p class="retrieval-prompt">5. Odtwórz schemat wyboru końcówki.</p><details><summary>Sprawdź odpowiedź</summary><p class="retrieval-answer">znaczenie → reguła → przypadek → końcówka</p></details></article>
         </div>
+
+        <details class="teacher-guide">
+          <summary>Materiały dla nauczyciela po części 06</summary>
+          <div class="callout"><p>Zadaj pytania ustnie w losowej kolejności. Nie pokazuj odpowiedzi, zanim uczeń odpowie. Przy błędzie daj wskazówkę, ale nie podawaj od razu rozwiązania.</p><p>Na końcu poproś ucznia o utworzenie własnego zdania z jednym przyimkiem i wyjaśnienie użytego przypadku.</p></div>
+        </details>
       </section>
 
       <section id="anki" class="lesson-section breakout">
-        <div class="section-heading">
-          <span class="section-number">07</span>
-          <h2>Ten phrases for Anki</h2>
-        </div>
-
-        <p>Create one card per entry. Put the phrase on the front. Put the Polish definition and example on the back. The named case makes each review reinforce the trigger as well as the meaning.</p>
-
+        <div class="section-heading"><span class="section-number">07</span><h2>Dziesięć zwrotów do Anki</h2></div>
+        <p>Przód karty: zwrot. Tył karty: prosta definicja po polsku, przykład i nazwa reguły.</p>
         <ol class="anki-list">
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">idę do sklepu</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Poruszam się w kierunku sklepu teraz (<span class="pl">do</span> + Dopełniacz).</span><span class="anki-example">Idę do sklepu, bo chcę kupić mleko.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">jestem w sklepie</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Teraz jestem w środku sklepu (<span class="pl">w</span> + Miejscownik = miejsce, nie ruch).</span><span class="anki-example">Nie dzwoń, jestem w sklepie.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">wracam ze sklepu</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Idę z powrotem z miejsca zwanego sklepem (<span class="pl">z/ze</span> + Dopełniacz = pochodzenie).</span><span class="anki-example">Wracam ze sklepu z ciężką torbą.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">kupuję chleb</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Płacę za chleb, żeby go mieć (Biernik = przedmiot działania).</span><span class="anki-example">Kupuję chleb w tym małym sklepie.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">rozmawiam z kolegą</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Mówię z osobą, która jest moim kolegą (<span class="pl">z</span> + Narzędnik = towarzystwo).</span><span class="anki-example">Rozmawiam z kolegą o pracy.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">myślę o pracy</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Moje myśli dotyczą pracy (<span class="pl">o</span> + Miejscownik = temat).</span><span class="anki-example">Wieczorem często myślę o pracy.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">czekam na autobus</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Nie jadę jeszcze, bo autobus nie przyjechał (<span class="pl">czekać na</span> + Biernik).</span><span class="anki-example">Czekam na autobus już pięć minut.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">uczę się polskiego</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Poznaję język polski i ćwiczę go (<span class="pl">uczyć się</span> + Dopełniacz).</span><span class="anki-example">Uczę się polskiego każdego dnia.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">pomagam koledze</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Robię coś, żeby ułatwić koledze zadanie (<span class="pl">pomagać</span> + Celownik).</span><span class="anki-example">Pomagam koledze z matematyką.</span></div></li>
-          <li class="anki-card"><div class="anki-side"><span class="anki-label">Front</span><span class="anki-front">dam ci chleb</span></div><div class="anki-side"><span class="anki-label">Definition + example</span><span class="anki-definition">Przekażę chleb tobie (<span class="pl">ci</span> = Celownik; <span class="pl">chleb</span> = Biernik).</span><span class="anki-example">Dam ci chleb jutro rano.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">idę do sklepu</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Poruszam się w kierunku sklepu (<span class="pl">do</span> + Dopełniacz).</span><span class="anki-example">Idę do sklepu, bo chcę kupić mleko.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">jestem w sklepie</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Znajduję się w środku sklepu (<span class="pl">w</span> + Miejscownik: miejsce).</span><span class="anki-example">Nie dzwoń, jestem w sklepie.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">wracam ze sklepu</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Idę z powrotem z miejsca zwanego sklepem (<span class="pl">z/ze</span> + Dopełniacz: pochodzenie).</span><span class="anki-example">Wracam ze sklepu z ciężką torbą.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">kupuję chleb</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Płacę za chleb, żeby go mieć (Biernik: cel czynności).</span><span class="anki-example">Kupuję chleb w małym sklepie.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">rozmawiam z kolegą</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Mówię z osobą, która jest moim kolegą (<span class="pl">z</span> + Narzędnik: towarzystwo).</span><span class="anki-example">Rozmawiam z kolegą o pracy.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">myślę o pracy</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Moje myśli dotyczą pracy (<span class="pl">o</span> + Miejscownik: temat).</span><span class="anki-example">Wieczorem często myślę o pracy.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">czekam na autobus</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Autobus jeszcze nie przyjechał, więc czekam (<span class="pl">czekać na</span> + Biernik).</span><span class="anki-example">Czekam na autobus już pięć minut.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">uczę się polskiego</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Poznaję język polski i ćwiczę go (<span class="pl">uczyć się</span> + Dopełniacz).</span><span class="anki-example">Uczę się polskiego każdego dnia.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">pomagam koledze</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Robię coś, żeby ułatwić koledze zadanie (<span class="pl">pomagać</span> + Celownik).</span><span class="anki-example">Pomagam koledze z matematyką.</span></div></li>
+          <li class="anki-card"><div class="anki-side"><span class="anki-label">Przód</span><span class="anki-front">dam ci chleb</span></div><div class="anki-side"><span class="anki-label">Definicja i przykład</span><span class="anki-definition">Przekażę chleb tobie (<span class="pl">ci</span>: Celownik; <span class="pl">chleb</span>: Biernik).</span><span class="anki-example">Dam ci chleb jutro rano.</span></div></li>
         </ol>
       </section>
 
-      <section id="speech" class="lesson-section">
-        <div class="section-heading">
-          <span class="section-number">08</span>
-          <h2>Use it in speech</h2>
-        </div>
+      <section id="mowienie" class="lesson-section">
+        <div class="section-heading"><span class="section-number">08</span><h2>Ćwiczenie mówienia</h2></div>
+        <div class="practice-card"><span class="practice-label">Scenka w sklepie</span><code class="prompt-copy">Jesteś sprzedawcą w polskim sklepie. Ja jestem klientem. Wchodzę do sklepu, chcę kupić chleb i mleko, pytam o produkty, a potem wracam ze sklepu. Mów naturalnie, ale niezbyt szybko. Jeśli użyję złego przypadku, najpierw poproś mnie o samodzielną poprawę. Jeśli nie umiem, podaj poprawne zdanie i poproś, żebym je powtórzył.</code><p><strong>Cel:</strong> użyć w mowie zwrotów <span class="pl">do sklepu</span>, <span class="pl">w sklepie</span>, <span class="pl">ze sklepu</span> oraz nazw kupowanych rzeczy w Bierniku.</p></div>
 
-        <div class="practice-card">
-          <span class="practice-label">Roleplay prompt</span>
-          <code class="prompt-copy">Jesteś sprzedawcą w polskim sklepie. Ja jestem klientem, wchodzę do sklepu i chcę kupić chleb oraz mleko. Mów po polsku, powoli. Jeśli powiem coś ze złym przypadkiem, powtórz moje zdanie poprawnie, ale nie tłumacz gramatyki. Trzymamy role przez dwie minuty.</code>
-          <p><strong>Goal:</strong> produce <span class="pl">do sklepu</span>, <span class="pl">w sklepie</span>, <span class="pl">ze sklepu</span>, and direct objects such as <span class="pl">chleb</span> and <span class="pl">mleko</span>. Notice which relation you intend before choosing a form.</p>
-        </div>
-      </section>
-
-      <section class="lesson-section" aria-labelledby="questions-heading">
-        <div class="section-heading"><span class="section-number">?</span><h2 id="questions-heading">If anything was unclear</h2></div>
-        <p>Ask before moving on. Useful questions include: "How can I distinguish Biernik from Dopełniacz when forms look alike?", "Why can one preposition take two cases?", or "What counts as a noun phrase?" Foundation gaps become expensive later.</p>
+        <details class="teacher-guide">
+          <summary>Raport końcowy dla nauczyciela</summary>
+          <div class="callout"><p>Po scence przeprowadź krótkie sprawdzenie bez notatek. Następnie przygotuj w wiadomości tekstowej raport:</p><ol><li><strong>Uczeń potrafi:</strong> maksymalnie trzy konkretne umiejętności.</li><li><strong>Powtarzające się błędy:</strong> zdanie ucznia → poprawna wersja → krótka reguła.</li><li><strong>Wymowa:</strong> tylko błędy, które utrudniały zrozumienie, oraz najwyżej jeden ważny błąd powtarzający się.</li><li><strong>Do powtórki:</strong> jedna lub dwie rzeczy.</li><li><strong>Gotowość:</strong> „gotowy do następnej lekcji” albo „najpierw powtórzyć część …”.</li></ol><p>Poproś ucznia, aby wkleił ten raport swojemu głównemu nauczycielowi.</p></div>
+        </details>
       </section>
 
       <footer class="lesson-footer">
-        <p><strong>Primary source:</strong> <a href="https://lektorek.org/lektorek/firstyear/nutshell.pdf">Polish Grammar in a Nutshell</a>, Oscar E. Swan, section 2, "Nouns: Cases and Case Use."</p>
-        <p><strong>Reference:</strong> <a href="../reference/0001-case-system-cheat-sheet.html">The case system: one-page cheat sheet</a>.</p>
-        <div class="next-lesson" aria-label="Next lesson"><span class="next-lesson-label">Next lesson</span><span class="next-lesson-title">Noun gender: the information endings depend on</span></div>
+        <p><strong>Źródło:</strong> Oscar E. Swan, <a href="https://lektorek.org/lektorek/firstyear/nutshell.pdf">Polish Grammar in a Nutshell</a>, rozdział 2: przypadki i ich użycie.</p>
+        <p><strong>Ściąga:</strong> <a href="../reference/0001-case-system-cheat-sheet.html">System przypadków na jednej stronie</a>.</p>
+        <div class="next-lesson" aria-label="Następna lekcja"><span class="next-lesson-label">Następna lekcja</span><span class="next-lesson-title">Rodzaj rzeczownika: informacja potrzebna do wyboru końcówki</span></div>
       </footer>
     </main>
   </div>

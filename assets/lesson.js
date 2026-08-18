@@ -28,6 +28,10 @@ document.querySelectorAll("[data-quiz]").forEach(function (quiz) {
       });
 
       if (feedback) {
+        var result = feedback.querySelector("[data-result]");
+        if (result) {
+          result.textContent = isCorrect ? "Dobrze." : "Nie tym razem.";
+        }
         feedback.hidden = false;
         feedback.setAttribute("role", "status");
       }
@@ -49,7 +53,7 @@ function updateProgress() {
   });
 
   document.querySelectorAll("[data-progress-text]").forEach(function (label) {
-    label.textContent = answered + " of " + quizzes.length + " questions answered";
+    label.textContent = "Odpowiedzi: " + answered + " z " + quizzes.length;
   });
 }
 
