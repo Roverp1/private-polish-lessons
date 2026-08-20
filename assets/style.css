@@ -1,29 +1,5 @@
 /* Editorial theme for every lesson. Pico supplies the semantic baseline. */
 
-:root {
-  --paper: #fffdf8;
-  --paper-deep: #f3eee4;
-  --canvas: #ebe6dc;
-  --ink: #211f1c;
-  --muted: #625e57;
-  --faint: #817c73;
-  --rule: #d8d0c3;
-  --accent: #9a2d34;
-  --accent-dark: #6f1e24;
-  --accent-soft: #f6e7e5;
-  --sage: #3f6657;
-  --sage-soft: #e7f0eb;
-  --amber: #765415;
-  --amber-soft: #f8efd7;
-  --shadow: 0 20px 60px rgb(49 39 25 / 10%);
-  --serif: "Noto Serif", "TeX Gyre Pagella", "Palatino Linotype", Palatino, Georgia, serif;
-  --display-serif: "Noto Serif Display", "Noto Serif", "TeX Gyre Pagella", Georgia, serif;
-  --sans: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --mono: "JetBrainsMono Nerd Font", "JetBrains Mono", Menlo, Consolas, monospace;
-  --page: 74rem;
-  --reading: 52rem;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -47,7 +23,7 @@ body.lesson-page {
   -webkit-font-smoothing: antialiased;
 }
 
-.pico.lesson-page {
+.lesson-page {
   --pico-font-family: var(--sans);
   --pico-font-size: 100%;
   --pico-line-height: 1.65;
@@ -148,8 +124,8 @@ body.lesson-page {
   content: "/";
 }
 
-.pico.lesson-page h1,
-.pico.lesson-page h2 {
+.lesson-page h1,
+.lesson-page h2 {
   color: var(--ink);
   font-family: var(--display-serif);
   text-wrap: balance;
@@ -213,7 +189,7 @@ body.lesson-page {
   line-height: 1.08;
 }
 
-body.pico.lesson-page h3 {
+.lesson-page h3 {
   --pico-font-family: var(--sans);
   --pico-font-size: 0.82rem;
   --pico-color: var(--ink);
@@ -299,7 +275,7 @@ summary:focus-visible {
   border-block: 1px solid var(--rule);
 }
 
-body.pico.lesson-page .outcomes h3 {
+.outcomes h3 {
   margin-top: 0;
 }
 
@@ -425,11 +401,6 @@ body.pico.lesson-page .outcomes h3 {
   padding: 1.25rem;
   border: 1px solid var(--rule);
   background: #fffefa;
-}
-
-body.pico.lesson-page article.worked-example {
-  margin: 1.25rem 0;
-  padding: 1.25rem;
   box-shadow: none;
 }
 
@@ -488,7 +459,7 @@ body.pico.lesson-page article.worked-example {
   margin-top: 1.25rem;
 }
 
-body.pico.lesson-page article.retrieval-item {
+.retrieval-item {
   margin: 0;
   margin-block: 0;
   padding: 0;
@@ -508,7 +479,7 @@ body.pico.lesson-page article.retrieval-item {
   padding: 0 1.1rem 1rem;
 }
 
-body.pico.lesson-page .retrieval-item summary {
+.retrieval-item summary {
   --pico-accordion-close-summary-color: var(--accent-dark);
   --pico-accordion-open-summary-color: var(--accent-dark);
   color: var(--accent-dark);
@@ -534,7 +505,7 @@ body.pico.lesson-page .retrieval-item summary {
   margin-top: 1rem;
 }
 
-.pico.lesson-page .quiz-reset {
+.lesson-page .quiz-reset {
   width: auto;
   margin: 0;
   padding: 0.45rem 0.7rem;
@@ -549,7 +520,7 @@ body.pico.lesson-page .retrieval-item summary {
   text-transform: uppercase;
 }
 
-.pico.lesson-page .quiz-reset:hover {
+.lesson-page .quiz-reset:hover {
   border-color: var(--accent);
   color: var(--accent-dark);
 }
@@ -669,7 +640,7 @@ em.gloss {
   margin-top: 1.5rem;
 }
 
-body.pico.lesson-page article.trigger-card {
+.trigger-card {
   width: 100%;
   max-width: 100%;
   margin: 0;
@@ -681,16 +652,16 @@ body.pico.lesson-page article.trigger-card {
   overflow-wrap: anywhere;
 }
 
-body.pico.lesson-page article.trigger-card h3 {
+.trigger-card h3 {
   margin-top: 0;
 }
 
-body.pico.lesson-page .teacher-guide {
+.teacher-guide {
   margin-block: 1rem 0;
   border-block: 1px solid var(--rule);
 }
 
-body.pico.lesson-page .teacher-guide summary {
+.teacher-guide summary {
   --pico-accordion-close-summary-color: var(--accent-dark);
   --pico-accordion-open-summary-color: var(--accent-dark);
   padding: 0.75rem 0;
@@ -703,7 +674,7 @@ body.pico.lesson-page .teacher-guide summary {
   text-transform: uppercase;
 }
 
-body.pico.lesson-page .teacher-guide[open] summary {
+.teacher-guide[open] summary {
   margin-bottom: 0.75rem;
 }
 
@@ -752,11 +723,6 @@ body.pico.lesson-page .teacher-guide[open] summary {
   padding: 1.35rem;
   border: 1px solid var(--rule);
   background: #fffefa;
-}
-
-body.pico.lesson-page article.quiz {
-  margin: 0;
-  padding: 1.35rem;
   box-shadow: none;
 }
 
@@ -798,7 +764,7 @@ body.pico.lesson-page article.quiz {
   margin: 0;
 }
 
-.pico.lesson-page .quiz-options button {
+.lesson-page .quiz-options button {
   width: 100%;
   min-height: 2.75rem;
   margin: 0;
@@ -815,37 +781,37 @@ body.pico.lesson-page article.quiz {
   transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
 }
 
-.pico.lesson-page .quiz-options button:hover:not(:disabled) {
+.lesson-page .quiz-options button:hover:not(:disabled) {
   border-color: var(--accent);
   background: var(--accent-soft);
 }
 
-.pico.lesson-page .quiz-options button:disabled {
+.lesson-page .quiz-options button:disabled {
   cursor: default;
   opacity: 0.62;
 }
 
-.pico.lesson-page .quiz-options button[data-state="correct"] {
+.lesson-page .quiz-options button[data-state="correct"] {
   border-color: var(--sage);
   background: var(--sage);
   color: white;
   opacity: 1;
 }
 
-.pico.lesson-page .quiz-options button[data-state="correct"]::after {
+.lesson-page .quiz-options button[data-state="correct"]::after {
   content: "  Dobrze";
   font-family: var(--sans);
   font-size: 0.72rem;
 }
 
-.pico.lesson-page .quiz-options button[data-state="wrong"] {
+.lesson-page .quiz-options button[data-state="wrong"] {
   border-color: var(--amber);
   color: var(--amber);
   opacity: 1;
   text-decoration: line-through;
 }
 
-.pico.lesson-page .quiz-options button[data-state="wrong"]::after {
+.lesson-page .quiz-options button[data-state="wrong"]::after {
   content: "  Błąd";
   font-family: var(--sans);
   font-size: 0.72rem;
@@ -883,10 +849,6 @@ body.pico.lesson-page article.quiz {
   border: 1px solid var(--rule);
   background: #fffefa;
   counter-increment: anki;
-}
-
-body.pico.lesson-page li.anki-card {
-  margin: 0;
 }
 
 .anki-card::before {
@@ -963,6 +925,7 @@ body.pico.lesson-page li.anki-card {
   margin: 0 0 1rem;
   padding: 1rem;
   border-left: 3px solid var(--amber);
+  border-radius: 0.25rem;
   background: rgb(255 253 248 / 70%);
   color: var(--ink);
   font-family: var(--mono);
@@ -970,12 +933,6 @@ body.pico.lesson-page li.anki-card {
   line-height: 1.65;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-}
-
-.pico.lesson-page code.prompt-copy {
-  border-radius: 0.25rem;
-  background: rgb(255 253 248 / 70%);
-  color: var(--ink);
 }
 
 .lesson-footer {
@@ -1167,7 +1124,7 @@ body.pico.lesson-page li.anki-card {
     padding: 0.5rem 0;
   }
 
-  .pico.lesson-page .mobile-toc {
+  .lesson-page .mobile-toc {
     display: none;
   }
 }
@@ -1258,7 +1215,7 @@ body.pico.lesson-page li.anki-card {
   }
 
   .lesson-rail,
-  .pico.lesson-page .mobile-toc,
+  .lesson-page .mobile-toc,
   .skip-link,
   .quiz-toolbar,
   .practice-card,

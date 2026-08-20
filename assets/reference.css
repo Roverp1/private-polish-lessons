@@ -1,23 +1,11 @@
-:root {
-  --paper: #fffdf8;
-  --canvas: #e9e4da;
-  --ink: #211f1c;
-  --muted: #625e57;
-  --rule: #cfc6b7;
-  --accent: #8f2830;
-  --accent-soft: #f6e7e5;
-  --sage: #3f6657;
-  --sage-soft: #e7f0eb;
-  --sans: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --serif: "Noto Serif", "TeX Gyre Pagella", Georgia, serif;
-  --mono: "JetBrainsMono Nerd Font", "JetBrains Mono", Menlo, monospace;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body.reference-page {
+  --canvas: #e9e4da;
+  --rule: #cfc6b7;
+  --accent: #8f2830;
   margin: 0;
   background: var(--canvas);
   color: var(--ink);

@@ -50,73 +50,7 @@ def main() -> None:
   <meta name="theme-color" content="#ebe6dc">
   <title>Nauka polskiego · Spis</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="assets/vendor/pico.conditional.min.css">
-  <link rel="stylesheet" href="assets/style.css">
-  <style>
-    body.pico.index-page {{
-      width: min(100% - 2.5rem, 46rem);
-      margin: 0 auto;
-      padding: clamp(2rem, 6vw, 5rem) 0 6rem;
-      background: var(--canvas);
-      color: var(--ink);
-      font-family: var(--sans);
-    }}
-    .index-page .index-shell {{
-      padding: clamp(1.5rem, 5vw, 3rem);
-      border: 1px solid var(--rule);
-      background: var(--paper);
-    }}
-    .index-page h1 {{
-      margin: 0 0 0.25rem;
-      color: var(--accent-dark);
-      font-family: var(--display-serif);
-      font-size: clamp(1.9rem, 5vw, 2.8rem);
-      line-height: 1.05;
-    }}
-    .index-page .index-kicker {{
-      margin: 0 0 0.35rem;
-      color: var(--accent);
-      font-family: var(--mono);
-      font-size: 0.85rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }}
-    .index-page .index-purpose {{
-      margin: 0 0 1.25rem;
-      color: var(--muted);
-      font-family: var(--serif);
-    }}
-    .index-page h2 {{
-      margin: 1.8rem 0 0.6rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid var(--rule);
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: 1.2rem;
-    }}
-    .index-page .index-list {{
-      margin: 0;
-      padding-left: 1.25rem;
-    }}
-    .index-page .index-list li {{
-      margin: 0.45rem 0;
-    }}
-    .index-page a {{
-      color: var(--accent);
-      text-decoration-color: currentColor;
-      text-underline-offset: 0.15em;
-    }}
-    .index-page a:hover {{
-      color: var(--accent-dark);
-    }}
-    .index-page .index-foot {{
-      margin-top: 2.5rem;
-      padding-top: 0.8rem;
-      border-top: 1px solid var(--rule);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }}
-  </style>
+  <link rel="stylesheet" href="assets/index.css">
 </head>
 <body class="pico index-page">
   <div class="index-shell">

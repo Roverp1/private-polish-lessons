@@ -1,0 +1,6 @@
+/* Public lesson entry point. Course styles always outrank Pico's conditional selectors. */
+@layer pico, course;
+
+@import url("vendor/pico.conditional.min.css") layer(pico);
+@import url("theme.css") layer(course);
+@import url("style.css") layer(course);

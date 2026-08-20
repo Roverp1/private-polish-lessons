@@ -1,0 +1,23 @@
+:root {
+  --paper: #fffdf8;
+  --paper-deep: #f3eee4;
+  --canvas: #ebe6dc;
+  --ink: #211f1c;
+  --muted: #625e57;
+  --faint: #817c73;
+  --rule: #d8d0c3;
+  --accent: #9a2d34;
+  --accent-dark: #6f1e24;
+  --accent-soft: #f6e7e5;
+  --sage: #3f6657;
+  --sage-soft: #e7f0eb;
+  --amber: #765415;
+  --amber-soft: #f8efd7;
+  --shadow: 0 20px 60px rgb(49 39 25 / 10%);
+  --serif: "Noto Serif", "TeX Gyre Pagella", "Palatino Linotype", Palatino, Georgia, serif;
+  --display-serif: "Noto Serif Display", "Noto Serif", "TeX Gyre Pagella", Georgia, serif;
+  --sans: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono: "JetBrainsMono Nerd Font", "JetBrains Mono", Menlo, Consolas, monospace;
+  --page: 74rem;
+  --reading: 52rem;
+}
