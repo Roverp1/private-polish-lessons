@@ -5,4 +5,5 @@ repo="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$repo"
 
 "$repo/scripts/build-index"
+python3 "$repo/scripts/check-pages"
 git add index.html

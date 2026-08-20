@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""Reject pages that bypass the course's layered CSS entry points."""
+
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent.parent
+STYLESHEET_RE = re.compile(
+    r'<link\b(?=[^>]*\brel=["\']stylesheet["\'])[^>]*\bhref=["\']([^"\']+)["\'][^>]*>',
+    re.IGNORECASE,
+)
+BODY_RE = re.compile(r'<body\b[^>]*\bclass=["\']([^"\']*)["\']', re.IGNORECASE)
+
+PAGE_RULES = (
+    (ROOT / "lessons", "../assets/lesson.css", "lesson-page"),
+    (ROOT / "reference", "../assets/reference-page.css", "reference-page"),
+)
+
+ENTRY_POINTS = {
+    "assets/lesson.css": (
+        "@layer pico, course;",
+        '@import url("vendor/pico.conditional.min.css") layer(pico);',
+        '@import url("theme.css") layer(course);',
+        '@import url("style.css") layer(course);',
+    ),
+    "assets/reference-page.css": (
+        "@layer pico, course;",
+        '@import url("vendor/pico.conditional.min.css") layer(pico);',
+        '@import url("theme.css") layer(course);',
+        '@import url("reference.css") layer(course);',
+    ),
+    "assets/index.css": (
+        "@layer pico, course;",
+        '@import url("vendor/pico.conditional.min.css") layer(pico);',
+        '@import url("theme.css") layer(course);',
+        "@layer course {",
+    ),
+}
+
+
+def check_page(path: Path, expected_stylesheet: str, page_class: str) -> list[str]:
+    source = path.read_text(encoding="utf-8")
+    errors: list[str] = []
+    stylesheets = STYLESHEET_RE.findall(source)
+
+    if stylesheets != [expected_stylesheet]:
+        errors.append(
+            f"{path.relative_to(ROOT)}: expected only {expected_stylesheet!r}, found {stylesheets!r}"
+        )
+    body_match = BODY_RE.search(source)
+    body_classes = set(body_match.group(1).split()) if body_match else set()
+    if not {"pico", page_class} <= body_classes:
+        errors.append(f"{path.relative_to(ROOT)}: body must include classes 'pico {page_class}'")
+    if re.search(r"<style\b", source, re.IGNORECASE):
+        errors.append(f"{path.relative_to(ROOT)}: move inline CSS into the shared entry point")
+
+    return errors
+
+
+def main() -> int:
+    errors: list[str] = []
+
+    for directory, stylesheet, page_class in PAGE_RULES:
+        for path in sorted(directory.glob("*.html")):
+            errors.extend(check_page(path, stylesheet, page_class))
+
+    errors.extend(check_page(ROOT / "index.html", "assets/index.css", "index-page"))
+
+    for relative_path, required_fragments in ENTRY_POINTS.items():
+        source = (ROOT / relative_path).read_text(encoding="utf-8")
+        for fragment in required_fragments:
+            if fragment not in source:
+                errors.append(f"{relative_path}: missing cascade contract {fragment!r}")
+
+    public_entries = {ROOT / path for path in ENTRY_POINTS}
+    for path in sorted((ROOT / "assets").glob("*.css")):
+        if path not in public_entries and "pico.conditional.min.css" in path.read_text(encoding="utf-8"):
+            errors.append(
+                f"{path.relative_to(ROOT)}: only public entry points may import Pico"
+            )
+
+    if errors:
+        print("check-pages: failed", file=sys.stderr)
+        for error in errors:
+            print(f"  - {error}", file=sys.stderr)
+        return 1
+
+    page_count = 1 + sum(len(list(directory.glob("*.html"))) for directory, _, _ in PAGE_RULES)
+    print(f"check-pages: {page_count} pages follow the CSS architecture")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
