@@ -96,8 +96,8 @@
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0002-nominative-and-to-jest.html`
-- Homework exemplar: `homework/0002-nominative-and-to-jest.html`
+- Lesson exemplar: `lessons/0003-personal-pronouns-and-byc.html`
+- Homework exemplar: `homework/0003-personal-pronouns-and-byc.html`
 - Shared lesson styles: `assets/style.css`
 - Shared homework styles: `assets/homework.css`
 - Shared reference styles: `assets/reference.css`

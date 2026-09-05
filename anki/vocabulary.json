@@ -68,5 +68,40 @@
     "word": "przerwa",
     "definition": "krótki czas bez pracy albo zajęć",
     "example": "Po godzinie pracy robię krótką **przerwę**."
+  },
+  {
+    "id": "v0011",
+    "lesson": "0003",
+    "word": "uczestnik",
+    "definition": "osoba, która bierze udział w wydarzeniu albo zajęciach",
+    "example": "Każdy **uczestnik** podpisuje listę przy wejściu."
+  },
+  {
+    "id": "v0012",
+    "lesson": "0003",
+    "word": "zespół",
+    "definition": "grupa ludzi, którzy pracują albo działają razem",
+    "example": "Nasz **zespół** pracuje nad nową aplikacją."
+  },
+  {
+    "id": "v0013",
+    "lesson": "0003",
+    "word": "recepcja",
+    "definition": "miejsce przy wejściu, gdzie można otrzymać informację albo pomoc",
+    "example": "Klucz do sali można odebrać w **recepcji**."
+  },
+  {
+    "id": "v0014",
+    "lesson": "0003",
+    "word": "obecny / obecna",
+    "definition": "znajdujący się teraz w danym miejscu albo biorący udział",
+    "example": "Anna jest **obecna** na spotkaniu."
+  },
+  {
+    "id": "v0015",
+    "lesson": "0003",
+    "word": "spóźniony / spóźniona",
+    "definition": "przychodzący później niż o umówionej godzinie",
+    "example": "Piotr jest **spóźniony** na spotkanie."
   }
 ]

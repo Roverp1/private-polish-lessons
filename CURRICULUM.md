@@ -17,8 +17,8 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 
 1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns (complete)
 2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame (complete)
-3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form
-4. **Simple statements with być**: build neutral statements and omit unnecessary subject pronouns
+3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames
+4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately
 5. **Adjective agreement in the nominative**: match gender in singular noun phrases
 6. **Important gender exceptions**: use meaning and dictionary information when endings mislead
 7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
