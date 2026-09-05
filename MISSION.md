@@ -1,31 +1,30 @@
-# Mission: Polish grammar and conversational competence (B2) for life and work in Poland
+# Mission: A finite A1-B1 Polish grammar foundation for life in Poland
 
 ## Why
-Programmer, 3+ years in Poland, stuck at A2 despite immersion. Want to work, socialize, and take classes (dance, sewing) in Polish without English as a crutch, and stop stalling on self-study.
+I have lived in Poland for more than three years and can handle many everyday situations, but I lack a reliable model of Polish grammar. I want to understand how Polish works so that I can speak and write accurately at work, in social situations, and during everyday tasks.
 
 ## Success looks like
-- Recalls the Polish case system and verb aspect on demand, without conscious lookup, in real sentences
-- Holds a 30-min unscripted conversation with a Polish stranger without freezing or switching to English
-- Follows a Polish work meeting's gist without prep
-- Reads a bank letter or doctor's instructions without Google Translate
-- Attends a dance/sewing class taught in Polish and follows instructions in real time
+- Explains and applies the complete A1-B1 grammar foundation instead of relying only on remembered phrases
+- Chooses common case, agreement, tense, aspect, and sentence patterns in new examples
+- Writes clear everyday messages and short work-related texts with controlled grammatical accuracy
+- Participates in everyday conversations without treating English as the default escape route
+- Finishes a defined course rather than remaining in an endless sequence of provisional lessons
 
 ## Constraints
-- 15-60 min/day; lessons with the agent when possible and voice-led practice through uploaded lesson files
+- 15-60 minutes per day; concise self-study lessons followed by submitted work
 - Max $25/month for paid learning tools (no human tutor budget)
-- Approach: systematic grammar spine taught from zero, fast-skipping what the learner demonstrably knows
-- Lessons and reference sheets are written entirely in controlled A2/B1 Polish; bibliographic titles may remain in their original language
-- For each section, the learner reads the Polish text aloud, says "Skończyłem", answers comprehension and transfer questions, then writes a short checked notebook note
-- ChatGPT Voice reads the uploaded HTML and acts as the live teacher; it uses Polish by default and gives a short English explanation only when the learner explicitly asks after Polish clarification fails
-- Pronunciation correction is limited to errors that block understanding or change a word, plus at most one recurring high-value error after each section
-- Every lesson includes a printable/copyable reference sheet when the topic benefits from one and ~10 Anki phrase entries (Polish front, Polish definition + example back)
-- Vocab embedded in lesson phrases, not isolated; Anki used separately by the learner
+- Follow a source-backed A1-A2-B1 grammar spine; prior exposure may reduce practice volume but cannot silently remove core theory
+- Lessons, homework, and reference sheets use controlled Polish
+- Every rule is followed immediately by an exercise before another rule is introduced
+- Every lesson gives an exact concise notebook entry and normally introduces five vocabulary entries
+- Vocabulary is added to a cumulative Anki deck; Anki owns vocabulary review state
+- The learner submits homework and the unrevealed lesson exit check for feedback
 - Self-study orientation; programmer's brain benefits from a structured system, not random phrasebook drills
-- Prior A2 plateau came from bad self-teach resources and no activation loop, not lack of effort
+- The repository is the sole authority for curriculum and learning state
 
 ## Out of scope
-- Native-like fluency (not needed for a dev job in PL; B2 is the target)
+- Claiming that a finite course can guarantee fluency; a later B2 course may follow this foundation
 - Academic/literary Polish, archaic registers, dialect
-- Long-form Polish writing (emails/meetings are the bar, not essays)
-- Vocabulary drills as primary content (handled by Anki cards built from lesson phrases)
-- Comparing/recommending alternative speaking tools unless the learner explicitly reopens that decision
+- Long-form academic writing
+- Delegating lesson delivery to another language model
+- Treating exposure, page completion, or revealed answers as proof of mastery

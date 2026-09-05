@@ -2,9 +2,10 @@
 
 ## New-session bootstrap
 - Activate the `teach` skill before continuing this course.
-- Read `MISSION.md`, `RESOURCES.md`, every file in `learning-records/`, and this file.
-- Before authoring a lesson, inspect the canonical lesson, reference sheet, and shared assets listed below. Reuse them; do not invent a second design system.
-- Lesson 1 has been authored but not completed by the learner. Do not assume the case system is learned. Ask for the ChatGPT Voice end-of-lesson report or help the learner complete Lesson 1 before deciding whether to continue.
+- Read `MISSION.md`, `CURRICULUM.md`, `RESOURCES.md`, every file in `learning-records/`, and this file.
+- Read `anki/vocabulary.json` before selecting new vocabulary.
+- Before authoring a page, inspect the latest active lesson/homework and shared assets. Reuse them; do not invent a second design system.
+- Only the next lesson is authored as active course material. Later curriculum titles may be refined without removing required targets.
 - Add a learning record only after evidence of understanding. Coverage is not learning.
 
 ## Learner profile
@@ -21,57 +22,62 @@
 - Cannot comfortably follow two native speakers chatting at normal speed
 - Strongest: receptive reading; weakest: real-time listening; productive speech has vocabulary gaps
 - Skip alphabet/pronunciation review unless later evidence shows a gap
+- Previous voice lessons exposed the learner to grammar labels but did not teach the underlying rules. Do not import their classifications as mastery or error evidence.
 
 ## Time and budget
 - 15-60 min/day
 - Max $25/month for paid tools; no human-tutor budget
 - Do not push the human-tutor path unless the user changes the budget or asks
 
-## Final delivery workflow (mandatory until revised)
-- Lesson HTML and reference sheets are fully in controlled A2/B1 Polish. Original-language source titles are allowed.
-- The user uploads the lesson HTML to ChatGPT Voice and sends the start prompt embedded in the lesson.
-- ChatGPT Voice points to one short section. The learner reads it aloud and says `Skończyłem`.
-- The voice teacher must then verify understanding through an open explanation, a specific checking question, and a transfer task with a new example. It must not rely on "Czy rozumiesz?".
-- After understanding is demonstrated, the voice teacher assigns a short notebook note. The learner reads the note back and the teacher checks it before moving on.
-- Polish is the default teaching language. If Polish clarification still fails, the learner may explicitly request one short English explanation; teaching then returns to Polish.
-- Do not interrupt reading for minor pronunciation mistakes. Correct errors that block understanding or change the word. After a section, mention at most one recurring high-value pronunciation issue.
-- End with closed-notes retrieval, spoken production, and a structured text report: demonstrated abilities, repeated errors with corrections, important pronunciation issues, review needs, and readiness for the next lesson.
-- The learner brings that report back here. Use it as evidence for a learning record and for selecting the next lesson.
+## Delivery workflow
+- The learner reads each lesson, writes the specified notebook entry, and completes each exercise before reading the next rule.
+- Closed exercises reveal answers for roughly 30-50% of their items. Revealed answers explain the rule; they are practice, not assessment evidence.
+- Open exercises receive an analogous model, never the learner's exact answer.
+- The learner submits the unrevealed exit check and homework. Other lesson exercises are submitted when uncertain or requested.
+- Review the submission, explain target errors, and request a new repair example when needed.
+- Generate the next lesson only after reviewing the current submission.
+- Text work can demonstrate grammatical retrieval and production. Do not claim pronunciation evidence without audio.
 
 ## Mandatory lesson structure
 1. Start with why the topic matters and the communication problem it solves.
 2. State observable outcomes and a clear "not today" scope boundary.
-3. Split theory into short read-aloud sections, each teaching one manageable idea.
-4. After every major section, include a collapsed `teacher-guide` with:
-   - expected understanding;
-   - an open comprehension question;
-   - one transfer task using a new example;
-   - remediation guidance for a wrong answer;
-   - an exact, short notebook task.
-5. Provide a decision procedure or mental model when the topic supports one.
-6. Show worked examples before independent exercises.
-7. Sequence practice from notes allowed to notes closed, then spoken production.
-8. Include approximately 10 Anki-ready phrases taken from the lesson itself.
-9. Add a printable/copyable reference sheet when it will remain useful across lessons.
-10. End with a voice-teacher report schema and a next-lesson indication that remains provisional until the report is reviewed.
+3. Teach one concept, or at most two inseparable rules, in short sections.
+4. For each rule: explain its purpose, provide an exact notebook block, show a worked example, and immediately provide practice.
+5. Do not introduce another rule before the practice attached to the current rule.
+6. Provide a decision procedure or mental model when the topic supports one.
+7. Keep new grammar examples on familiar vocabulary.
+8. Introduce five deliberate vocabulary entries in a separate section after the main grammar practice.
+9. End with an unrevealed exit check and a link to matching homework.
+10. Cite the source used and remind the learner to ask about unclear material.
 
-## Anki standard
-- Around 10 entries per lesson; useful phrases or short sentences, not isolated vocabulary padding
-- Front: Polish phrase
-- Back: simple Polish definition + Polish example sentence + grammar trigger when relevant
-- Keep back-side vocabulary around A2 level; simplify any definition the learner cannot parse
-- Every phrase must reinforce the current grammar topic or a high-utility pattern from the lesson
+## Homework structure
+- One matching page under `homework/` for every lesson
+- Normally 10-15 minutes
+- Progress from recognition to completion, controlled construction, one-error repair, and limited production
+- Include one or two delayed-review items when earlier material is available
+- Give one operation per block and specify the expected answer format
+- Provide hidden answers for selected representative items only
+- End with a compact submission template
+
+## Vocabulary and Anki
+- `anki/vocabulary.json` is the only vocabulary ledger; do not create a duplicate Markdown status file.
+- Five entries per lesson by default, each with an immutable ID and lesson provenance.
+- Front: Polish word or useful phrase.
+- Back: concise Polish definition and natural Polish example.
+- Grammar terminology belongs in `GLOSSARY.md` and does not count toward the five entries.
+- Vocabulary has no repository mastery status. Anki owns scheduling and memorization state.
+- After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0001-the-case-system-as-a-system.html`
-- Reference exemplar: `reference/0001-case-system-cheat-sheet.html`
+- Lesson exemplar: `lessons/0001-noun-gender-singular.html`
+- Homework exemplar: `homework/0001-noun-gender-singular.html`
 - Shared lesson styles: `assets/style.css`
+- Shared homework styles: `assets/homework.css`
 - Shared reference styles: `assets/reference.css`
-- Shared quiz behavior: `assets/lesson.js`
 - Pico baseline: `assets/vendor/pico.conditional.min.css`, loaded before custom CSS
-- Future lessons link existing shared assets. Extend shared assets only for genuinely reusable components.
+- Future pages link existing shared assets. Extend shared assets only for genuinely reusable components.
 - Keep semantic HTML: `main`, `section`, headings, tables, `details`, buttons, and accessible labels.
-- Use `lang="pl"`; all user-visible interface text and quiz feedback are Polish.
+- Use `lang="pl"`; all user-visible course text is Polish except original source titles.
 
 ## UI quality standard
 - Adult editorial study-manual style: warm paper, dark readable body text, restrained Polish-crimson accent
@@ -79,7 +85,7 @@
 - Wide shell, controlled prose measure, wider breakout regions for tables/exercises
 - Desktop rail; mobile contents disclosure; no horizontal page overflow
 - Wide tables scroll inside their own container on mobile
-- Quiz feedback uses text plus colour, visible keyboard focus, `aria-pressed`, disabled answered options, progress, and reset
+- Hidden answer explanations use native `details` controls and remain usable without JavaScript
 - Reference sheets are dense but readable, responsive on screen, and designed for A4 printing/copying by hand
 - Respect `prefers-reduced-motion`; provide dedicated print rules
 
@@ -95,20 +101,19 @@
 - Verify at 375px, 768px, 1024px, and 1440px.
 - Check page overflow; only designated table containers may scroll horizontally.
 - Check computed styles for headings, summaries, prompt blocks, cards, shadows, padding, and margins.
-- Test correct and wrong quiz answers, progress updates, reset behavior, and keyboard focus.
-- Check teacher guides are present in the DOM and readable by file-analysis models.
+- Test hidden answer disclosures and keyboard focus.
 - Check browser console errors.
 - Check print media for the lesson and A4 reference sheet.
-- Search visible lesson/reference text for accidental English, excluding bibliographic titles and the explicit English-fallback instruction.
+- Search visible lesson, homework, and reference text for accidental English, excluding bibliographic titles.
 
 ## Repository workflow
 - Read `README.md` before adding pages.
-- Add sequential files: `lessons/NNNN-slug.html` and, when needed, `reference/NNNN-slug.html`.
-- The repository index is generated from `lessons/` and `reference/` by `scripts/build-index`.
+- Add matching sequential files: `lessons/NNNN-slug.html` and `homework/NNNN-slug.html`; add `reference/NNNN-slug.html` only when it has durable value.
+- The repository index is generated from `lessons/`, `homework/`, and `reference/` by `scripts/build-index`.
 - The configured pre-commit hook regenerates `index.html`; if hooks are unavailable, run `scripts/build-index` manually.
 - Keep commits atomic and conventional. Do not stage unrelated `.agents/`, `.opencode/`, or skill files.
 
 ## Communication preferences
 - Be concise, direct, and sincere; no corporate filler
 - Avoid em dashes
-- Do not compare/recommend speaking tools unless explicitly asked; ChatGPT Voice is the selected lesson-delivery channel
+- Do not compare or recommend speaking tools unless explicitly asked
