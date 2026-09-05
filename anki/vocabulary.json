@@ -1,0 +1,37 @@
+[
+  {
+    "id": "v0001",
+    "lesson": "0001",
+    "word": "otoczenie",
+    "definition": "miejsce i rzeczy, które znajdują się wokół nas",
+    "example": "Spokojne **otoczenie** pomaga mi odpocząć."
+  },
+  {
+    "id": "v0002",
+    "lesson": "0001",
+    "word": "sprzęt",
+    "definition": "urządzenia i przedmioty potrzebne do pracy albo działania",
+    "example": "Nowy **sprzęt** stoi już w biurze."
+  },
+  {
+    "id": "v0003",
+    "lesson": "0001",
+    "word": "dziedzina",
+    "definition": "określony obszar wiedzy, pracy lub działalności",
+    "example": "Programowanie to szybko rozwijająca się **dziedzina**."
+  },
+  {
+    "id": "v0004",
+    "lesson": "0001",
+    "word": "wydarzenie",
+    "definition": "coś, co się dzieje w określonym miejscu i czasie",
+    "example": "To ważne **wydarzenie** odbędzie się w sobotę."
+  },
+  {
+    "id": "v0005",
+    "lesson": "0001",
+    "word": "wyjątek",
+    "definition": "przypadek, który nie pasuje do ogólnej reguły",
+    "example": "Każda prosta reguła może mieć **wyjątek**."
+  }
+]
