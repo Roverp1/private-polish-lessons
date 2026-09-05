@@ -33,5 +33,40 @@
     "word": "wyjątek",
     "definition": "przypadek, który nie pasuje do ogólnej reguły",
     "example": "Każda prosta reguła może mieć **wyjątek**."
+  },
+  {
+    "id": "v0006",
+    "lesson": "0002",
+    "word": "paragon",
+    "definition": "dokument ze sklepu z cenami kupionych rzeczy",
+    "example": "To jest **paragon**."
+  },
+  {
+    "id": "v0007",
+    "lesson": "0002",
+    "word": "umowa",
+    "definition": "pisemne ustalenie między osobami albo firmami",
+    "example": "To jest **umowa**."
+  },
+  {
+    "id": "v0008",
+    "lesson": "0002",
+    "word": "narzędzie",
+    "definition": "przedmiot lub program, który pomaga wykonać zadanie",
+    "example": "To jest **narzędzie**."
+  },
+  {
+    "id": "v0009",
+    "lesson": "0002",
+    "word": "spotkanie",
+    "definition": "zaplanowany czas, kiedy ludzie rozmawiają albo pracują razem",
+    "example": "To jest **spotkanie**."
+  },
+  {
+    "id": "v0010",
+    "lesson": "0002",
+    "word": "przerwa",
+    "definition": "krótki czas bez pracy albo zajęć",
+    "example": "To jest **przerwa**."
   }
 ]
