@@ -39,6 +39,7 @@
 - Generate the next lesson only after reviewing the current submission.
 - Text work can demonstrate grammatical retrieval and production. Do not claim pronunciation evidence without audio.
 - A defect in an exercise is teaching evidence, not negative learner evidence. Exclude any answer that required an untaught operation from assessment.
+- Do not require completion of repetitive items after representative submitted answers already demonstrate the same operation. Skipping redundant work is not negative evidence.
 
 ## Mandatory lesson structure
 1. Start with why the topic matters and the communication problem it solves.
@@ -63,6 +64,8 @@
 - A combined exercise must state the expected output clearly, but it should not always announce which grammar rule applies. Choosing the relevant rule is part of later practice.
 - Label integrated work as `Ćwiczenie łączone`, `Powtórka mieszana`, or `Zastosowanie`. Begin with visible decision steps and remove them gradually.
 - If a learner struggles in mixed work, separate the component steps before deciding which rule needs review. One mixed failure is not evidence that every component failed.
+- When two or three independent representative answers are clean and the target is clearly easy, reduce further same-operation practice and advance to consolidation or interleaving.
+- Homework should demand grammatical decisions, error diagnosis, or contextual use. Repeated copying is not useful difficulty.
 
 ## Practice progression
 1. Acquisition: explain and model one new rule, then give distilled immediate practice.
@@ -86,6 +89,8 @@
 - Five entries per lesson by default, each with an immutable ID and lesson provenance.
 - Front: Polish word or useful phrase.
 - Back: concise Polish definition and natural Polish example.
+- Every example must be semantically diagnostic: it should clarify the meaning, show a typical context or collocation, and help memory. Avoid empty examples such as `To jest X` when they add no usage information.
+- An Anki example may contain untaught grammar because it is comprehension input, not assessed production, but its overall meaning must remain accessible at the learner's general level.
 - Grammar terminology belongs in `GLOSSARY.md` and does not count toward the five entries.
 - Vocabulary has no repository mastery status. Anki owns scheduling and memorization state.
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.

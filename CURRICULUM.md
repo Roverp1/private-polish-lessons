@@ -6,9 +6,9 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 
 ## Current position
 
-- Current lesson: 0002
-- Completed lessons: 0001
-- Required submission: Lesson 0002 exit check and Homework 0002
+- Current lesson: 0003
+- Completed lessons: 0001-0002
+- Required submission: Lesson 0003 exit check and Homework 0003
 - Previous voice-course topics: exposure only
 
 ## A1: Foundations and everyday sentences
@@ -16,17 +16,17 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 ### Module 1: Nouns, agreement, and simple sentences
 
 1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns (complete)
-2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame
-3. **Być in the present tense**: describe identity, quality, and location
-4. **Personal pronouns as subjects**: choose the basic pronoun forms
-5. **Simple statement order**: build neutral subject-verb-complement sentences
-6. **Adjective agreement in the nominative**: match gender in singular noun phrases
-7. **Important gender exceptions**: use meaning and dictionary information when endings mislead
-8. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
+2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame (complete)
+3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form
+4. **Simple statements with być**: build neutral statements and omit unnecessary subject pronouns
+5. **Adjective agreement in the nominative**: match gender in singular noun phrases
+6. **Important gender exceptions**: use meaning and dictionary information when endings mislead
+7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
+8. **Non-masculine-personal plural agreement**: connect nouns with adjectives
+9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text
 
 ### Module 2: Present verbs, questions, and negation
 
-9. **Non-masculine-personal plural agreement**: connect nouns with adjectives
 10. **The infinitive and finite verb**: distinguish dictionary and personal forms
 11. **Person and number of the verb**: connect the subject with the ending
 12. **Present tense pattern -m/-sz**: conjugate a high-frequency group

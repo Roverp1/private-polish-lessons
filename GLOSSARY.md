@@ -21,3 +21,11 @@ W podstawowym regularnym wzorcu rzeczownik kończy się na `-a`, na przykład `r
 
 **Rodzaj nijaki**:
 W podstawowych regularnych wzorcach rzeczownik kończy się na `-o`, `-e`, `-ę` albo `-um`, na przykład `krzesło`, `zadanie`, `imię` i `muzeum`.
+
+## Cases and identification
+
+**Mianownik**:
+Przypadek odpowiadający na pytania `kto?` i `co?` Dla rzeczownika mającego liczbę pojedynczą jego forma słownikowa jest mianownikiem liczby pojedynczej.
+
+**Wzorzec `to jest`**:
+Stały wzorzec służący do identyfikowania jednej osoby albo rzeczy: `Kto to jest? To jest Anna.` lub `Co to jest? To jest telefon.` Identyfikowany rzeczownik ma formę mianownika.
