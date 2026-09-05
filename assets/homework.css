@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--canvas);
+}
+
+body.homework-page {
+  margin: 0;
+  min-width: 20rem;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.homework-page {
+  --pico-font-family: var(--sans);
+  --pico-color: var(--ink);
+  --pico-muted-color: var(--muted);
+  --pico-background-color: transparent;
+  --pico-primary: var(--accent);
+  --pico-primary-hover: var(--accent-dark);
+  --pico-primary-focus: rgb(154 45 52 / 24%);
+  --pico-border-color: var(--rule);
+  --pico-card-background-color: var(--paper);
+  --pico-border-radius: 0.35rem;
+}
+
+.homework-page main {
+  width: min(calc(100% - 2rem), 58rem);
+  margin: 2rem auto 5rem;
+  padding: clamp(1.5rem, 5vw, 4rem);
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.homework-page header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.homework-page .kicker {
+  margin: 0 0 0.6rem;
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.homework-page h1,
+.homework-page h2 {
+  color: var(--ink);
+  font-family: var(--display-serif);
+}
+
+.homework-page h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  line-height: 1;
+}
+
+.homework-page h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.homework-page .instructions,
+.homework-page .submission {
+  padding: 1rem 1.2rem;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+}
+
+.homework-page .practice-list li {
+  margin-bottom: 0.85rem;
+}
+
+.homework-page details {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--rule);
+  background: #fffefa;
+}
+
+.homework-page summary {
+  color: var(--accent-dark);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.homework-page code.submission-template {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
+
+.homework-page a {
+  color: var(--accent-dark);
+}
+
+.homework-page a:focus-visible,
+.homework-page summary:focus-visible {
+  outline: 3px solid rgb(154 45 52 / 30%);
+  outline-offset: 3px;
+}
+
+@media (max-width: 38rem) {
+  .homework-page main {
+    width: 100%;
+    margin: 0;
+    padding: 1.2rem;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+@media print {
+  body.homework-page {
+    background: white;
+    font-size: 11pt;
+  }
+
+  .homework-page main {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .homework-page details:not([open]) > :not(summary) {
+    display: none;
+  }
+}

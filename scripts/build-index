@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate root index.html from lessons/ and reference/.
+"""Regenerate root index.html from lessons/, homework/, and reference/.
 
 Idempotent: a second run produces an identical file, so the pre-commit hook
 can always stage index.html without introducing churn.
@@ -10,7 +10,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SECTIONS = ("Lessons", "Reference")
+SECTIONS = (
+    ("Lessons", "Lekcje"),
+    ("Homework", "Prace domowe"),
+    ("Reference", "Ściągi"),
+)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.S)
 
 
@@ -26,11 +30,10 @@ def sort_key(path: Path):
     return (0, int(n.group(1))) if n else (1, path.stem.lower())
 
 
-def section_html(name: str) -> str:
+def section_html(name: str, label: str) -> str:
     files = sorted((ROOT / name.lower()).glob("*.html"), key=sort_key)
     if not files:
         return ""
-    label = "Lekcje" if name == "Lessons" else "Ściągi"
     items = "\n".join(
         f'      <li><a href="{name.lower()}/{p.name}">{html.escape(page_title(p))}</a></li>'
         for p in files
@@ -39,7 +42,7 @@ def section_html(name: str) -> str:
 
 
 def main() -> None:
-    rendered = [h for s in SECTIONS if (h := section_html(s))]
+    rendered = [h for name, label in SECTIONS if (h := section_html(name, label))]
     sections = "\n\n".join(rendered)
     page = f"""<!doctype html>
 <html lang="pl">
@@ -56,7 +59,7 @@ def main() -> None:
   <div class="index-shell">
     <p class="index-kicker">Nauka polskiego · Spis</p>
     <h1>Gramatyka polska</h1>
-    <p class="index-purpose">Kurs przypadków i powiązanych tematów: lekcje i ściągi.</p>
+    <p class="index-purpose">Skończony kurs gramatyki A1-B1: lekcje, prace domowe i trwałe ściągi.</p>
 
 {sections}
 

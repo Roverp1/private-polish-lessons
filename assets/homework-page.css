@@ -1,0 +1,6 @@
+/* Public homework-page entry point. */
+@layer pico, course;
+
+@import url("vendor/pico.conditional.min.css") layer(pico);
+@import url("theme.css") layer(course);
+@import url("homework.css") layer(course);

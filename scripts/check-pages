@@ -17,6 +17,7 @@ BODY_RE = re.compile(r'<body\b[^>]*\bclass=["\']([^"\']*)["\']', re.IGNORECASE)
 
 PAGE_RULES = (
     (ROOT / "lessons", "../assets/lesson.css", "lesson-page"),
+    (ROOT / "homework", "../assets/homework-page.css", "homework-page"),
     (ROOT / "reference", "../assets/reference-page.css", "reference-page"),
 )
 
@@ -32,6 +33,12 @@ ENTRY_POINTS = {
         '@import url("vendor/pico.conditional.min.css") layer(pico);',
         '@import url("theme.css") layer(course);',
         '@import url("reference.css") layer(course);',
+    ),
+    "assets/homework-page.css": (
+        "@layer pico, course;",
+        '@import url("vendor/pico.conditional.min.css") layer(pico);',
+        '@import url("theme.css") layer(course);',
+        '@import url("homework.css") layer(course);',
     ),
     "assets/index.css": (
         "@layer pico, course;",
