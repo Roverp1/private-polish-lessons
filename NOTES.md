@@ -59,13 +59,24 @@
 - Keep production below the learner's current grammar ceiling: word classification -> fixed phrase -> substitution in a sentence frame -> controlled sentence -> free sentence.
 - Before controlled or free production, provide a short natural reading and an exact reusable model.
 - When the target is not sentence construction, assess it with words, phrases, selection, or a fixed frame instead of demanding unsupported sentences.
+- Initial practice isolates one newly taught operation. Consolidation, delayed review, and transfer may deliberately combine multiple previously taught operations.
+- A combined exercise must state the expected output clearly, but it should not always announce which grammar rule applies. Choosing the relevant rule is part of later practice.
+- Label integrated work as `Ćwiczenie łączone`, `Powtórka mieszana`, or `Zastosowanie`. Begin with visible decision steps and remove them gradually.
+- If a learner struggles in mixed work, separate the component steps before deciding which rule needs review. One mixed failure is not evidence that every component failed.
+
+## Practice progression
+1. Acquisition: explain and model one new rule, then give distilled immediate practice.
+2. Consolidation: combine the internal steps of the new rule into one explicit analysis or procedure.
+3. Interleaving: mix the target with previously taught grammar so the learner must choose which rule applies.
+4. Transfer: use the grammar in reading, dialogue, messages, and increasingly independent production.
 
 ## Homework structure
 - One matching page under `homework/` for every lesson
 - Normally 10-15 minutes
 - Progress from recognition to completion, controlled construction, one-error repair, and limited production
 - Include one or two delayed-review items when earlier material is available
-- Give one operation per block and specify the expected answer format
+- Keep new-rule blocks distilled; later blocks may combine taught operations and require rule selection
+- Specify the expected answer format even when the grammatical decision is intentionally not named
 - Provide hidden answers for selected representative items only
 - Include a short reading model before any sentence-production block
 - End with a compact submission template
