@@ -6,32 +6,32 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 
 ## Current position
 
-- Current lesson: 0001
-- Completed lessons: none
-- Required submission: Lesson 0001 exit check and Homework 0001
+- Current lesson: 0002
+- Completed lessons: 0001
+- Required submission: Lesson 0002 exit check and Homework 0002
 - Previous voice-course topics: exposure only
 
 ## A1: Foundations and everyday sentences
 
 ### Module 1: Nouns, agreement, and simple sentences
 
-1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns
-2. **Important gender exceptions**: use meaning and dictionary information when endings mislead
-3. **Nominative and the subject**: identify who or what the sentence concerns
-4. **Adjective agreement in the nominative**: match gender and number
-5. **Singular and plural**: distinguish noun form from lexical gender
-6. **Non-masculine-personal plural agreement**: connect nouns with adjectives
-7. **Personal pronouns as subjects**: choose the basic pronoun forms
-8. **Simple statement order**: build neutral subject-verb-complement sentences
+1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns (complete)
+2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame
+3. **Być in the present tense**: describe identity, quality, and location
+4. **Personal pronouns as subjects**: choose the basic pronoun forms
+5. **Simple statement order**: build neutral subject-verb-complement sentences
+6. **Adjective agreement in the nominative**: match gender in singular noun phrases
+7. **Important gender exceptions**: use meaning and dictionary information when endings mislead
+8. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
 
 ### Module 2: Present verbs, questions, and negation
 
-9. **The infinitive and finite verb**: distinguish dictionary and personal forms
-10. **Person and number of the verb**: connect the subject with the ending
-11. **Present tense pattern -m/-sz**: conjugate a high-frequency group
-12. **Present tense pattern -ę/-isz/-ysz**: conjugate a high-frequency group
-13. **Present tense pattern -ę/-esz**: conjugate a high-frequency group
-14. **Być in the present tense**: describe identity, quality, and location
+9. **Non-masculine-personal plural agreement**: connect nouns with adjectives
+10. **The infinitive and finite verb**: distinguish dictionary and personal forms
+11. **Person and number of the verb**: connect the subject with the ending
+12. **Present tense pattern -m/-sz**: conjugate a high-frequency group
+13. **Present tense pattern -ę/-isz/-ysz**: conjugate a high-frequency group
+14. **Present tense pattern -ę/-esz**: conjugate a high-frequency group
 15. **Mieć in the present tense**: express possession and experience
 16. **Negation with nie**: negate present-tense verbs
 

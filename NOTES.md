@@ -7,6 +7,7 @@
 - Before authoring a page, inspect the latest active lesson/homework and shared assets. Reuse them; do not invent a second design system.
 - Only the next lesson is authored as active course material. Later curriculum titles may be refined without removing required targets.
 - Add a learning record only after evidence of understanding. Coverage is not learning.
+- After the learner submits a lesson and its homework, both HTML files become read-only course history. Address corrections and missing scaffolding in later material instead of rewriting completed pages.
 
 ## Learner profile
 - Programmer; systematic thinker; wants the full Polish grammar system, theory from zero
@@ -37,6 +38,7 @@
 - Review the submission, explain target errors, and request a new repair example when needed.
 - Generate the next lesson only after reviewing the current submission.
 - Text work can demonstrate grammatical retrieval and production. Do not claim pronunciation evidence without audio.
+- A defect in an exercise is teaching evidence, not negative learner evidence. Exclude any answer that required an untaught operation from assessment.
 
 ## Mandatory lesson structure
 1. Start with why the topic matters and the communication problem it solves.
@@ -50,6 +52,14 @@
 9. End with an unrevealed exit check and a link to matching homework.
 10. Cite the source used and remind the learner to ask about unclear material.
 
+## Exercise prerequisites
+- Every assessed operation must have been explicitly taught and modelled. Recognizing a form, selecting a form, and generating a form are different skills.
+- Do not ask the learner to reverse an inflected or plural form into its dictionary form before teaching the relevant declension and stem changes.
+- Reading may contain later grammar for comprehension, but instructions must identify what is and is not being assessed.
+- Keep production below the learner's current grammar ceiling: word classification -> fixed phrase -> substitution in a sentence frame -> controlled sentence -> free sentence.
+- Before controlled or free production, provide a short natural reading and an exact reusable model.
+- When the target is not sentence construction, assess it with words, phrases, selection, or a fixed frame instead of demanding unsupported sentences.
+
 ## Homework structure
 - One matching page under `homework/` for every lesson
 - Normally 10-15 minutes
@@ -57,6 +67,7 @@
 - Include one or two delayed-review items when earlier material is available
 - Give one operation per block and specify the expected answer format
 - Provide hidden answers for selected representative items only
+- Include a short reading model before any sentence-production block
 - End with a compact submission template
 
 ## Vocabulary and Anki
@@ -69,8 +80,8 @@
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0001-noun-gender-singular.html`
-- Homework exemplar: `homework/0001-noun-gender-singular.html`
+- Lesson exemplar: `lessons/0002-nominative-and-to-jest.html`
+- Homework exemplar: `homework/0002-nominative-and-to-jest.html`
 - Shared lesson styles: `assets/style.css`
 - Shared homework styles: `assets/homework.css`
 - Shared reference styles: `assets/reference.css`
