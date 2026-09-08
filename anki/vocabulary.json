@@ -138,5 +138,40 @@
     "word": "pilny",
     "definition": "taki, którym trzeba zająć się szybko",
     "example": "To **pilna** sprawa: odpowiedź jest potrzebna jeszcze dzisiaj."
+  },
+  {
+    "id": "v0021",
+    "lesson": "0005",
+    "word": "kierowca",
+    "definition": "rodzaj męski (m1); osoba, która prowadzi samochód lub inny pojazd",
+    "example": "**Kierowca** zatrzymał autobus na przystanku."
+  },
+  {
+    "id": "v0022",
+    "lesson": "0005",
+    "word": "sprzedawca",
+    "definition": "rodzaj męski (m1); osoba, która sprzedaje towary",
+    "example": "**Sprzedawca** pomógł mi wybrać telefon."
+  },
+  {
+    "id": "v0023",
+    "lesson": "0005",
+    "word": "wiadomość",
+    "definition": "rodzaj żeński; informacja przekazana komuś, na przykład w rozmowie lub w tekście",
+    "example": "Wyślij mi **wiadomość**, gdy będziesz na miejscu."
+  },
+  {
+    "id": "v0024",
+    "lesson": "0005",
+    "word": "odpowiedź",
+    "definition": "rodzaj żeński; słowa powiedziane lub napisane w reakcji na pytanie",
+    "example": "Czekam na **odpowiedź** na moje pytanie."
+  },
+  {
+    "id": "v0025",
+    "lesson": "0005",
+    "word": "podróż",
+    "definition": "rodzaj żeński; przemieszczanie się do odległego miejsca",
+    "example": "**Podróż** pociągiem do Krakowa trwa trzy godziny."
   }
 ]

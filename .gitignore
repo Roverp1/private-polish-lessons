@@ -1,3 +1,10 @@
 .playwright-mcp/
 lesson-*.png
 case-cheat-sheet-screen.png
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+.direnv/
+out/
+__pycache__/
+*.py[cod]
