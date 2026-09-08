@@ -598,6 +598,10 @@ em.gloss {
   font-size: 0.91rem;
 }
 
+.case-table--compact {
+  min-width: 36rem;
+}
+
 .case-table th,
 .case-table td {
   padding: 0.85rem 0.9rem;
