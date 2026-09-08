@@ -103,5 +103,40 @@
     "word": "spóźniony / spóźniona",
     "definition": "przychodzący później niż o umówionej godzinie",
     "example": "Piotr jest **spóźniony** na spotkanie."
+  },
+  {
+    "id": "v0016",
+    "lesson": "0004",
+    "word": "gotowy",
+    "definition": "przygotowany tak, że można już z niego korzystać",
+    "example": "Obiad jest **gotowy**. Możemy już jeść."
+  },
+  {
+    "id": "v0017",
+    "lesson": "0004",
+    "word": "sprawny",
+    "definition": "działający prawidłowo",
+    "example": "Telefon jest **sprawny**: można dzwonić i wysyłać wiadomości."
+  },
+  {
+    "id": "v0018",
+    "lesson": "0004",
+    "word": "dostępny",
+    "definition": "taki, który można teraz dostać lub kupić",
+    "example": "Ten model jest **dostępny** w sklepie. Można go kupić od razu."
+  },
+  {
+    "id": "v0019",
+    "lesson": "0004",
+    "word": "zajęty",
+    "definition": "taki, z którego ktoś już korzysta lub który jest zarezerwowany",
+    "example": "Ten stolik jest **zajęty**. Usiądźmy przy oknie."
+  },
+  {
+    "id": "v0020",
+    "lesson": "0004",
+    "word": "pilny",
+    "definition": "taki, którym trzeba zająć się szybko",
+    "example": "To **pilna** sprawa: odpowiedź jest potrzebna jeszcze dzisiaj."
   }
 ]

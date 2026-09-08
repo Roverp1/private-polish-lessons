@@ -240,8 +240,15 @@ body.reference-page {
 
 .compact-note li {
   margin-bottom: 0.6mm;
+  padding: 0;
   font-size: 9px;
   line-height: 1.3;
+}
+
+.reference-page a:focus-visible,
+.reference-page .cases-wrap:focus-visible {
+  outline: 3px solid rgb(154 45 52 / 30%);
+  outline-offset: 3px;
 }
 
 .sheet-footer {
@@ -306,6 +313,7 @@ body.reference-page {
     width: auto;
     min-height: 0;
     margin: 0;
+    padding: 4mm 5mm;
     border: 0;
     box-shadow: none;
   }
