@@ -46,3 +46,9 @@ Mianownik liczby pojedynczej rodzaju męskiego, na przykład `nowy`, `krótki`, 
 
 **Zgoda przymiotnika**:
 Dopasowanie formy przymiotnika do opisywanej osoby lub rzeczy: `nowy telefon`, `nowa umowa`, `nowe narzędzie`; także `Umowa jest nowa`.
+
+**Rodzaj rzeczownika a płeć**:
+Rodzaj jest właściwością rzeczownika, nie prostą etykietą płci człowieka. Rzeczownik `osoba` jest żeński także wtedy, gdy odnosi się do mężczyzny: o Pawle można powiedzieć `nowy kolega` albo `nowa osoba`.
+
+**Oznaczenia rodzaju w WSJP PAN**:
+W wyciągach z lekcji 0005 pole `rodzaj gramatyczny: m1` wskazuje podtyp rodzaju męskiego, a `ż` rodzaj żeński. Cyfra nie jest tu osobnym celem nauki. Wielkie `M.` w tabeli przypadków oznacza mianownik, nie rodzaj męski.

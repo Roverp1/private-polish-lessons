@@ -6,11 +6,11 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 
 ## Current position
 
-- Current lesson: 0004, combining targets 4-5
-- Reviewed lessons: 0001-0003
-- Completed targets: 1-3; minor target-3 follow-ups remain scheduled below
-- Required submission: Lesson 0004 follow-up R, exit check K, and unrevealed Homework 0004 answers
-- Carry-forward check: distinguish `ja jestem`, `ono jest`, and `oni są`; keep `oni/one` selection in delayed review. Feedback has been given, but the new follow-up has not yet been submitted.
+- Current lesson: 0005, covering target 6
+- Reviewed lessons: 0001-0004
+- Completed targets: 1-5
+- Required submission: Lesson 0005 exit check K and unrevealed Homework 0005 answers
+- Target-3 follow-up resolved in lesson 0004: `ja jestem`, `ono jest`, and `oni są` retrieved correctly; supplied group pronouns and reasons were also correct. Continue ordinary spaced review, not mandatory repair drills.
 - Previous voice-course topics: exposure only
 
 ## Lesson-to-target map
@@ -19,10 +19,11 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 | --- | --- | --- |
 | 0001 | 1: Regular singular noun gender | Reviewed and completed |
 | 0002 | 2: Nominative identification with `to jest` | Reviewed and completed |
-| 0003 | 3: Personal pronouns and present `być` | Reviewed; sufficient evidence to advance, small checks carried into 0004 |
-| 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Authored; awaiting submission, not evidence of learning |
+| 0003 | 3: Personal pronouns and present `być` | Reviewed and completed; follow-up passed in 0004 |
+| 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Reviewed and completed; see learning record 0007 |
+| 0005 | 6: Noun gender when endings mislead | Authored; awaiting submission, not evidence of learning |
 
-The next uncovered target is 6. Decide later lesson groupings after reviewing the current submission; do not pre-author later lessons or renumber the targets to match page filenames.
+The next unauthored target is 7. Decide later lesson groupings after reviewing the current submission; do not pre-author later lessons or renumber the targets to match page filenames.
 
 ## A1: Foundations and everyday sentences
 
@@ -30,10 +31,10 @@ The next uncovered target is 6. Decide later lesson groupings after reviewing th
 
 1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns (complete)
 2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame (complete)
-3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames (reviewed; minor delayed checks in lesson 0004)
-4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately (lesson 0004; pending evidence)
-5. **Adjective agreement in the nominative**: match gender in singular noun phrases and adjective descriptions with `być` (lesson 0004; pending evidence)
-6. **Important gender exceptions**: use meaning and dictionary information when endings mislead
+3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames (complete; follow-up passed)
+4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately (complete, lesson 0004)
+5. **Adjective agreement in the nominative**: match gender in singular noun phrases and adjective descriptions with `być` (complete, lesson 0004)
+6. **Important gender exceptions**: use meaning and dictionary information when endings mislead (lesson 0005; pending evidence)
 7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
 8. **Non-masculine-personal plural agreement**: connect nouns with adjectives
 9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text

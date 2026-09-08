@@ -32,7 +32,7 @@
 - Do not push the human-tutor path unless the user changes the budget or asks
 
 ## Delivery workflow
-- The learner reads each lesson, writes the specified notebook entry, and completes each exercise before reading the next rule.
+- The learner first sees the bounded overview and consolidated reference note, then works through explanations and their immediate exercises. Notebook wording is a suggested base, not a transcription requirement.
 - Closed exercises reveal answers for roughly 30-50% of their items. Revealed answers explain the rule; they are practice, not assessment evidence.
 - Open exercises receive an analogous model, never the learner's exact answer.
 - The learner submits the unrevealed exit check and homework. Other lesson exercises are submitted when uncertain or requested.
@@ -47,8 +47,8 @@
 1. Start with why the topic matters and the communication problem it solves.
 2. State observable outcomes and a clear "not today" scope boundary.
 3. Teach one useful, coherent grammar unit with a moderate amount of new material. It may combine several closely related rules or adjacent curriculum targets; teach them in small steps rather than stretching a tiny rule into a whole lesson.
-4. For each rule: explain its purpose, provide an exact notebook block, show a worked example, and immediately provide practice.
-5. Do not introduce another rule before the practice attached to the current rule.
+4. Show the complete map/table for the current unit and one consolidated, explicitly scoped notebook entry before explaining its individual parts. Offer the note in concise Markdown using headings, bullets, tables, and labelled examples; the learner may adapt it.
+5. Then explain and model each part, with immediate practice before the next detailed explanation. An overview is allowed before practice, but no assessed production may depend on an unexplained row. Avoid scattered mandatory "dopisz" amendments to one pattern family.
 6. Provide a decision procedure or mental model when the topic supports one.
 7. Keep new grammar examples on familiar vocabulary.
 8. Introduce five deliberate vocabulary entries in a separate section after the main grammar practice.
@@ -75,6 +75,12 @@
 - Supplied fixed phrases may contain later grammar, but label them as ready to use and never require the learner to derive or change those forms.
 - Review grammar, reference clarity, naturalness, and factual consistency separately. A repeated pronoun is not automatically a grammatical error; accept contextually valid alternatives.
 - Check that readings are internally consistent and sound like plausible Polish communication, not a collection of unrelated examples.
+- Keep all essential scenario facts visually inside the reading block. The learner missed Marek's companion in a separate introductory sentence in HL-004; this was not a failure to understand `jesteśmy`.
+- HL-004 difficulty was approximately right, with slightly too much new material at once. Keep comparable exercise challenge but slightly fewer distinct subtopics; do not increase load automatically after correct answers.
+- For reference notes, name the input and scope of each rule: noun gender versus adjective ending, dictionary form versus inflected form, and current case/number. Define abbreviated labels beside the table. Separate rules from numbered exercises and personal questions.
+- A table-first overview covers the current bounded system, not all future cases and tenses. Do not fragment one family of endings into surprise exceptions that force the learner to reorganize already-written notes.
+- Distinguish a general agreement rule from its application in a particular sentence frame. An adjective describes its noun; in a subject + być + adjective description it describes the subject. Do not silently generalize that every adjective modifies the subject.
+- Correct spontaneous language beyond the assessed scope can be accepted without becoming a new prerequisite. HL-004's coordinated omission of repeated `jest` was natural; general verb ellipsis is not established as a production skill.
 
 ## Sentence-production briefs
 - Avoid bare prompts such as "write a sentence with X". Normally specify a situation, recipient, communicative goal, facts to convey, and a short output length.
@@ -115,8 +121,8 @@
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0004-byc-and-adjective-agreement.html`
-- Homework exemplar: `homework/0004-byc-and-adjective-agreement.html`
+- Lesson exemplar: `lessons/0005-noun-gender-exceptions.html` (overview and consolidated Markdown note before staged practice)
+- Homework exemplar: `homework/0005-noun-gender-exceptions.html` (self-contained reading context and situated writing)
 - Pages link only their public stylesheet: `assets/lesson.css`, `assets/homework-page.css`, or `assets/reference-page.css`.
 - Public entry points import Pico into the low-priority `pico` cascade layer and `theme.css` plus implementation styles into `course`.
 - Shared implementations: `assets/style.css`, `assets/homework.css`, and `assets/reference.css`; never link these or the vendor stylesheet directly from page HTML.

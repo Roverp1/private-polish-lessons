@@ -18,6 +18,11 @@
 - [WSJP PAN: nowy, samochód](https://wsjp.pl/haslo/podglad/17360/nowy/5057008) and [tani, full entry](https://wsjp.pl/haslo/do_druku/20693)
   Verified singular paradigms and usage. Use for: checking `nowy/nowa/nowe` and `tani/tania/tanie`; dictionary tables include later grammar that should not become unscaffolded exercises.
 
+- Lesson 0005: WSJP PAN [kolega](https://wsjp.pl/haslo/podglad/7874/kolega/5071907), [noc](https://wsjp.pl/haslo/podglad/29877/noc/4788212), and [osoba](https://wsjp.pl/haslo/podglad/4246/osoba/4589217).
+  Verified gender fields (`m1`, `ż`, `ż`) and meanings. Use for: ending-based heuristics versus lexical gender, and adjective agreement with a noun referring to a person. Do not infer a general rule that referent gender overrides noun gender.
+- [WSJP PAN: elipsa, w zdaniu](https://wsjp.pl/haslo/podglad/69376/elipsa/5180757)
+  Definition of omission recoverable from context. Used to explain the learner's spontaneous omission of repeated `jest`; this is clarification, not assessment of a new production target.
+
 ## Teaching design
 
 - [NSW CESE: Cognitive load theory in practice](https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/practical-guides-for-educators/cognitive-load-theory-in-practice)
