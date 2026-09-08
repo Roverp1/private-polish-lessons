@@ -6,6 +6,7 @@
 - Read `anki/vocabulary.json` before selecting new vocabulary.
 - Before authoring a page, inspect the latest active lesson/homework and shared assets. Reuse them; do not invent a second design system.
 - Only the next lesson is authored as active course material. Later curriculum titles may be refined without removing required targets.
+- Curriculum numbers identify 72 required grammar targets, not a mandatory count of HTML lessons. Related targets may share a lesson; maintain an explicit target-to-lesson map.
 - Add a learning record only after evidence of understanding. Coverage is not learning.
 - After the learner submits a lesson and its homework, both HTML files become read-only course history. Address corrections and missing scaffolding in later material instead of rewriting completed pages.
 
@@ -40,11 +41,12 @@
 - Text work can demonstrate grammatical retrieval and production. Do not claim pronunciation evidence without audio.
 - A defect in an exercise is teaching evidence, not negative learner evidence. Exclude any answer that required an untaught operation from assessment.
 - Do not require completion of repetitive items after representative submitted answers already demonstrate the same operation. Skipping redundant work is not negative evidence.
+- Small inconsistent answers can enter a named follow-up in the next lesson when the rest of the submission supports progression. Record the unresolved check; do not claim it was repaired merely because feedback was given.
 
 ## Mandatory lesson structure
 1. Start with why the topic matters and the communication problem it solves.
 2. State observable outcomes and a clear "not today" scope boundary.
-3. Teach one concept, or at most two inseparable rules, in short sections.
+3. Teach one useful, coherent grammar unit with a moderate amount of new material. It may combine several closely related rules or adjacent curriculum targets; teach them in small steps rather than stretching a tiny rule into a whole lesson.
 4. For each rule: explain its purpose, provide an exact notebook block, show a worked example, and immediately provide practice.
 5. Do not introduce another rule before the practice attached to the current rule.
 6. Provide a decision procedure or mental model when the topic supports one.
@@ -66,6 +68,22 @@
 - If a learner struggles in mixed work, separate the component steps before deciding which rule needs review. One mixed failure is not evidence that every component failed.
 - When two or three independent representative answers are clean and the target is clearly easy, reduce further same-operation practice and advance to consolidation or interleaving.
 - Homework should demand grammatical decisions, error diagnosis, or contextual use. Repeated copying is not useful difficulty.
+- The learner found HL-003 comfortable and non-repetitive, possibly still slightly too easy. This is not evidence of struggle or a reason to restart basic drills.
+- Put most interleaving of earlier targets in homework. Lessons focus on new grammar with immediate focused practice and a short combined bridge before independent work.
+- Increase challenge through relevant grammatical decisions, not vague instructions, obscure vocabulary, or unmodelled production. Do not compensate for a thin lesson solely by adding mixed review.
+- Audit every assessed operation against an explicit explanation and worked production model in the current or an earlier lesson. Recognition of a question does not establish the ability to construct one; recognizing an ending does not establish the ability to generate it.
+- Supplied fixed phrases may contain later grammar, but label them as ready to use and never require the learner to derive or change those forms.
+- Review grammar, reference clarity, naturalness, and factual consistency separately. A repeated pronoun is not automatically a grammatical error; accept contextually valid alternatives.
+- Check that readings are internally consistent and sound like plausible Polish communication, not a collection of unrelated examples.
+
+## Sentence-production briefs
+- Avoid bare prompts such as "write a sentence with X". Normally specify a situation, recipient, communicative goal, facts to convey, and a short output length.
+- Give a short natural reading and an analogous worked response before independent production. Change the facts in the learner's task rather than supplying its exact answer.
+- Supply vocabulary or complete phrases when finding them is not the target. Grammar examples should use familiar vocabulary; gloss incidental words when needed.
+- Keep wording choices open while making completion criteria explicit. Do not require one hidden preferred answer or arbitrary quotas of pronouns and new words.
+- Offer a small choice of concrete situations when useful. Personal details may be invented; broad free-content writing is not the default grammar exercise.
+- Distinguish productive effort (choosing how to express a known message) from avoidable friction (guessing what the task asks). Frustration alone is not evidence of learning.
+- Gradually reduce language scaffolding as production improves; a clear communicative purpose can remain at every level.
 
 ## Practice progression
 1. Acquisition: explain and model one new rule, then give distilled immediate practice.
@@ -75,13 +93,14 @@
 
 ## Homework structure
 - One matching page under `homework/` for every lesson
-- Normally 10-15 minutes
-- Progress from recognition to completion, controlled construction, one-error repair, and limited production
+- Normally 15-20 minutes for a combined-target lesson; shorter when fewer representative items suffice
+- Progress from contextual comprehension to mixed completion, diagnosis, and short guided production
 - Include one or two delayed-review items when earlier material is available
 - Keep new-rule blocks distilled; later blocks may combine taught operations and require rule selection
 - Specify the expected answer format even when the grammatical decision is intentionally not named
 - Provide hidden answers for selected representative items only
 - Include a short reading model before any sentence-production block
+- Diagnosis may include correct sentences, grammatical errors, and unclear references. State the categories and model the expected response; do not imply every sentence contains one error unless that is actually the task.
 - End with a compact submission template
 
 ## Vocabulary and Anki
@@ -96,12 +115,11 @@
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0003-personal-pronouns-and-byc.html`
-- Homework exemplar: `homework/0003-personal-pronouns-and-byc.html`
-- Shared lesson styles: `assets/style.css`
-- Shared homework styles: `assets/homework.css`
-- Shared reference styles: `assets/reference.css`
-- Pico baseline: `assets/vendor/pico.conditional.min.css`, loaded before custom CSS
+- Lesson exemplar: `lessons/0004-byc-and-adjective-agreement.html`
+- Homework exemplar: `homework/0004-byc-and-adjective-agreement.html`
+- Pages link only their public stylesheet: `assets/lesson.css`, `assets/homework-page.css`, or `assets/reference-page.css`.
+- Public entry points import Pico into the low-priority `pico` cascade layer and `theme.css` plus implementation styles into `course`.
+- Shared implementations: `assets/style.css`, `assets/homework.css`, and `assets/reference.css`; never link these or the vendor stylesheet directly from page HTML.
 - Future pages link existing shared assets. Extend shared assets only for genuinely reusable components.
 - Keep semantic HTML: `main`, `section`, headings, tables, `details`, buttons, and accessible labels.
 - Use `lang="pl"`; all user-visible course text is Polish except original source titles.
@@ -116,13 +134,11 @@
 - Reference sheets are dense but readable, responsive on screen, and designed for A4 printing/copying by hand
 - Respect `prefers-reduced-motion`; provide dedicated print rules
 
-## Pico CSS traps already encountered
-- Pico styles semantic `article`, `code`, headings, and `summary`. Custom components using those elements need body-scoped selectors such as `body.pico.lesson-page article.component`.
-- Reset Pico article margin, padding, and shadow explicitly for custom cards.
-- Override Pico accordion variables (`--pico-accordion-close-summary-color`, `--pico-accordion-open-summary-color`) on custom summaries.
-- Scope small heading styles under `body.pico.lesson-page h3`; otherwise Pico's 1.5rem grey heading wins.
-- Scope prompt code blocks so Pico's dark inline-code theme does not leak into them.
-- During browser verification, use a cache-busting query or reload after CSS edits before trusting computed styles.
+## CSS checks
+- Cascade layers handle vendor specificity; do not reintroduce specificity workarounds instead of using the public entry points.
+- Still inspect semantic `article`, `code`, headings, and `summary`: inherited variables, default spacing, and print behavior can affect new combinations of components.
+- Keep instructional content visible in print. Do not place assessed prompts in components that print rules hide.
+- After CSS edits, disable browser caching before reloading; changing only the HTML query may leave imported stylesheets stale. Confirm the changed computed property before judging the result.
 
 ## Verification before finishing a lesson
 - Verify at 375px, 768px, 1024px, and 1440px.
@@ -131,7 +147,11 @@
 - Test hidden answer disclosures and keyboard focus.
 - Check browser console errors.
 - Check print media for the lesson and A4 reference sheet.
+- Explicitly emulate print media before exporting a verification PDF; an earlier screen-media override can otherwise produce a misleading PDF. Count actual pages for the one-page reference sheet.
 - Search visible lesson, homework, and reference text for accidental English, excluding bibliographic titles.
+- Verify submission templates against every exercise number and selected answer disclosure. Exit checks and assigned follow-up checks stay unrevealed.
+- Verify local links and anchors, vocabulary IDs/provenance, natural collocations, and the prerequisite audit before calling a lesson ready.
+- Run `python3 scripts/check-pages` and regenerate the index with `scripts/build-index`.
 
 ## Repository workflow
 - Read `README.md` before adding pages.

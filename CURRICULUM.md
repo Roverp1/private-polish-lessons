@@ -2,14 +2,27 @@
 
 This is the authoritative course coverage map. It follows the level progression in _Programy nauczania języka polskiego jako obcego. Poziomy A1-C2_, checks the B1 destination against the Polish state certification requirements, and uses trusted reference grammars to verify forms.
 
-The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson teaches, practices, and verifies its target. Review changes the amount of practice, not the required coverage.
+The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target numbers below are stable coverage identifiers, not HTML lesson numbers. A lesson may combine adjacent, closely related targets when separate lessons would be too thin; each new rule still receives an explanation, model, and immediate practice. Review changes lesson grouping and practice volume, never the required coverage.
 
 ## Current position
 
-- Current lesson: 0003
-- Completed lessons: 0001-0002
-- Required submission: Lesson 0003 exit check and Homework 0003
+- Current lesson: 0004, combining targets 4-5
+- Reviewed lessons: 0001-0003
+- Completed targets: 1-3; minor target-3 follow-ups remain scheduled below
+- Required submission: Lesson 0004 follow-up R, exit check K, and unrevealed Homework 0004 answers
+- Carry-forward check: distinguish `ja jestem`, `ono jest`, and `oni są`; keep `oni/one` selection in delayed review. Feedback has been given, but the new follow-up has not yet been submitted.
 - Previous voice-course topics: exposure only
+
+## Lesson-to-target map
+
+| HTML lesson | Grammar targets | Status |
+| --- | --- | --- |
+| 0001 | 1: Regular singular noun gender | Reviewed and completed |
+| 0002 | 2: Nominative identification with `to jest` | Reviewed and completed |
+| 0003 | 3: Personal pronouns and present `być` | Reviewed; sufficient evidence to advance, small checks carried into 0004 |
+| 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Authored; awaiting submission, not evidence of learning |
+
+The next uncovered target is 6. Decide later lesson groupings after reviewing the current submission; do not pre-author later lessons or renumber the targets to match page filenames.
 
 ## A1: Foundations and everyday sentences
 
@@ -17,9 +30,9 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 
 1. **Noun gender in the singular**: identify the basic masculine, feminine, and neuter patterns (complete)
 2. **Nominative and `to jest`**: identify a singular person or thing with a fixed sentence frame (complete)
-3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames
-4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately
-5. **Adjective agreement in the nominative**: match gender in singular noun phrases
+3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames (reviewed; minor delayed checks in lesson 0004)
+4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately (lesson 0004; pending evidence)
+5. **Adjective agreement in the nominative**: match gender in singular noun phrases and adjective descriptions with `być` (lesson 0004; pending evidence)
 6. **Important gender exceptions**: use meaning and dictionary information when endings mislead
 7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
 8. **Non-masculine-personal plural agreement**: connect nouns with adjectives
@@ -118,4 +131,4 @@ The course has 72 core lessons: 24 at A1, 24 at A2, and 24 at B1. Every lesson t
 
 ## Completion
 
-A lesson is complete after its exit check, homework, feedback, and required repairs. A weak item enters later review instead of keeping the lesson open forever. The course is complete when all 72 targets and the final cumulative review have been completed; perfection and fluency are not false prerequisites for graduation.
+A lesson is reviewed after its submitted checks and homework receive feedback. A target is complete when representative answers support its use; substantial missing prerequisites require repair before dependent production. Small inconsistencies may enter explicitly tracked later review instead of keeping an otherwise successful lesson open forever. Feedback or page publication alone never counts as a successful repair. The course is complete when all 72 targets and the final cumulative review have been completed, regardless of the number of HTML lessons; perfection and fluency are not false prerequisites for graduation.

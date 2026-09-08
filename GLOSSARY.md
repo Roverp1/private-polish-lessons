@@ -1,6 +1,6 @@
 # Polish Grammar Glossary
 
-Canonical terms that the learner has demonstrated understanding of in this course.
+Canonical terms introduced in this course. Definitions are references, not mastery claims; evidence of understanding belongs in `learning-records/`.
 
 ## Nouns
 
@@ -29,3 +29,20 @@ Przypadek odpowiadający na pytania `kto?` i `co?` Dla rzeczownika mającego lic
 
 **Wzorzec `to jest`**:
 Stały wzorzec służący do identyfikowania jednej osoby albo rzeczy: `Kto to jest? To jest Anna.` lub `Co to jest? To jest telefon.` Identyfikowany rzeczownik ma formę mianownika.
+
+## Pronouns and simple descriptions
+
+**Zaimek osobowy**:
+Wyraz taki jak `ja`, `ty`, `on`, `ona`, `ono`, `my`, `wy`, `oni` lub `one`. Wskazuje uczestnika rozmowy albo zastępuje nazwę znanej z kontekstu osoby, rzeczy lub grupy.
+
+**Podmiot**:
+Część zdania, z którą czasownik zgadza się w osobie i liczbie. W naszych zdaniach wskazuje osobę, rzecz albo grupę, o której coś mówimy; może być zapisany wprost lub wynikać z formy czasownika i kontekstu.
+
+**Przymiotnik**:
+Wyraz nazywający cechę, na przykład `nowy` lub `tani`. Jego forma zależy od rodzaju, liczby i przypadka opisywanego rzeczownika. Lekcja 0004 ćwiczy tylko mianownik liczby pojedynczej.
+
+**Forma słownikowa przymiotnika**:
+Mianownik liczby pojedynczej rodzaju męskiego, na przykład `nowy`, `krótki`, `tani`.
+
+**Zgoda przymiotnika**:
+Dopasowanie formy przymiotnika do opisywanej osoby lub rzeczy: `nowy telefon`, `nowa umowa`, `nowe narzędzie`; także `Umowa jest nowa`.

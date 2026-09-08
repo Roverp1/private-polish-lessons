@@ -14,6 +14,16 @@
   Swan's full site, hosts the Nutshell plus his "First Year Polish" textbook chapters and supporting materials. Use for: when a lesson needs deeper context than the Nutshell's compact form.
 - [Wielki słownik języka polskiego PAN](https://wsjp.pl/)
   Authoritative dictionary with grammatical information and usage examples. Use for: noun gender, inflection, verb government, and natural examples.
+- Lesson 0004 source locations: Swan, PDF p. 24 (subject pronouns), p. 29 (adjective agreement), p. 69 (adjective versus noun predicates). Use only the relevant pages rather than loading the full PDF.
+- [WSJP PAN: nowy, samochód](https://wsjp.pl/haslo/podglad/17360/nowy/5057008) and [tani, full entry](https://wsjp.pl/haslo/do_druku/20693)
+  Verified singular paradigms and usage. Use for: checking `nowy/nowa/nowe` and `tani/tania/tanie`; dictionary tables include later grammar that should not become unscaffolded exercises.
+
+## Teaching design
+
+- [NSW CESE: Cognitive load theory in practice](https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/practical-guides-for-educators/cognitive-load-theory-in-practice)
+  Evidence-informed guidance on worked examples, removing inessential demands, and gradually increasing independent problem-solving. Use for: explicit production models and concrete writing briefs matched to current skill.
+- [UCLA Bjork Learning and Forgetting Lab: Research](https://bjorklab.psych.ucla.edu/research/)
+  Research overview of retrieval, spacing, interleaving, and the difference between immediate performance and retention. Use for: mixed homework and delayed checks, not a claim that every frustrating task is beneficial or that one lesson/homework ratio is universally optimal.
 
 ## Wisdom (Communities)
 
