@@ -6,10 +6,11 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 
 ## Current position
 
-- Current lesson: 0005, covering target 6
-- Reviewed lessons: 0001-0004
-- Completed targets: 1-5
-- Required submission: Lesson 0005 exit check K and unrevealed Homework 0005 answers
+- Current lesson: 0006, covering targets 7-8
+- Reviewed lessons: 0001-0005
+- Completed targets: 1-5; target 6 has representative guided evidence, with independent dictionary retrieval tracked below
+- Required submission: Lesson 0006 application Z, exit check K, and Homework 0006
+- Target-6 follow-up: agreement with supplied exception nouns is established. Homework 0006.3 requires a real WSJP lookup for an unfamiliar exception; this check does not block progress to plural grammar.
 - Target-3 follow-up resolved in lesson 0004: `ja jestem`, `ono jest`, and `oni są` retrieved correctly; supplied group pronouns and reasons were also correct. Continue ordinary spaced review, not mandatory repair drills.
 - Previous voice-course topics: exposure only
 
@@ -21,9 +22,10 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 | 0002 | 2: Nominative identification with `to jest` | Reviewed and completed |
 | 0003 | 3: Personal pronouns and present `być` | Reviewed and completed; follow-up passed in 0004 |
 | 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Reviewed and completed; see learning record 0007 |
-| 0005 | 6: Noun gender when endings mislead | Authored; awaiting submission, not evidence of learning |
+| 0005 | 6: Noun gender when endings mislead | Reviewed; supplied exception agreement established, independent lookup tracked in Homework 0006.3 |
+| 0006 | 7-8: Singular/plural identification; non-masculine-personal plural agreement | Active; awaiting submission |
 
-The next unauthored target is 7. Decide later lesson groupings after reviewing the current submission; do not pre-author later lessons or renumber the targets to match page filenames.
+The next unauthored target is 9. Decide later lesson groupings after reviewing the current submission; do not pre-author later lessons or renumber the targets to match page filenames.
 
 ## A1: Foundations and everyday sentences
 
@@ -34,9 +36,9 @@ The next unauthored target is 7. Decide later lesson groupings after reviewing t
 3. **Personal pronouns and być in the present tense**: connect each pronoun with the correct verb form and use it in supplied fixed frames (complete; follow-up passed)
 4. **Natural statements with być**: build independent statements and omit or retain subject pronouns appropriately (complete, lesson 0004)
 5. **Adjective agreement in the nominative**: match gender in singular noun phrases and adjective descriptions with `być` (complete, lesson 0004)
-6. **Important gender exceptions**: use meaning and dictionary information when endings mislead (lesson 0005; pending evidence)
-7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things
-8. **Non-masculine-personal plural agreement**: connect nouns with adjectives
+6. **Important gender exceptions**: use meaning and dictionary information when endings mislead (lesson 0005 reviewed; guided use established, independent lookup pending in Homework 0006.3)
+7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things (lesson 0006; pending evidence)
+8. **Non-masculine-personal plural agreement**: connect nouns with adjectives (lesson 0006; pending evidence)
 9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text
 
 ### Module 2: Present verbs, questions, and negation

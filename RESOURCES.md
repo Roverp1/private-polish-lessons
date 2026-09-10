@@ -22,6 +22,11 @@
   Verified gender fields (`m1`, `ż`, `ż`) and meanings. Use for: ending-based heuristics versus lexical gender, and adjective agreement with a noun referring to a person. Do not infer a general rule that referent gender overrides noun gender.
 - [WSJP PAN: elipsa, w zdaniu](https://wsjp.pl/haslo/podglad/69376/elipsa/5180757)
   Definition of omission recoverable from context. Used to explain the learner's spontaneous omission of repeated `jest`; this is clarification, not assessment of a new production target.
+- Lesson 0006 source locations: Swan, PDF p. 18, points C1-C3 (nominative plural noun patterns and the non-masculine-personal adjective form); p. 10, point 3 (`to jest/są` with the nominative). Leave point C4, masculine-personal production, for its later target.
+- Lesson 0006 form checks: WSJP PAN [telefon](https://wsjp.pl/haslo/do_druku/7128), [kawa](https://wsjp.pl/haslo/do_druku/22171), [okno](https://wsjp.pl/haslo/do_druku/23307), [krzesło](https://wsjp.pl/haslo/do_druku/6705), and [mysz](https://wsjp.pl/haslo/do_druku/31054).
+  Use for: verifying nominative singular/plural pairs and the delayed independent gender lookup. The plural-noun table in lesson 0006 is explicitly bounded; it is not a complete declension algorithm.
+- Lesson 0006 vocabulary: WSJP PAN [ogłoszenie](https://wsjp.pl/haslo/podglad/9033), [oddać](https://wsjp.pl/haslo/podglad/4124), [wyposażenie](https://wsjp.pl/haslo/podglad/74023), [stan](https://wsjp.pl/haslo/podglad/9257), and [odbiór](https://wsjp.pl/haslo/podglad/38410/odbior/3893879).
+  Use for: definitions and ordinary classified-ad collocations. Teach `oddać za darmo`, `w dobrym stanie`, and `odbiór osobisty` as useful complete phrases.
 
 ## Teaching design
 

@@ -22,6 +22,23 @@ W podstawowym regularnym wzorcu rzeczownik kończy się na `-a`, na przykład `r
 **Rodzaj nijaki**:
 W podstawowych regularnych wzorcach rzeczownik kończy się na `-o`, `-e`, `-ę` albo `-um`, na przykład `krzesło`, `zadanie`, `imię` i `muzeum`.
 
+## Liczba i zgoda w liczbie mnogiej
+
+**Liczba gramatyczna**:
+Kategoria pokazująca, czy mówimy o jednej osobie lub rzeczy, czy o większej liczbie. W tym kursie `lp.` oznacza liczbę pojedynczą, a `lm.` liczbę mnogą.
+
+**Liczba pojedyncza (`lp.`)**:
+Forma odnosząca się w podstawowym użyciu do jednej osoby lub rzeczy: `telefon`, `umowa`, `okno`.
+
+**Liczba mnoga (`lm.`)**:
+Forma odnosząca się w podstawowym użyciu do więcej niż jednej osoby lub rzeczy: `telefony`, `umowy`, `okna`.
+
+**Grupa niemęskoosobowa**:
+Kategoria zgody w liczbie mnogiej obejmująca między innymi nazwy rzeczy, zwierząt, grup samych kobiet oraz niektóre inne rzeczowniki, np. `dzieci`. Łączy się z zaimkiem `one` i w mianowniku z formami przymiotnika takimi jak `nowe`, `krótkie`, `drogie`.
+
+**Grupa męskoosobowa**:
+Druga kategoria zgody w liczbie mnogiej. Typowe przykłady to grupy mężczyzn i mieszane grupy dorosłych osób; łączy się z zaimkiem `oni`. Lekcja 0006 rozpoznaje tę kategorię, ale nie wymaga jeszcze tworzenia jej form rzeczownika ani przymiotnika.
+
 ## Cases and identification
 
 **Mianownik**:
@@ -39,13 +56,13 @@ Wyraz taki jak `ja`, `ty`, `on`, `ona`, `ono`, `my`, `wy`, `oni` lub `one`. Wska
 Część zdania, z którą czasownik zgadza się w osobie i liczbie. W naszych zdaniach wskazuje osobę, rzecz albo grupę, o której coś mówimy; może być zapisany wprost lub wynikać z formy czasownika i kontekstu.
 
 **Przymiotnik**:
-Wyraz nazywający cechę, na przykład `nowy` lub `tani`. Jego forma zależy od rodzaju, liczby i przypadka opisywanego rzeczownika. Lekcja 0004 ćwiczy tylko mianownik liczby pojedynczej.
+Wyraz nazywający cechę, na przykład `nowy` lub `tani`. Jego forma zależy od rodzaju, liczby i przypadka opisywanego rzeczownika. Lekcja 0004 wprowadza mianownik liczby pojedynczej, a lekcja 0006 mianownik liczby mnogiej niemęskoosobowej.
 
 **Forma słownikowa przymiotnika**:
 Mianownik liczby pojedynczej rodzaju męskiego, na przykład `nowy`, `krótki`, `tani`.
 
 **Zgoda przymiotnika**:
-Dopasowanie formy przymiotnika do opisywanej osoby lub rzeczy: `nowy telefon`, `nowa umowa`, `nowe narzędzie`; także `Umowa jest nowa`.
+Dopasowanie formy przymiotnika do rodzaju, liczby i przypadka opisywanej osoby, rzeczy lub grupy: `nowy telefon`, `nowa umowa`, `nowe narzędzie`, `nowe telefony`; także `Umowa jest nowa` i `Umowy są nowe`.
 
 **Rodzaj rzeczownika a płeć**:
 Rodzaj jest właściwością rzeczownika, nie prostą etykietą płci człowieka. Rzeczownik `osoba` jest żeński także wtedy, gdy odnosi się do mężczyzny: o Pawle można powiedzieć `nowy kolega` albo `nowa osoba`.
