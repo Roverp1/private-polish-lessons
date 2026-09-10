@@ -173,5 +173,40 @@
     "word": "podróż",
     "definition": "rodzaj żeński; przemieszczanie się do odległego miejsca",
     "example": "**Podróż** pociągiem do Krakowa trwa trzy godziny."
+  },
+  {
+    "id": "v0026",
+    "lesson": "0006",
+    "word": "ogłoszenie",
+    "definition": "publiczna wiadomość, która coś oferuje albo o czymś informuje",
+    "example": "W **ogłoszeniu** są zdjęcia, cena i numer telefonu."
+  },
+  {
+    "id": "v0027",
+    "lesson": "0006",
+    "word": "oddać za darmo",
+    "definition": "dać komuś swoją rzecz i nie brać za nią pieniędzy",
+    "example": "**Oddam za darmo** dwa krzesła, bo nie mam na nie miejsca."
+  },
+  {
+    "id": "v0028",
+    "lesson": "0006",
+    "word": "wyposażenie",
+    "definition": "rzeczy potrzebne w mieszkaniu, biurze lub innym miejscu",
+    "example": "Podstawowe **wyposażenie** biura to biurka, krzesła i komputery."
+  },
+  {
+    "id": "v0029",
+    "lesson": "0006",
+    "word": "w dobrym stanie",
+    "definition": "sprawne i mało zniszczone",
+    "example": "Rower jest używany, ale **w dobrym stanie**."
+  },
+  {
+    "id": "v0030",
+    "lesson": "0006",
+    "word": "odbiór osobisty",
+    "definition": "odebranie rzeczy bezpośrednio od osoby, która ją oferuje, bez wysyłki",
+    "example": "Możliwy jest **odbiór osobisty** w centrum Warszawy."
   }
 ]
