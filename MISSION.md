@@ -14,9 +14,9 @@ I have lived in Poland for more than three years and can handle many everyday si
 - 15-60 minutes per day; concise self-study lessons followed by submitted work
 - Max $25/month for paid learning tools (no human tutor budget)
 - Follow a source-backed A1-A2-B1 grammar spine; prior exposure may reduce practice volume but cannot silently remove core theory
-- Lessons, homework, and reference sheets use controlled Polish
-- Every rule is followed immediately by an exercise before another rule is introduced
-- Every lesson gives an exact concise notebook entry and normally introduces five vocabulary entries
+- Explanations use precise, accessible Polish; readings and communication tasks use natural Polish at the learner's receptive level
+- Every new rule is followed by a meaningful decision or use before another rule is introduced
+- Every lesson offers concise Markdown notes near the relevant practice and normally introduces five vocabulary entries; copying is optional
 - Vocabulary is added to a cumulative Anki deck; Anki owns vocabulary review state
 - The learner submits homework and the unrevealed lesson exit check for feedback
 - Self-study orientation; programmer's brain benefits from a structured system, not random phrasebook drills

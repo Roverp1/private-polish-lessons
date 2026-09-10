@@ -32,8 +32,9 @@
 - Do not push the human-tutor path unless the user changes the budget or asks
 
 ## Delivery workflow
-- The learner first sees the bounded overview and consolidated reference note, then works through explanations and their immediate exercises. Notebook wording is a suggested base, not a transcription requirement.
-- Closed exercises reveal answers for roughly 30-50% of their items. Revealed answers explain the rule; they are practice, not assessment evidence.
+- Start with a brief orientation, then alternate explanation, a compact Markdown note, and meaningful practice. Keep a consolidated reference sheet available separately; do not frontload a long note that makes the rest of the lesson redundant.
+- Notebook wording is a suggested base, not a transcription requirement. Distribute notes across the lesson and never make copying notes an exercise.
+- Worked examples may reveal how a genuinely new operation works. Do not reveal a fixed percentage of practice answers; reveal only answers that add feedback without disclosing the same decision required by nearby unrevealed items.
 - Open exercises receive an analogous model, never the learner's exact answer.
 - The learner submits the unrevealed exit check and homework. Other lesson exercises are submitted when uncertain or requested.
 - Review the submission, explain target errors, and request a new repair example when needed.
@@ -47,30 +48,34 @@
 1. Start with why the topic matters and the communication problem it solves.
 2. State observable outcomes and a clear "not today" scope boundary.
 3. Teach one useful, coherent grammar unit with a moderate amount of new material. It may combine several closely related rules or adjacent curriculum targets; teach them in small steps rather than stretching a tiny rule into a whole lesson.
-4. Show the complete map/table for the current unit and one consolidated, explicitly scoped notebook entry before explaining its individual parts. Offer the note in concise Markdown using headings, bullets, tables, and labelled examples; the learner may adapt it.
-5. Then explain and model each part, with immediate practice before the next detailed explanation. An overview is allowed before practice, but no assessed production may depend on an unexplained row. Avoid scattered mandatory "dopisz" amendments to one pattern family.
+4. Give a short bounded orientation before the details. Put each compact Markdown note beside the explanation and practice it supports; the separate reference sheet holds the consolidated map.
+5. Explain and model each part, with immediate practice before the next detailed explanation. No assessed production may depend on an unexplained rule. Keep one pattern family together instead of scattering surprise amendments, but do not frontload answers to every later decision.
 6. Provide a decision procedure or mental model when the topic supports one.
 7. Keep new grammar examples on familiar vocabulary.
 8. Introduce five deliberate vocabulary entries in a separate section after the main grammar practice.
 9. End with an unrevealed exit check and a link to matching homework.
 10. Cite the source used and remind the learner to ask about unclear material.
+11. End practice while decisions are still meaningful. Do not inflate a thin target with copying, supplied answers, or repeated transformations.
 
 ## Exercise prerequisites
 - Every assessed operation must have been explicitly taught and modelled. Recognizing a form, selecting a form, and generating a form are different skills.
 - Do not ask the learner to reverse an inflected or plural form into its dictionary form before teaching the relevant declension and stem changes.
-- Reading may contain later grammar for comprehension, but instructions must identify what is and is not being assessed.
-- Keep production below the learner's current grammar ceiling: word classification -> fixed phrase -> substitution in a sentence frame -> controlled sentence -> free sentence.
-- Before controlled or free production, provide a short natural reading and an exact reusable model.
+- Reading may contain later grammar and ordinary idiomatic language for comprehension. Identify the assessed target without apologizing for every natural construction or forcing the text to contain only taught forms.
+- Keep the assessed target within explicitly taught grammar, but allow the learner to use other Polish they already know. The course sequence is not a ban on natural language.
+- Use word classification, fixed phrases, substitution, controlled sentences, and free sentences according to actual evidence, not as a mandatory ladder repeated for every target.
+- Before a genuinely new production operation, provide a natural example or optional support. Do not place a near-identical answer beside a task the learner can already perform.
 - When the target is not sentence construction, assess it with words, phrases, selection, or a fixed frame instead of demanding unsupported sentences.
 - Initial practice isolates one newly taught operation. Consolidation, delayed review, and transfer may deliberately combine multiple previously taught operations.
 - A combined exercise must state the expected output clearly, but it should not always announce which grammar rule applies. Choosing the relevant rule is part of later practice.
 - Label integrated work as `Ćwiczenie łączone`, `Powtórka mieszana`, or `Zastosowanie`. Begin with visible decision steps and remove them gradually.
 - If a learner struggles in mixed work, separate the component steps before deciding which rule needs review. One mixed failure is not evidence that every component failed.
-- When two or three independent representative answers are clean and the target is clearly easy, reduce further same-operation practice and advance to consolidation or interleaving.
-- Homework should demand grammatical decisions, error diagnosis, or contextual use. Repeated copying is not useful difficulty.
+- When two or three independent representative answers are clean and the target is clearly easy, stop further same-operation practice and advance to consolidation, interleaving, or transfer.
+- Homework should demand grammatical decisions, error diagnosis, information retrieval, or contextual use. Repeated copying and already-correct transformations are not useful difficulty.
 - The learner found HL-003 comfortable and non-repetitive, possibly still slightly too easy. This is not evidence of struggle or a reason to restart basic drills.
 - Put most interleaving of earlier targets in homework. Lessons focus on new grammar with immediate focused practice and a short combined bridge before independent work.
 - Increase challenge through relevant grammatical decisions, not vague instructions, obscure vocabulary, or unmodelled production. Do not compensate for a thin lesson solely by adding mixed review.
+- Do not provide the decisive fact when retrieving it is the target. If gender is being assessed, omit the gender label for known nouns or require a real dictionary lookup for an unknown exception.
+- An unchanged form belongs only in a mixed task where deciding whether a change is needed is itself meaningful. Never present a list of already-correct phrases as transformation practice.
 - Audit every assessed operation against an explicit explanation and worked production model in the current or an earlier lesson. Recognition of a question does not establish the ability to construct one; recognizing an ending does not establish the ability to generate it.
 - Supplied fixed phrases may contain later grammar, but label them as ready to use and never require the learner to derive or change those forms.
 - Review grammar, reference clarity, naturalness, and factual consistency separately. A repeated pronoun is not automatically a grammatical error; accept contextually valid alternatives.
@@ -81,15 +86,17 @@
 - A table-first overview covers the current bounded system, not all future cases and tenses. Do not fragment one family of endings into surprise exceptions that force the learner to reorganize already-written notes.
 - Distinguish a general agreement rule from its application in a particular sentence frame. An adjective describes its noun; in a subject + być + adjective description it describes the subject. Do not silently generalize that every adjective modifies the subject.
 - Correct spontaneous language beyond the assessed scope can be accepted without becoming a new prerequisite. HL-004's coordinated omission of repeated `jest` was natural; general verb ellipsis is not established as a production skill.
+- Lesson 0005 failed on difficulty and engagement. Gender codes and already-correct inputs removed most decisions, the frontloaded note made later prose redundant, and the final message supplied almost all content and syntax. Do not treat completion of such low-decision work as necessary discipline; the learner's representative answers were sufficient.
 
 ## Sentence-production briefs
 - Avoid bare prompts such as "write a sentence with X". Normally specify a situation, recipient, communicative goal, facts to convey, and a short output length.
-- Give a short natural reading and an analogous worked response before independent production. Change the facts in the learner's task rather than supplying its exact answer.
-- Supply vocabulary or complete phrases when finding them is not the target. Grammar examples should use familiar vocabulary; gloss incidental words when needed.
+- Give an analogous worked response only when the production operation is genuinely new. Otherwise make support optional and avoid supplying the facts, vocabulary, and syntax that should belong to the learner.
+- Supply vocabulary when lexical search would obscure the grammar target, but do not supply every content word in independent writing. Gloss incidental words when needed.
 - Keep wording choices open while making completion criteria explicit. Do not require one hidden preferred answer or arbitrary quotas of pronouns and new words.
 - Offer a small choice of concrete situations when useful. Personal details may be invented; broad free-content writing is not the default grammar exercise.
 - Distinguish productive effort (choosing how to express a known message) from avoidable friction (guessing what the task asks). Frustration alone is not evidence of learning.
 - Gradually reduce language scaffolding as production improves; a clear communicative purpose can remain at every level.
+- Independent writing specifies a real situation, recipient, purpose, and approximate length, then leaves content and wording genuinely open. A separate focused item can test compulsory target forms.
 
 ## Practice progression
 1. Acquisition: explain and model one new rule, then give distilled immediate practice.
@@ -100,12 +107,12 @@
 ## Homework structure
 - One matching page under `homework/` for every lesson
 - Normally 15-20 minutes for a combined-target lesson; shorter when fewer representative items suffice
-- Progress from contextual comprehension to mixed completion, diagnosis, and short guided production
+- Progress from contextual comprehension to mixed decisions, diagnosis, and situated production with only necessary support
 - Include one or two delayed-review items when earlier material is available
 - Keep new-rule blocks distilled; later blocks may combine taught operations and require rule selection
 - Specify the expected answer format even when the grammatical decision is intentionally not named
-- Provide hidden answers for selected representative items only
-- Include a short reading model before any sentence-production block
+- Provide hidden answers only when they offer useful feedback without leaking parallel assessed decisions
+- Include a model before sentence production only when the production operation is new; otherwise offer optional support
 - Diagnosis may include correct sentences, grammatical errors, and unclear references. State the categories and model the expected response; do not imply every sentence contains one error unless that is actually the task.
 - End with a compact submission template
 
@@ -121,8 +128,8 @@
 - After adding lesson vocabulary, run `python scripts/generate-anki.py anki/vocabulary.json` inside the project environment and report the package path.
 
 ## Canonical implementation
-- Lesson exemplar: `lessons/0005-noun-gender-exceptions.html` (overview and consolidated Markdown note before staged practice)
-- Homework exemplar: `homework/0005-noun-gender-exceptions.html` (self-contained reading context and situated writing)
+- Content and exercise exemplar: the latest reviewed material named here after its learner feedback. Lesson 0005 is not a teaching-design exemplar; it frontloads answers and contains low-decision drills.
+- Visual and semantic implementation may still be reused from lesson 0005 while its teaching design is replaced.
 - Pages link only their public stylesheet: `assets/lesson.css`, `assets/homework-page.css`, or `assets/reference-page.css`.
 - Public entry points import Pico into the low-priority `pico` cascade layer and `theme.css` plus implementation styles into `course`.
 - Shared implementations: `assets/style.css`, `assets/homework.css`, and `assets/reference.css`; never link these or the vendor stylesheet directly from page HTML.
