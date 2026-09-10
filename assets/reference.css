@@ -92,6 +92,10 @@ body.reference-page {
   list-style: none;
 }
 
+.algorithm--four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .algorithm li {
   position: relative;
   min-height: 18mm;

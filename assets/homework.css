@@ -142,7 +142,8 @@ body.homework-page {
 @media print {
   body.homework-page {
     background: white;
-    font-size: 11pt;
+    font-size: 10.5pt;
+    line-height: 1.5;
   }
 
   .homework-page main {
@@ -151,6 +152,27 @@ body.homework-page {
     padding: 0;
     border: 0;
     box-shadow: none;
+  }
+
+  .homework-page header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .homework-page h1 {
+    font-size: 30pt;
+  }
+
+  .homework-page h2 {
+    margin-top: 1.75rem;
+    font-size: 18pt;
+    break-after: avoid;
+  }
+
+  .homework-page .instructions,
+  .homework-page .reading,
+  .homework-page .submission {
+    padding: 0.8rem 1rem;
   }
 
   .homework-page details:not([open]) > :not(summary) {
