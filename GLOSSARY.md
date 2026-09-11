@@ -37,7 +37,7 @@ Forma odnosząca się w podstawowym użyciu do więcej niż jednej osoby lub rze
 Kategoria zgody w liczbie mnogiej obejmująca między innymi nazwy rzeczy, zwierząt, grup samych kobiet oraz niektóre inne rzeczowniki, np. `dzieci`. Łączy się z zaimkiem `one` i w mianowniku z formami przymiotnika takimi jak `nowe`, `krótkie`, `drogie`.
 
 **Grupa męskoosobowa**:
-Druga kategoria zgody w liczbie mnogiej. Typowe przykłady to grupy mężczyzn i mieszane grupy dorosłych osób; łączy się z zaimkiem `oni`. Lekcja 0006 rozpoznaje tę kategorię, ale nie wymaga jeszcze tworzenia jej form rzeczownika ani przymiotnika.
+Druga kategoria zgody w liczbie mnogiej. Typowe przykłady to grupy mężczyzn i mieszane grupy osób z co najmniej jednym mężczyzną; łączy się z zaimkiem `oni` i w mianowniku z formami przymiotnika takimi jak `nowi`, `gotowi`, `sprawni`. Lekcja 0006 wprowadza rozpoznawanie tej kategorii, a lekcja 0007 jej podstawowe formy mianownika.
 
 ## Cases and identification
 
@@ -56,7 +56,7 @@ Wyraz taki jak `ja`, `ty`, `on`, `ona`, `ono`, `my`, `wy`, `oni` lub `one`. Wska
 Część zdania, z którą czasownik zgadza się w osobie i liczbie. W naszych zdaniach wskazuje osobę, rzecz albo grupę, o której coś mówimy; może być zapisany wprost lub wynikać z formy czasownika i kontekstu.
 
 **Przymiotnik**:
-Wyraz nazywający cechę, na przykład `nowy` lub `tani`. Jego forma zależy od rodzaju, liczby i przypadka opisywanego rzeczownika. Lekcja 0004 wprowadza mianownik liczby pojedynczej, a lekcja 0006 mianownik liczby mnogiej niemęskoosobowej.
+Wyraz nazywający cechę, na przykład `nowy` lub `tani`. Jego forma zależy od rodzaju, liczby i przypadka opisywanego rzeczownika. Lekcja 0004 wprowadza mianownik liczby pojedynczej, lekcja 0006 mianownik liczby mnogiej niemęskoosobowej, a lekcja 0007 mianownik liczby mnogiej męskoosobowej.
 
 **Forma słownikowa przymiotnika**:
 Mianownik liczby pojedynczej rodzaju męskiego, na przykład `nowy`, `krótki`, `tani`.

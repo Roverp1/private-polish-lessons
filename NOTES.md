@@ -87,6 +87,9 @@
 - Distinguish a general agreement rule from its application in a particular sentence frame. An adjective describes its noun; in a subject + być + adjective description it describes the subject. Do not silently generalize that every adjective modifies the subject.
 - Correct spontaneous language beyond the assessed scope can be accepted without becoming a new prerequisite. HL-004's coordinated omission of repeated `jest` was natural; general verb ellipsis is not established as a production skill.
 - Lesson 0005 failed on difficulty and engagement. Gender codes and already-correct inputs removed most decisions, the frontloaded note made later prose redundant, and the final message supplied almost all content and syntax. Do not treat completion of such low-decision work as necessary discipline; the learner's representative answers were sufficient.
+- Lesson 0006 and its homework had the right decision load and were received well. Preserve their alternation of bounded explanation, immediate use, diagnosis, lookup, and independent communication.
+- The learner noticed that Lesson 0006 required production only for the non-masculine-personal group. The staged split was defensible, but a deferred half must have an explicit destination. Teach basic masculine-personal nominative production in Lesson 0007 before Module 1 integration; keep targets 49-50 as later expansion and stabilization rather than duplicate first exposure.
+- Lesson 0006 controlled work establishes non-masculine-personal agreement, but `wszystkie są zepsuty` in independent writing requires one delayed transfer check for `zepsute`. Do not turn one retrieval slip into another block of easy transformations.
 
 ## Sentence-production briefs
 - Avoid bare prompts such as "write a sentence with X". Normally specify a situation, recipient, communicative goal, facts to convey, and a short output length.
