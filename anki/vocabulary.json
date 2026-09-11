@@ -208,5 +208,40 @@
     "word": "odbiór osobisty",
     "definition": "odebranie rzeczy bezpośrednio od osoby, która ją oferuje, bez wysyłki",
     "example": "Możliwy jest **odbiór osobisty** w centrum Warszawy."
+  },
+  {
+    "id": "v0031",
+    "lesson": "0007",
+    "word": "lista obecności",
+    "definition": "lista z nazwiskami osób, które mają być w określonym miejscu i czasie",
+    "example": "Przed szkoleniem wpisz swoje nazwisko na **listę obecności**."
+  },
+  {
+    "id": "v0032",
+    "lesson": "0007",
+    "word": "wdrożenie nowego pracownika",
+    "definition": "proces poznawania firmy, zasad i nowych obowiązków",
+    "example": "**Wdrożenie nowego pracownika** zaczyna się od spotkania z zespołem."
+  },
+  {
+    "id": "v0033",
+    "lesson": "0007",
+    "word": "identyfikator pracowniczy",
+    "definition": "plakietka lub karta pokazująca, kim jest pracownik",
+    "example": "Przy wejściu do biura pokaż **identyfikator pracowniczy**."
+  },
+  {
+    "id": "v0034",
+    "lesson": "0007",
+    "word": "dział firmy",
+    "definition": "część firmy, w której ludzie wykonują podobny rodzaj pracy",
+    "example": "Nowi pracownicy zaczynają dziś pracę w **dziale sprzedaży**."
+  },
+  {
+    "id": "v0035",
+    "lesson": "0007",
+    "word": "szkolenie wstępne",
+    "definition": "pierwsze szkolenie przed rozpoczęciem nowych obowiązków",
+    "example": "W poniedziałek wszyscy nowi pracownicy mają **szkolenie wstępne BHP**."
   }
 ]
