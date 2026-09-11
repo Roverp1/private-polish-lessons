@@ -321,4 +321,13 @@ body.reference-page {
     border: 0;
     box-shadow: none;
   }
+
+  .sheet--dense h2 {
+    margin-top: 3mm;
+  }
+
+  .sheet--dense .cases th,
+  .sheet--dense .cases td {
+    padding-block: 1.8mm;
+  }
 }
