@@ -6,12 +6,13 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 
 ## Current position
 
-- Current lesson: 0007, completing the basic nominative scope of target 8
-- Reviewed lessons: 0001-0006
-- Completed targets: 1-7; the non-masculine-personal half of target 8 is established in controlled use
-- Required submission: Lesson 0007 application Z, exit check K, and Homework 0007
+- Current lesson: 0008, ready for target 9, Module 1 integration
+- Reviewed lessons: 0001-0007
+- Completed targets: 1-8 in their taught basic scope; controlled use is evidenced, not durable retention
+- Required submission: Lesson 0008 R1-4, unrevealed K1-3, and Homework 0008
 - Target-6 follow-up resolved in Homework 0006.3: the learner independently found feminine `mysz`, plural `myszy`, and produced `nowa mysz / nowe myszy`.
-- Target-8 follow-up: include one delayed transfer check for `wszystkie lampy są zepsute`; do not repeat the controlled non-masculine-personal drills.
+- Target-8 non-masculine-personal follow-up resolved in Lesson 0007.K1: `wszystkie lampy są zepsute`.
+- Target-8 follow-ups for Lesson 0008: briefly check masculine-personal adjective agreement (`pracownicy → sprawni`, `lekarze → obecni`) and explicit noun-plural output after Homework 0007.2's unclear instruction. These are named checks, not prerequisites for repeating Lesson 0007. See learning record 0010.
 - Target-3 follow-up resolved in lesson 0004: `ja jestem`, `ono jest`, and `oni są` retrieved correctly; supplied group pronouns and reasons were also correct. Continue ordinary spaced review, not mandatory repair drills.
 - Previous voice-course topics: exposure only
 
@@ -24,10 +25,11 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 | 0003 | 3: Personal pronouns and present `być` | Reviewed and completed; follow-up passed in 0004 |
 | 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Reviewed and completed; see learning record 0007 |
 | 0005 | 6: Noun gender when endings mislead | Reviewed and completed after the independent lookup in Homework 0006.3 |
-| 0006 | 7 and first half of 8: Singular/plural identification; non-masculine-personal plural agreement | Reviewed; target 7 completed and the taught half of target 8 established; one delayed transfer check remains |
-| 0007 | Second half of 8: Basic masculine-personal nominative plural agreement | Active; awaiting submission |
+| 0006 | 7 and first half of 8: Singular/plural identification; non-masculine-personal plural agreement | Reviewed and completed; delayed transfer check passed in 0007 |
+| 0007 | Second half of 8: Basic masculine-personal nominative plural agreement | Reviewed and completed in controlled use; brief agreement and output checks remain in 0008 |
+| 0008 | 9: Module 1 integration | Ready for self-study; awaiting R1-4, K1-3, and homework |
 
-The next unauthored target is 9. It remains the Module 1 integration lesson and follows review of Lesson 0007; do not pre-author it or renumber the targets to match page filenames.
+Lesson 0008 integrates targets 1-8 within 20-25 minutes, followed by 10-15 minutes of homework. The next unauthored target is 10; prepare it only after reviewing Lesson 0008. Target 9 is not complete merely because its pages are ready.
 
 ## A1: Foundations and everyday sentences
 
@@ -40,8 +42,8 @@ The next unauthored target is 9. It remains the Module 1 integration lesson and 
 5. **Adjective agreement in the nominative**: match gender in singular noun phrases and adjective descriptions with `być` (complete, lesson 0004)
 6. **Important gender exceptions**: use meaning and dictionary information when endings mislead (complete after independent lookup in Homework 0006.3)
 7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things (complete, lesson 0006)
-8. **Basic nominative plural agreement**: distinguish non-masculine-personal and masculine-personal groups and connect common noun forms with adjectives (non-masculine-personal half established in lesson 0006; masculine-personal half active in lesson 0007)
-9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text
+8. **Basic nominative plural agreement**: distinguish non-masculine-personal and masculine-personal groups and connect common noun forms with adjectives (complete in the taught basic scope after lesson 0007; named mixed follow-ups remain)
+9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text (active, lesson 0008)
 
 ### Module 2: Present verbs, questions, and negation
 

@@ -243,5 +243,40 @@
     "word": "szkolenie wstępne",
     "definition": "pierwsze szkolenie przed rozpoczęciem nowych obowiązków",
     "example": "W poniedziałek wszyscy nowi pracownicy mają **szkolenie wstępne BHP**."
+  },
+  {
+    "id": "v0036",
+    "lesson": "0008",
+    "word": "usterka",
+    "definition": "drobny problem, przez który coś nie działa prawidłowo",
+    "example": "Serwis usunął **usterkę**: laptop znowu się ładuje."
+  },
+  {
+    "id": "v0037",
+    "lesson": "0008",
+    "word": "naprawa",
+    "definition": "usuwanie usterek, żeby rzecz znowu działała",
+    "example": "**Naprawa** telefonu kosztuje mniej niż zakup nowego."
+  },
+  {
+    "id": "v0038",
+    "lesson": "0008",
+    "word": "część zamienna",
+    "definition": "element urządzenia, który zastępuje zużyty lub zepsuty element",
+    "example": "Szukam **części zamiennej** do laptopa: nowej klawiatury."
+  },
+  {
+    "id": "v0039",
+    "lesson": "0008",
+    "word": "śrubokręt",
+    "definition": "narzędzie do wkręcania i wykręcania śrub",
+    "example": "**Śrubokrętem** odkręcam śruby w obudowie komputera."
+  },
+  {
+    "id": "v0040",
+    "lesson": "0008",
+    "word": "bezpłatny",
+    "definition": "taki, za który nie trzeba płacić",
+    "example": "Ten parking jest **bezpłatny**, więc nie muszę kupować biletu."
   }
 ]
