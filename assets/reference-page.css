@@ -1,4 +1,4 @@
-/* Public reference-sheet entry point. Keep vendor imports out of page HTML. */
+/* Public reference-page entry point. Keep vendor imports out of page HTML. */
 @layer pico, course;
 
 @import url("vendor/pico.conditional.min.css") layer(pico);

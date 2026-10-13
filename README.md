@@ -1,6 +1,6 @@
 # Nauka polskiego
 
-Static HTML course: concise lessons, matching homework, and reference sheets. Served as-is by GitHub Pages.
+Static HTML course: 20-25-minute lessons, 10-15-minute homework pages, and responsive grammar references. Served as-is by GitHub Pages.
 
 ## Anki cards
 
@@ -22,11 +22,11 @@ for the input format and image instructions.
 
 ## Adding a lesson
 
-1. Create matching `lessons/0002-....html` and `homework/0002-....html` pages (and a `reference/` sheet only when useful).
+1. Read `NOTES.md` and its publication gate. Create matching `lessons/0002-....html` and `homework/0002-....html` pages (and a `reference/` page only when useful).
 2. Add five cards to `anki/vocabulary.json` and generate the cumulative deck.
 3. Link only the matching public stylesheet: `../assets/lesson.css`, `../assets/homework-page.css`, or `../assets/reference-page.css`.
 4. Keep the matching `pico lesson-page`, `pico homework-page`, or `pico reference-page` body classes. Add reusable presentation rules through the matching CSS entry point, never directly in page HTML.
-5. Commit. The pre-commit hook regenerates `index.html` and validates every page.
+5. Apply the content and browser checks in `NOTES.md`, run `python3 scripts/check-pages`, and regenerate the index with `scripts/build-index`. The pre-commit hook also regenerates the index and validates every page when committing.
 
 ## CSS architecture
 
@@ -34,7 +34,7 @@ Page HTML links one public entry point. Each entry point loads Pico's conditiona
 
 - `assets/lesson.css` - lessons
 - `assets/homework-page.css` - homework
-- `assets/reference-page.css` - printable reference sheets
+- `assets/reference-page.css` - responsive reference pages with ordinary print flow
 - `assets/index.css` - generated index
 - `assets/theme.css` - shared design tokens
 - `assets/style.css`, `assets/homework.css`, and `assets/reference.css` - implementation styles imported by their public entry points
