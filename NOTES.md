@@ -8,7 +8,7 @@
 - Only the next lesson is authored as active course material. Later curriculum titles may be refined without removing required targets.
 - Curriculum numbers identify 72 required grammar targets, not a mandatory count of HTML lessons. Related targets may share a lesson; maintain an explicit target-to-lesson map.
 - Add a learning record only after evidence of understanding. Coverage is not learning.
-- After the learner submits a lesson and its homework, both HTML files become read-only course history. Address corrections and missing scaffolding in later material instead of rewriting completed pages.
+- After the learner submits a lesson and its homework, their teaching content becomes read-only course history. Address corrections and missing scaffolding in later material. Shared styling and presentation labels may be updated when the learner requests a format change.
 
 ## Learner profile
 - Programmer; systematic thinker; wants the full Polish grammar system, theory from zero
@@ -28,6 +28,8 @@
 
 ## Time and budget
 - 15-60 min/day
+- Usual lesson: 20-25 minutes, including reading, practice, and any optional notes the learner chooses to write. Usual homework: 10-15 minutes. These budgets were explicitly selected after Lesson 0007.
+- Fit the content to the budget by reducing distinct subtopics and redundant items. Split a larger unit when needed while retaining all required curriculum coverage; changing the timing label alone is insufficient.
 - Max $25/month for paid tools; no human-tutor budget
 - Do not push the human-tutor path unless the user changes the budget or asks
 
@@ -47,7 +49,7 @@
 ## Mandatory lesson structure
 1. Start with why the topic matters and the communication problem it solves.
 2. State observable outcomes and a clear "not today" scope boundary.
-3. Teach one useful, coherent grammar unit with a moderate amount of new material. It may combine several closely related rules or adjacent curriculum targets; teach them in small steps rather than stretching a tiny rule into a whole lesson.
+3. Teach one useful, coherent grammar unit that fits 20-25 minutes. It may combine closely related rules or adjacent curriculum targets; split a larger unit and keep practice representative.
 4. Give a short bounded orientation before the details. Put each compact Markdown note beside the explanation and practice it supports; the separate reference sheet holds the consolidated map.
 5. Explain and model each part, with immediate practice before the next detailed explanation. No assessed production may depend on an unexplained rule. Keep one pattern family together instead of scattering surprise amendments, but do not frontload answers to every later decision.
 6. Provide a decision procedure or mental model when the topic supports one.
@@ -67,6 +69,7 @@
 - When the target is not sentence construction, assess it with words, phrases, selection, or a fixed frame instead of demanding unsupported sentences.
 - Initial practice isolates one newly taught operation. Consolidation, delayed review, and transfer may deliberately combine multiple previously taught operations.
 - A combined exercise must state the expected output clearly, but it should not always announce which grammar rule applies. Choosing the relevant rule is part of later practice.
+- Every unfamiliar response format needs one complete, analogous example. This includes labels such as a pattern family, multi-part answers, and dictionary-table abbreviations. An explanation of the grammar alone is not an example of how to answer the exercise.
 - Label integrated work as `Ćwiczenie łączone`, `Powtórka mieszana`, or `Zastosowanie`. Begin with visible decision steps and remove them gradually.
 - If a learner struggles in mixed work, separate the component steps before deciding which rule needs review. One mixed failure is not evidence that every component failed.
 - When two or three independent representative answers are clean and the target is clearly easy, stop further same-operation practice and advance to consolidation, interleaving, or transfer.
@@ -80,6 +83,7 @@
 - Supplied fixed phrases may contain later grammar, but label them as ready to use and never require the learner to derive or change those forms.
 - Review grammar, reference clarity, naturalness, and factual consistency separately. A repeated pronoun is not automatically a grammatical error; accept contextually valid alternatives.
 - Check that readings are internally consistent and sound like plausible Polish communication, not a collection of unrelated examples.
+- Choose and read an accessible human-written source before adapting a dedicated reading. Preserve its facts and purpose, label the adaptation, and credit the specific passage. Design comprehension questions after the passage; compulsory grammar forms belong in controlled work. A fictional controlled example may be invented and clearly presented as such.
 - Keep all essential scenario facts visually inside the reading block. The learner missed Marek's companion in a separate introductory sentence in HL-004; this was not a failure to understand `jesteśmy`.
 - HL-004 difficulty was approximately right, with slightly too much new material at once. Keep comparable exercise challenge but slightly fewer distinct subtopics; do not increase load automatically after correct answers.
 - For reference notes, name the input and scope of each rule: noun gender versus adjective ending, dictionary form versus inflected form, and current case/number. Define abbreviated labels beside the table. Separate rules from numbered exercises and personal questions.
@@ -88,11 +92,14 @@
 - Correct spontaneous language beyond the assessed scope can be accepted without becoming a new prerequisite. HL-004's coordinated omission of repeated `jest` was natural; general verb ellipsis is not established as a production skill.
 - Lesson 0005 failed on difficulty and engagement. Gender codes and already-correct inputs removed most decisions, the frontloaded note made later prose redundant, and the final message supplied almost all content and syntax. Do not treat completion of such low-decision work as necessary discipline; the learner's representative answers were sufficient.
 - Lesson 0006 and its homework had the right decision load and were received well. Preserve their alternation of bounded explanation, immediate use, diagnosis, lookup, and independent communication.
+- Lesson 0007's grammar explanation was useful but too long. Its homework regressed: a staged inventory reading, unexplained answer labels, mandatory reasons after repairs, an unnecessarily wordy construction task, a question whose answer was supplied in its prompt, and a final message with almost all content already written. Use Homework 0006's independent-writing brief as the exemplar; do not repeat its mandatory explanations after every correction.
 - The learner noticed that Lesson 0006 required production only for the non-masculine-personal group. The staged split was defensible, but a deferred half must have an explicit destination. Teach basic masculine-personal nominative production in Lesson 0007 before Module 1 integration; keep targets 49-50 as later expansion and stabilization rather than duplicate first exposure.
 - Lesson 0006 controlled work establishes non-masculine-personal agreement, but `wszystkie są zepsuty` in independent writing requires one delayed transfer check for `zepsute`. Do not turn one retrieval slip into another block of easy transformations.
+- The Lesson 0007 exit check correctly retrieved `wszystkie lampy są zepsute`, resolving that check. Basic masculine-personal noun and adjective production is supported by the submitted work; briefly revisit `pracownicy → sprawni` and `lekarze → obecni` in mixed practice. Homework 0007.2's singular outputs accompanied correct plural patterns under an unclear instruction; check noun-plural output once with a clear prompt rather than treating it as a general failure.
 
 ## Sentence-production briefs
-- Avoid bare prompts such as "write a sentence with X". Normally specify a situation, recipient, communicative goal, facts to convey, and a short output length.
+- For controlled sentence construction, use direct word prompts with the required number and output type, e.g. `Ułóż zdanie w liczbie mnogiej: lekarz / obecny`. Add context only when it changes a meaningful decision. An unfamiliar prompt format needs an analogous completed example.
+- For independent writing, specify a situation, recipient, communicative goal, and approximate length. Leave facts and wording to the learner.
 - Give an analogous worked response only when the production operation is genuinely new. Otherwise make support optional and avoid supplying the facts, vocabulary, and syntax that should belong to the learner.
 - Supply vocabulary when lexical search would obscure the grammar target, but do not supply every content word in independent writing. Gloss incidental words when needed.
 - Keep wording choices open while making completion criteria explicit. Do not require one hidden preferred answer or arbitrary quotas of pronouns and new words.
@@ -100,6 +107,7 @@
 - Distinguish productive effort (choosing how to express a known message) from avoidable friction (guessing what the task asks). Frustration alone is not evidence of learning.
 - Gradually reduce language scaffolding as production improves; a clear communicative purpose can remain at every level.
 - Independent writing specifies a real situation, recipient, purpose, and approximate length, then leaves content and wording genuinely open. A separate focused item can test compulsory target forms.
+- Supplied facts, obligatory word lists, and sentence frames are controlled or guided production. Do not label them independent or natural production. Independent writing has no compulsory grammar quotas; an effective message using the learner's own language is valid.
 
 ## Practice progression
 1. Acquisition: explain and model one new rule, then give distilled immediate practice.
@@ -109,14 +117,15 @@
 
 ## Homework structure
 - One matching page under `homework/` for every lesson
-- Normally 15-20 minutes for a combined-target lesson; shorter when fewer representative items suffice
-- Progress from contextual comprehension to mixed decisions, diagnosis, and situated production with only necessary support
+- Normally 10-15 minutes. Select a few useful blocks rather than filling a fixed five-part sequence.
+- Combine a short natural reading, representative mixed grammar decisions, and independent communication when useful. A dictionary lookup belongs only when missing information is genuinely needed.
 - Include one or two delayed-review items when earlier material is available
 - Keep new-rule blocks distilled; later blocks may combine taught operations and require rule selection
 - Specify the expected answer format even when the grammatical decision is intentionally not named
 - Provide hidden answers only when they offer useful feedback without leaking parallel assessed decisions
 - Include a model before sentence production only when the production operation is new; otherwise offer optional support
-- Diagnosis may include correct sentences, grammatical errors, and unclear references. State the categories and model the expected response; do not imply every sentence contains one error unless that is actually the task.
+- Error repair normally requires only the corrected sentence, or `OK` for a correct one. Give a complete format example if this response format is new. Ask for a reason selectively when it diagnoses a specific misconception; do not require correction, error label, and explanation for every item.
+- Do not ask why a word is outside a pattern after the prompt has already stated that it is outside that pattern. A useful lookup asks for missing information and then uses it.
 - End with a compact submission template
 
 ## Vocabulary and Anki
@@ -147,7 +156,8 @@
 - Desktop rail; mobile contents disclosure; no horizontal page overflow
 - Wide tables scroll inside their own container on mobile
 - Hidden answer explanations use native `details` controls and remain usable without JavaScript
-- Reference sheets are dense but readable, responsive on screen, and designed for A4 printing/copying by hand
+- References are regular responsive web pages, using the screen layout in `/home/roverp/code/tutoring/reference/` as the example: normal reading-size text, natural page height, clear sections, and readable tables. Preserve this course's shared theme and stylesheet entry points.
+- Printing uses ordinary document flow and may span several pages. Never constrain the screen canvas to paper dimensions or shrink reference text to fit one printed sheet.
 - Respect `prefers-reduced-motion`; provide dedicated print rules
 
 ## CSS checks
@@ -162,12 +172,33 @@
 - Check computed styles for headings, summaries, prompt blocks, cards, shadows, padding, and margins.
 - Test hidden answer disclosures and keyboard focus.
 - Check browser console errors.
-- Check print media for the lesson and A4 reference sheet.
-- Explicitly emulate print media before exporting a verification PDF; an earlier screen-media override can otherwise produce a misleading PDF. Count actual pages for the one-page reference sheet.
+- Check print media for the lesson, homework, and references. Verify readable text and complete content across normal page breaks.
+- Explicitly emulate print media before exporting a verification PDF; an earlier screen-media override can otherwise produce a misleading PDF. There is no single-page reference requirement.
 - Search visible lesson, homework, and reference text for accidental English, excluding bibliographic titles.
 - Verify submission templates against every exercise number and selected answer disclosure. Exit checks and assigned follow-up checks stay unrevealed.
 - Verify local links and anchors, vocabulary IDs/provenance, natural collocations, and the prerequisite audit before calling a lesson ready.
 - Run `python3 scripts/check-pages` and regenerate the index with `scripts/build-index`.
+
+## Publication gate
+- Before marking a lesson ready, solve each controlled item privately and identify the operation it measures. Remove any item whose answer is already supplied or whose explanation merely repeats its prompt.
+- Check the exact requested output against its example and submission template. New answer formats must be understandable without guessing terminology. Keep unrevealed checks and their decisive answers separate.
+- Audit each assessed operation against a taught rule and production model. Unfamiliar vocabulary must not obscure a grammar decision.
+- Read each passage as an actual message or account: who wrote it, why, and what useful information does the reader get? Verify adapted facts against the opened source. Reject adjective inventories dressed as updates.
+- In independent writing, confirm that the learner chooses the facts and phrasing. Remove compulsory target forms, prewritten statements, and hidden preferred messages.
+- Check that every required action earns its place within 20-25 minutes plus 10-15 minutes of homework. Include optional note-writing in the estimate; do not pad integration lessons with another explanation of established tables.
+- Use a content-review subagent for independent exercise/prerequisite verification. It must activate `humanizer` and review all learner-facing prose, including instructions and feedback, while preserving assessed inputs, correct rules, source facts, and canonical vocabulary strings.
+- Use a separate subagent for final browser and print verification. Resolve concrete findings and have the affected checks rerun before publication; main-agent drafting is not a substitute for these independent reviews.
+- Apply these checks to the finished HTML, not only the outline. Record any unresolved learner check by name; feedback alone never resolves it.
+
+## Active material: Lesson 0008 authoring audit
+- Target 9 integrates established grammar. Required lesson answers are R1-4 and K1-3; homework has 1.1-3, 2A.1-4, 2B.1-3, and one independent 3-4-sentence announcement. A2, B3, and C1 are the only revealed practice answers. They do not disclose the exact forms in R or K.
+- R1-2 check noun-plural output under an explicit word-only example; both noun patterns were modelled in Lesson 0007. R3-4 check the named adjective slips. Keep all four first responses unrevealed; they remain pending evidence.
+- A and K combine identification/description (0002, 0004, 0006), nominative noun and adjective forms (0004-0007), and present `być` (0003-0004). The current worked examples demonstrate full answers from word prompts. The Marta/Ewa model explicitly combines first-person plural with group agreement before K3 changes the group composition. `Kto to?` is a supplied comprehension cue, not assessed question construction.
+- B and homework 2B require a correction or `OK`, with no mandatory explanation. The lesson models both response formats. Items include correct sentences and distinct gender, number, and group errors.
+- Readings adapt the opened organizer source in `RESOURCES.md`. No target form is removed or artificially inserted as a cloze. New vocabulary examples and reading grammar beyond Module 1 are comprehension input only.
+- Homework 3 leaves the object, condition, facts, and wording to the learner. An effective announcement may use singular descriptions and omit masculine-personal forms. Judge communication here; controlled items carry compulsory grammar assessment.
+- Estimated lesson budget: opening and R 3 minutes; examples, A, and optional notes 6; B 3; vocabulary 3; reading 3; exit check 3. Homework estimate: reading 3; construction 4; repair 2; announcement 4; submission 1. These are planning estimates, not observed completion times.
+- Publication checks passed: independent content review, a full humanizer prose pass, and browser/print review with a focused recheck after fixing summary hit areas and print grouping. Required learner answers remain unsubmitted; none of the named follow-ups is marked repaired yet.
 
 ## Repository workflow
 - Read `README.md` before adding pages.
