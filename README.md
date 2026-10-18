@@ -25,7 +25,7 @@ for the input format and image instructions.
 1. Read `NOTES.md` and its publication gate. Create matching `lessons/0002-....html` and `homework/0002-....html` pages (and a `reference/` page only when useful).
 2. Add five cards to `anki/vocabulary.json` and generate the cumulative deck.
 3. Link only the matching public stylesheet: `../assets/lesson.css`, `../assets/homework-page.css`, or `../assets/reference-page.css`.
-4. Keep the matching `pico lesson-page`, `pico homework-page`, or `pico reference-page` body classes. Add reusable presentation rules through the matching CSS entry point, never directly in page HTML.
+4. Use `<html lang="pl" data-theme="light">` on new pages and keep the matching `pico lesson-page`, `pico homework-page`, or `pico reference-page` body classes. The explicit theme prevents Pico's dark-system palette from mixing with the course's light background. Add reusable presentation rules through the matching CSS entry point, never directly in page HTML.
 5. Apply the content and browser checks in `NOTES.md`, run `python3 scripts/check-pages`, and regenerate the index with `scripts/build-index`. The pre-commit hook also regenerates the index and validates every page when committing.
 
 ## CSS architecture

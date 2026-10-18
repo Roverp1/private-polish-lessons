@@ -1273,6 +1273,10 @@ em.gloss {
     overflow: visible;
   }
 
+  :where(html[data-theme="light"]) .reference-cta {
+    break-inside: avoid;
+  }
+
   .case-table {
     min-width: 0;
     font-size: 8pt;

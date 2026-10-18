@@ -169,6 +169,10 @@ body.homework-page {
     break-after: avoid;
   }
 
+  :where(html[data-theme="light"]) .homework-page h3 {
+    break-after: avoid;
+  }
+
   .homework-page .instructions,
   .homework-page .reading,
   .homework-page .submission {

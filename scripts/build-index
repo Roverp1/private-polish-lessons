@@ -45,7 +45,7 @@ def main() -> None:
     rendered = [h for name, label in SECTIONS if (h := section_html(name, label))]
     sections = "\n\n".join(rendered)
     page = f"""<!doctype html>
-<html lang="pl">
+<html lang="pl" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

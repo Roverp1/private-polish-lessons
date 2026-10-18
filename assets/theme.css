@@ -21,3 +21,8 @@
   --page: 74rem;
   --reading: 52rem;
 }
+
+/* Small secondary labels still need normal-text contrast on the canvas. */
+:root[data-theme="light"] {
+  --faint: var(--muted);
+}
