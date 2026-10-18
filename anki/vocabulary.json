@@ -278,5 +278,40 @@
     "word": "bezpłatny",
     "definition": "taki, za który nie trzeba płacić",
     "example": "Ten parking jest **bezpłatny**, więc nie muszę kupować biletu."
+  },
+  {
+    "id": "v0041",
+    "lesson": "0009",
+    "word": "pobierać plik",
+    "definition": "zapisywać plik z internetu na swoim urządzeniu",
+    "example": "**Pobieram plik** z książką, żeby czytać ją bez dostępu do internetu."
+  },
+  {
+    "id": "v0042",
+    "lesson": "0009",
+    "word": "nagranie",
+    "definition": "zapis dźwięku lub obrazu, który można później odtworzyć",
+    "example": "Na **nagraniu** słychać rozmowę dwóch osób."
+  },
+  {
+    "id": "v0043",
+    "lesson": "0009",
+    "word": "na głos",
+    "definition": "tak, żeby było słychać, a nie tylko w myślach",
+    "example": "Czytam dziecku bajkę **na głos**."
+  },
+  {
+    "id": "v0044",
+    "lesson": "0009",
+    "word": "uważnie",
+    "definition": "ze skupieniem na ważnych szczegółach",
+    "example": "Czytam umowę **uważnie**, zanim ją podpiszę."
+  },
+  {
+    "id": "v0045",
+    "lesson": "0009",
+    "word": "regularnie",
+    "definition": "w stałych odstępach czasu, np. codziennie lub co tydzień",
+    "example": "Czytam po polsku **regularnie**: codziennie przez dziesięć minut."
   }
 ]
