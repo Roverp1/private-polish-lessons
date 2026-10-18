@@ -6,13 +6,14 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 
 ## Current position
 
-- Current lesson: 0008, ready for target 9, Module 1 integration
-- Reviewed lessons: 0001-0007
-- Completed targets: 1-8 in their taught basic scope; controlled use is evidenced, not durable retention
-- Required submission: Lesson 0008 R1-4, unrevealed K1-3, and Homework 0008
+- Current lesson: 0009, ready for targets 10-12, infinitive, person/number, and present `-m/-sz`
+- Reviewed lessons: 0001-0008
+- Completed targets: 1-9 in their taught basic scope; supported and controlled use is evidenced, not durable retention
+- Next required submission: Lesson 0009 R1-2, unrevealed K1-3, and Homework 0009
 - Target-6 follow-up resolved in Homework 0006.3: the learner independently found feminine `mysz`, plural `myszy`, and produced `nowa mysz / nowe myszy`.
 - Target-8 non-masculine-personal follow-up resolved in Lesson 0007.K1: `wszystkie lampy są zepsute`.
-- Target-8 follow-ups for Lesson 0008: briefly check masculine-personal adjective agreement (`pracownicy → sprawni`, `lekarze → obecni`) and explicit noun-plural output after Homework 0007.2's unclear instruction. These are named checks, not prerequisites for repeating Lesson 0007. See learning record 0010.
+- Target-8 follow-ups received the correct forms in Lesson 0008 R1-4: `klienci`, `uczestnicy`, `obecni`, and `sprawni`. Dictionary use was reported, so this establishes supported performance rather than independent retrieval.
+- Target-9 delayed checks in Lesson 0009: requested plural output after singular K1-2 answers, and non-masculine-personal adjective agreement after `dostępni części` and `spodnie są za wielki`. Keep them brief; feedback has not yet repaired them. See learning record 0011.
 - Target-3 follow-up resolved in lesson 0004: `ja jestem`, `ono jest`, and `oni są` retrieved correctly; supplied group pronouns and reasons were also correct. Continue ordinary spaced review, not mandatory repair drills.
 - Previous voice-course topics: exposure only
 
@@ -26,10 +27,11 @@ The course has 72 core grammar targets: 24 at A1, 24 at A2, and 24 at B1. Target
 | 0004 | 4-5: Natural statements with `być`; singular nominative adjective agreement | Reviewed and completed; see learning record 0007 |
 | 0005 | 6: Noun gender when endings mislead | Reviewed and completed after the independent lookup in Homework 0006.3 |
 | 0006 | 7 and first half of 8: Singular/plural identification; non-masculine-personal plural agreement | Reviewed and completed; delayed transfer check passed in 0007 |
-| 0007 | Second half of 8: Basic masculine-personal nominative plural agreement | Reviewed and completed in controlled use; brief agreement and output checks remain in 0008 |
-| 0008 | 9: Module 1 integration | Ready for self-study; awaiting R1-4, K1-3, and homework |
+| 0007 | Second half of 8: Basic masculine-personal nominative plural agreement | Reviewed and completed in controlled use; correct follow-up forms received in 0008 |
+| 0008 | 9: Module 1 integration | Reviewed and completed in the taught scope; two delayed checks enter 0009 |
+| 0009 | 10-12: Infinitive, person/number, and present `-m/-sz` | Ready for self-study; awaiting R1-2, K1-3, and homework |
 
-Lesson 0008 integrates targets 1-8 within 20-25 minutes, followed by 10-15 minutes of homework. The next unauthored target is 10; prepare it only after reviewing Lesson 0008. Target 9 is not complete merely because its pages are ready.
+Lesson 0009 combines targets 10-12 within 20-25 minutes, followed by 10-15 minutes of homework. It includes two delayed Module 1 checks without repeating the module. Target 13 follows; targets 10-12 are not complete merely because their pages are published.
 
 ## A1: Foundations and everyday sentences
 
@@ -43,16 +45,16 @@ Lesson 0008 integrates targets 1-8 within 20-25 minutes, followed by 10-15 minut
 6. **Important gender exceptions**: use meaning and dictionary information when endings mislead (complete after independent lookup in Homework 0006.3)
 7. **Singular, plural, `to jest`, and `to są`**: distinguish number and identify people or things (complete, lesson 0006)
 8. **Basic nominative plural agreement**: distinguish non-masculine-personal and masculine-personal groups and connect common noun forms with adjectives (complete in the taught basic scope after lesson 0007; named mixed follow-ups remain)
-9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text (active, lesson 0008)
+9. **Module 1 integration**: select and combine gender, nominative, pronouns, and być in a short text (complete in the taught scope, lesson 0008; two delayed checks remain)
 
 ### Module 2: Present verbs, questions, and negation
 
-10. **The infinitive and finite verb**: distinguish dictionary and personal forms
-11. **Person and number of the verb**: connect the subject with the ending
-12. **Present tense pattern -m/-sz**: conjugate a high-frequency group
+10. **The infinitive and finite verb**: distinguish dictionary and personal forms (active, lesson 0009)
+11. **Person and number of the verb**: connect the subject with the ending (active, lesson 0009)
+12. **Present tense pattern -m/-sz**: conjugate a high-frequency group (active, lesson 0009: regular `czytam/czytasz` and `rozumiem/rozumiesz`; exceptional `wiem/wiesz/wiedzą` and `jem/jesz/jedzą` return with target 15)
 13. **Present tense pattern -ę/-isz/-ysz**: conjugate a high-frequency group
 14. **Present tense pattern -ę/-esz**: conjugate a high-frequency group
-15. **Mieć in the present tense**: express possession and experience
+15. **Mieć in the present tense**: express possession and experience; include the target-12 high-frequency exception follow-up (`wiedzieć`, `jeść`)
 16. **Negation with nie**: negate present-tense verbs
 
 ### Module 3: Objects, place, and basic time

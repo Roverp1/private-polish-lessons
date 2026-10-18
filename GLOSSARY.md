@@ -69,3 +69,23 @@ Rodzaj jest właściwością rzeczownika, nie prostą etykietą płci człowieka
 
 **Oznaczenia rodzaju w WSJP PAN**:
 W wyciągach z lekcji 0005 pole `rodzaj gramatyczny: m1` wskazuje podtyp rodzaju męskiego, a `ż` rodzaj żeński. Cyfra nie jest tu osobnym celem nauki. Wielkie `M.` w tabeli przypadków oznacza mianownik, nie rodzaj męski.
+
+## Czasownik: osoba i czas teraźniejszy
+
+**Czasownik**:
+Wyraz nazywający czynność albo stan, na przykład `czytać`, `czekać`, `być`.
+
+**Bezokolicznik**:
+Forma słownikowa czasownika, nieokreślona co do osoby i liczby. W języku polskim kończy się na `-ć` lub `-c`.
+
+**Forma osobowa czasownika**:
+Forma wskazująca osobę i liczbę: `czytam` łączy się z `ja`, a `czytamy` z `my`.
+
+**Osoba gramatyczna**:
+Kategoria rozróżniająca mówiącego (1. osoba: `ja/my`), adresata (2.: `ty/wy`) oraz osobę, rzecz lub grupę, o której mówimy (3.: `on/ona/ono/oni/one`).
+
+**Czas teraźniejszy**:
+W ćwiczonych czasownikach niedokonanych pozwala opisać aktualną czynność (`Teraz czytam`) albo zwyczaj (`Codziennie czytam`). Aspekt i formy o znaczeniu przyszłym są późniejszymi tematami.
+
+**Regularny wzorzec `-m/-sz`**:
+Wzorzec czasu teraźniejszego rozpoznawany po parze 1. i 2. osoby liczby pojedynczej, np. `czytam/czytasz`, `rozumiem/rozumiesz`. W regularnych czasownikach tej rodziny do części pozostałej po usunięciu końcowego `-m` dodajemy `-m`, `-sz`, nic, `-my`, `-cie`, `-ją`. Nietypowe czasowniki wymagają osobnego sprawdzenia.
