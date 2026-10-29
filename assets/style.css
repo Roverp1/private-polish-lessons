@@ -1259,6 +1259,11 @@ em.gloss {
     margin-top: 2rem;
   }
 
+  .lesson-page .print-lead {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
   .note,
   .worked-example,
   .trigger-card,
