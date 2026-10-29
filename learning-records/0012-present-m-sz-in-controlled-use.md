@@ -1,0 +1,10 @@
+# Present -m/-sz supports progression to another verb family
+
+The Lesson 0009 transcript correctly distinguishes infinitive and personal forms and applies the regular `-m/-sz` family to individual subjects, groups including the speaker, and plural addressees. The unrevealed exit check and representative homework answers support completing targets 10-12 in controlled written use. The learner found the lesson and homework quite good and asked to continue that format and difficulty.
+
+## Boundaries and next teaching decisions
+
+- `To są nowe książki` and `Narzędzia są dostępne`, reinforced by `Telefony są sprawne` and `To są nowi studenci`, supply the requested plural output and non-masculine-personal agreement from the named Lesson 0008 follow-ups. The first answer is marked `N`, so at least that form was checked; do not claim independent first-attempt retrieval or durable retention.
+- The independent message communicates a difficulty finding interesting Polish books with accessible language. Where `oni` refers to `książki`, it needs `one` or omission; `są pomagają` needs the personal form without extra `są`. These remain named delayed checks in Homework 0010.2B.2-3; supplied feedback is not evidence of repair.
+- Case forms, object pronouns, relative clauses, and the hybrid `powtórzać` in the independent message involve later targets or lexical feedback. They do not invalidate the demonstrated present-tense operation. The uncertain transcription `Wybierzę` in a comprehension response is not assessed as a tense-production error. The cropped announcement opening belongs to earlier work and adds no new assessment evidence.
+- The learner explicitly requested an explanation of what the conjugation-pattern labels mean and when each pattern applies. Before deriving the next family, distinguish lexical pattern choice from subject-based form choice and from present-time versus habitual meaning. Use the `ja/ty` pair as the input, with `rozumieć/widzieć` showing why the infinitive ending alone is insufficient.

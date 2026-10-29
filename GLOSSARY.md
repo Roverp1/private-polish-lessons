@@ -89,3 +89,12 @@ W ćwiczonych czasownikach niedokonanych pozwala opisać aktualną czynność (`
 
 **Regularny wzorzec `-m/-sz`**:
 Wzorzec czasu teraźniejszego rozpoznawany po parze 1. i 2. osoby liczby pojedynczej, np. `czytam/czytasz`, `rozumiem/rozumiesz`. W regularnych czasownikach tej rodziny do części pozostałej po usunięciu końcowego `-m` dodajemy `-m`, `-sz`, nic, `-my`, `-cie`, `-ją`. Nietypowe czasowniki wymagają osobnego sprawdzenia.
+
+**Koniugacja**:
+Odmiana czasownika przez osoby, liczby, czasy i tryby. Nazwa może też oznaczać grupę czasowników odmieniających się według podobnego modelu. W tym module nazwy wzorców, np. `-m/-sz`, odnoszą się do zakończeń pary `ja/ty` w czasie teraźniejszym.
+
+**Wzorzec `-ę/-isz/-ysz`**:
+Rodzina form czasu teraźniejszego rozpoznawana po parze `ja/ty`, np. `lubię/lubisz`, `widzę/widzisz`, `słyszę/słyszysz`. Z formy `ty` usuwamy końcowe `-sz`, aby otrzymać `on/ona/ono`; do tej formy dodajemy `-my` lub `-cie`. W formie `ja` zamieniamy końcowe `-ę` na `-ą`, aby otrzymać `oni/one`, zachowując resztę zapisu.
+
+**Wybór wzorca a wybór formy**:
+Wzorzec zależy od wybranego czasownika i jest rozpoznawany z jego pary `ja/ty`. Osoba i liczba podmiotu decydują, którą formę tego wzorca zastosować. W ćwiczonych czasownikach zarówno `-m/-sz`, jak i `-ę/-isz/-ysz` opisuje chwilę obecną lub zwyczaj; sam kontekst czasowy nie zmienia wzorca odmiany.
