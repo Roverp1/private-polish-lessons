@@ -26,7 +26,22 @@ for the input format and image instructions.
 2. Add five cards to `anki/vocabulary.json` and generate the cumulative deck.
 3. Link only the matching public stylesheet: `../assets/lesson.css`, `../assets/homework-page.css`, or `../assets/reference-page.css`.
 4. Use `<html lang="pl" data-theme="light">` on new pages and keep the matching `pico lesson-page`, `pico homework-page`, or `pico reference-page` body classes. The explicit theme prevents Pico's dark-system palette from mixing with the course's light background. Add reusable presentation rules through the matching CSS entry point, never directly in page HTML.
+   Add the `clear-focus` body class on new pages for a solid, high-contrast keyboard focus indicator.
 5. Apply the content and browser checks in `NOTES.md`, run `python3 scripts/check-pages`, and regenerate the index with `scripts/build-index`. The pre-commit hook also regenerates the index and validates every page when committing.
+
+## Textbook library
+
+The local PDFs and full audio collections live in ignored `reference-materials/`.
+Start with [the retrieval guide](source-library/README.md) and [the teaching map](source-library/teaching-map.md).
+The generated `source-library/catalog.json` records stable IDs, file hashes, page counts and audio durations.
+
+```sh
+python3 scripts/library.py inspect
+python3 scripts/library.py search 'koniugacja' --source umcs-verbs --limit 5
+python3 scripts/library.py pages umcs-verbs --pdf 11-12
+```
+
+Retrieve small page ranges rather than opening a complete large PDF. Extracted text and on-demand OCR are cached locally; the source guide documents quality limits. Lesson audio selected for publication lives in `assets/audio/` with its source details.
 
 ## CSS architecture
 

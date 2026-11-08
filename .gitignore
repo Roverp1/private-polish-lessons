@@ -8,3 +8,4 @@ devenv.local.yaml
 out/
 __pycache__/
 *.py[cod]
+/reference-materials/
