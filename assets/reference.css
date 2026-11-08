@@ -277,8 +277,8 @@ body.reference-page {
 
 .reference-page a:focus-visible,
 .reference-page .cases-wrap:focus-visible {
-  outline: 3px solid rgb(154 45 52 / 30%);
-  outline-offset: 3px;
+  outline: 3px solid var(--focus-ring-color, rgb(154 45 52 / 30%));
+  outline-offset: var(--focus-ring-offset, 3px);
 }
 
 .sheet-footer {

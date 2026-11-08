@@ -1,5 +1,17 @@
 # Polish Resources
 
+## Local textbook library
+
+- [Retrieval guide](source-library/README.md), [teaching map](source-library/teaching-map.md), and generated [catalogue](source-library/catalog.json).
+  The learner supplied 13 PDFs and 400 Krok recordings. Use stable source IDs and bounded `scripts/library.py` retrieval. Text/OCR quality labels do not establish that a page or a complete book has been reviewed.
+- `odkrywamy`: Madelska and Warchoł-Schlottmann, *Odkrywamy język polski*, printed pp. 32-33 / PDF pp. 33-34, §4.2. Present families, the difference between infinitive and present stems, and alternations. Used for Lesson 0011's explicit explanation; OCR tables require checking, not verbatim reuse of garbled columns.
+- `hurra-1-student`, printed p. 47 / PDF p. 48, exercise 10; `hurra-1-workbook`, printed pp. 32-33 / PDF pp. 33-34, exercises 7D and 8; `hurra-1-guide`, printed p. 44 / PDF p. 45. Verified in the initial library review. Use for conjugation tables and mixed exercise design, with the current prerequisites and a shorter workload.
+- `krok-a1`: Stempek et al., *Polski krok po kroku 1* (2010), lesson 6, printed pp. 40-42 / PDF pp. 35-37. Printed p. 41 / PDF p. 36, exercise 2, dialogue B is Lesson 0011's listening source. Track `106a1-2.mp3` was matched to the printed exchange with a Whisper transcription; the speakers are Mami and Karol. The course copy is `assets/audio/0011-krok-106a1-2.mp3`; its printed transcript is reproduced for listening feedback. The recording is input, not evidence of the learner's listening ability.
+- `umcs-verbs`: Bartłomiej Maliszewski, *Gramatyka z kulturą. Przez osoby* (UMCS, 2023), printed pp. 9-10 / PDF pp. 11-12. The routines and `ja/ty` pairs inform selection for target 14. Homework 0011 adapts a continuous passage from exercise 1b on printed p. 9 / PDF p. 11, resolving its lexical choices and retaining its university, shopping and web-design facts.
+- `umcs-cases`: Maliszewski, *Gramatyka z kulturą. Przez przypadki* (UMCS, 2020). Its case chapter index and answer-key locator are in the teaching map; chapter content has not yet been reviewed for a lesson. Both UMCS books are available from the [university materials page](https://www.umcs.pl/pl/materialy-dydaktyczne,21171.htm).
+- Lesson 0011 vocabulary: WSJP PAN [na co dzień](https://wsjp.pl/haslo/podglad/64213/na-co-dzien), [w tej chwili](https://wsjp.pl/haslo/podglad/23111/w-tej-chwili), [zdalnie, work sense](https://wsjp.pl/haslo/podglad/99583/zdalnie/5241470), [wspólnie](https://wsjp.pl/haslo/podglad/22842/wspolnie), and [niespecjalnie](https://wsjp.pl/haslo/podglad/47142/niespecjalnie).
+  Definitions and examples use everyday/current time, remote work, joint activity and the low-degree sense of `niespecjalnie`, respectively. The examples are course-authored comprehension input.
+
 ## Knowledge
 
 - [Programy nauczania języka polskiego jako obcego. Poziomy A1-C2](https://www.universitas.com.pl/produkt/3639/Programy-nauczania-jezyka-polskiego-jako-obcego-Poziomy-A1-C2)

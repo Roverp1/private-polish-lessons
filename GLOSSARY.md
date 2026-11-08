@@ -98,3 +98,6 @@ Rodzina form czasu teraźniejszego rozpoznawana po parze `ja/ty`, np. `lubię/lu
 
 **Wybór wzorca a wybór formy**:
 Wzorzec zależy od wybranego czasownika i jest rozpoznawany z jego pary `ja/ty`. Osoba i liczba podmiotu decydują, którą formę tego wzorca zastosować. W ćwiczonych czasownikach zarówno `-m/-sz`, jak i `-ę/-isz/-ysz` opisuje chwilę obecną lub zwyczaj; sam kontekst czasowy nie zmienia wzorca odmiany.
+
+**Wzorzec `-ę/-esz`**:
+Rodzina form czasu teraźniejszego rozpoznawana po parze `ja/ty`, np. `piszę/piszesz`, `pracuję/pracujesz`, `biorę/bierzesz`. Z formy `ty` usuwamy końcowe `-sz`, aby otrzymać `on/ona/ono`; do tej formy dodajemy `-my` lub `-cie`. W formie `ja` zamieniamy końcowe `-ę` na `-ą`, aby otrzymać `oni/one`. Zachowujemy pozostałe litery: `biorę → biorą`, ale `bierzesz → bierze`.

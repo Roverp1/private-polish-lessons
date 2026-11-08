@@ -1,10 +1,11 @@
 # Notes
 
 ## New-session bootstrap
-- Activate the `teach` skill before continuing this course.
+- Activate the `teach` and `humanizer` skills before continuing this course. Use `humanizer` in embedded mode for all learner-facing prose.
 - Read `MISSION.md`, `CURRICULUM.md`, `RESOURCES.md`, every file in `learning-records/`, and this file.
 - Read `anki/vocabulary.json` before selecting new vocabulary.
 - Before authoring a page, inspect the latest active lesson/homework and shared assets. Reuse them; do not invent a second design system.
+- For textbook work, read `source-library/README.md` and `source-library/teaching-map.md`. Use `python3 scripts/library.py inspect`, bounded `search`, and `pages` to retrieve relevant passages. Never attach a complete large PDF or load the full audio catalogue into context. OCR only the pages needed; check inflection tables and printed page labels against the source.
 - Only the next lesson is authored as active course material. Later curriculum titles may be refined without removing required targets.
 - Curriculum numbers identify 72 required grammar targets, not a mandatory count of HTML lessons. Related targets may share a lesson; maintain an explicit target-to-lesson map.
 - Add a learning record only after evidence of understanding. Coverage is not learning.
@@ -101,6 +102,17 @@
 - Lesson 0009 and its homework were received well. Preserve their format, decision load, and independent-writing brief. The submitted R1-2, K1-3, and representative homework establish the regular `-m/-sz` unit in controlled written use and supply the two delayed Module 1 checks; R1 is marked `N`, so do not infer first-attempt independence. See learning record 0012.
 - The learner asked for an explicit explanation of conjugation-pattern classification before Lesson 0010. Explain that a verb has a lexical pattern, recognized from its `ja/ty` pair, while the subject selects a form within it. The `-m/-sz` and `-ę/-isz/-ysz` families both express the present and habitual uses taught so far; time context does not select between the families. Show why the infinitive ending is insufficient with `rozumieć/widzieć`.
 - Lesson 0009 independent writing needs two brief delayed checks: `one` referring back to things and a finite action verb without extra `są`. They are assigned to Homework 0010.2B.2-3 and remain unresolved until submitted evidence. Later cases, object pronouns, and relative-clause errors do not block present-verb progression.
+- Lesson 0010 has now been reviewed; see learning record 0013. Its controlled work supports target 13. Homework 0010.2B.3 resolves the extra-`są` check. `one` remains unresolved, and Homework 0010.2A.3 needs one delayed `słyszą` check. Lesson 0011.R1-2 checks these without revealing their answers.
+- Lesson 0010's difficulty was adequate, but its wording was often unnatural and hard to read. Improve the Polish rather than reducing challenge. Prefer ordinary textbook instructions and complete short explanations over compressed algorithms such as a subject that "chooses" a form.
+
+## Using the source library
+
+- The learner supplied HURRA A1-B1 materials, Krok A1/A2 with audio, Odkrywamy, and both Gramatyka z kulturą volumes. Use their actual explanations and exercise designs before drafting new material; the learner permits complete exercise assignments, adaptations, page links and recording use.
+- Select material for the current taught operation. A source page may mix cases, aspect, modality and vocabulary that are not yet production prerequisites. A whole published page is not automatically an appropriate assignment.
+- Give source title, edition, printed page, PDF page and exercise/track identifier when known. Exercise codes such as `106A2` are not page numbers. Source classifications may number conjugations differently; locate them by endings.
+- The generated inventory is `source-library/catalog.json`; the curated teaching locator is `source-library/teaching-map.md`. Originals and derivative extraction/OCR caches are local under ignored `reference-materials/`. The catalogue's automatic quality labels are not human verification.
+- Keep lessons self-contained. Paid-book references can identify the local PDF; selected recordings used in a lesson belong in `assets/audio/` with provenance in its README so playback also works on the deployed course.
+- A supplied recording and a matching transcript support a listening activity, not a claim that the learner has demonstrated listening comprehension. Record learner evidence only after submission.
 
 ## Sentence-production briefs
 - For controlled sentence construction, use direct word prompts with the required number and output type, e.g. `Ułóż zdanie w liczbie mnogiej: lekarz / obecny`. Add context only when it changes a meaningful decision. An unfamiliar prompt format needs an analogous completed example.
@@ -155,6 +167,7 @@
 - Keep semantic HTML: `main`, `section`, headings, tables, `details`, buttons, and accessible labels.
 - Use `lang="pl"`; all user-visible course text is Polish except original source titles.
 - New pages also use `data-theme="light"` on the root `html` element. Pico otherwise changes inherited semantic colours under a dark system preference even when the page declares `<meta name="color-scheme" content="light">`. The learner requested applying this to future material rather than retrofitting or auditing earlier lessons. Keep the existing public CSS entry points.
+- Add `clear-focus` to new page bodies. Its shared rule gives links, disclosures, audio and scrollable tables a solid focus outline; earlier pages retain their historical presentation.
 
 ## UI quality standard
 - Adult editorial study-manual style: warm paper, dark readable body text, restrained Polish-crimson accent
@@ -229,7 +242,18 @@ The bullets above describe Lesson 0009 at publication. Its later submission is r
 - Independent content/prerequisite review and a full humanizer prose pass passed after a focused recheck of quiz-feedback wording and the homework repair instruction. Assessed inputs and disclosure boundaries were preserved.
 - Independent browser review passed for all three pages at 375, 768, 1024 and 1440px under light/dark system preferences, including keyboard focus, mobile contents, disclosures, quiz feedback, console and network checks. Two orphaned lesson openings in print were fixed with the reusable `print-lead` component. After disabling browser caching, the separate reviewer confirmed print `break-inside/break-after: avoid` and screen `auto`, rechecked the lesson at all four widths, and inspected every page of both A4 print configurations. Final verification PDFs have eight lesson pages, two homework pages, and two reference pages, with complete content and normal flow.
 - `scripts/check-pages` passes for 27 pages. Local links/anchors, unique IDs, Polish/light theme, canonical vocabulary strings, and immutable earlier entries were verified. The generated index includes all three new pages. `out/output-7.apkg` contains 50 notes, five tagged `lesson::0010`; all previous note GUIDs, fields, and tags are preserved.
-- Lesson 0010 R1-2/K1-3 and Homework 0010 remain unsubmitted. The independent-writing follow-ups in Homework 0010.2B.2-3 remain unresolved until learner evidence arrives.
+- These bullets describe Lesson 0010 at publication. Its submission has since been reviewed in learning record 0013; the remaining checks are assigned to Lesson 0011.R1-2.
+
+## Active material: Lesson 0011 authoring audit
+
+- Target 14 is ready for self-study; no learner evidence has yet been submitted. Required lesson answers are R1-2 and K1-3. Homework requires 1.1-2, 2A.1-3, 2B.1-2 and one independent 3-4-sentence reply. R1-2 retain the `słyszą` and `one` checks from learning record 0013.
+- The full `pisać/pracować/brać` map precedes the two derivation routes. Both routes preserve the remaining spelling. The common `pracować/gotować/kupować` route has an explicit model and bounded scope; no claim covers every infinitive ending in `-ować`.
+- Odkrywamy supplies the grammar reference, Krok's printed dialogue supplies listening and its transcript, and UMCS exercise 1b supplies the homework reading. Exact source locations and the verified track match are recorded in `RESOURCES.md` and `source-library/teaching-map.md`. Source choices and recording metadata are not learner evidence.
+- The listening task assesses two gist facts, not the production of incidental modal forms. Its transcript and answers are disclosed only as listening feedback. R/K and homework answers stay unrevealed. The writing brief leaves facts and wording open, with no compulsory grammar or vocabulary quota.
+- Independent content/prerequisite and humanizer review passed after adding a complete response-format model and replacing a repair model that overlapped the homework. Estimated workloads are 23-25 minutes including optional notes and 11-14 minutes of homework; these are estimates, not observed learner times.
+- Independent browser review passed at 375, 768, 1024 and 1440px under light/dark system preferences, including keyboard navigation, disclosures, contained tables, console/network and native audio playback. The 23.693-second MP3 loaded and played; its direct URL returned HTTP 200.
+- Every rendered page of the A4 16mm/12mm exports was inspected: lesson 8/8 pages, homework 2/2, reference 2/2. Essential prompts and submission fields are present; the printed audio path replaces its controls. A focus contrast finding was fixed through the opt-in `clear-focus` tokens and independently rechecked; reference table outlines now measure 7.38:1, and the historical reference fallback is preserved.
+- Static checks pass for 30 pages and all 35 local links/assets/anchors in the new unit. Canonical vocabulary v0051-v0055 matches the HTML. `out/output-8.apkg` contains 55 notes, including five tagged `lesson::0011`; all 50 previous note GUIDs, fields and tags are unchanged.
 
 ## Repository workflow
 - Read `README.md` before adding pages.

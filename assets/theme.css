@@ -26,3 +26,61 @@
 :root[data-theme="light"] {
   --faint: var(--muted);
 }
+
+/* New pages opt in without changing the presentation of completed lessons. */
+.clear-focus {
+  --focus-ring-color: var(--accent);
+  --focus-ring-offset: 4px;
+}
+
+.clear-focus :is(a, button, summary, [tabindex], audio):focus-visible {
+  outline: 3px solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.audio-task {
+  min-width: 0;
+  margin-block: 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.35rem;
+  background: var(--paper-deep);
+}
+
+.audio-task audio {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-block: 0.75rem;
+}
+
+.audio-task p {
+  margin-block: 0.5rem;
+  overflow-wrap: anywhere;
+}
+
+.audio-task audio:focus-visible,
+.audio-task a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.audio-task .audio-print-path {
+  display: none;
+}
+
+@media print {
+  .audio-task {
+    break-inside: avoid;
+    background: transparent;
+  }
+
+  .audio-task audio {
+    display: none;
+  }
+
+  .audio-task .audio-print-path {
+    display: inline;
+    font-size: 0.85em;
+  }
+}
